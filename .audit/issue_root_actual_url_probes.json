@@ -1,0 +1,1866 @@
+[
+  {
+    "host": "1.optbbs.com",
+    "root_domain": "optbbs.com",
+    "urls": [
+      "http://1.optbbs.com/d/csv/d/k.csv",
+      "http://1.optbbs.com/d/csv/d/vix100.csv",
+      "http://1.optbbs.com/d/csv/d/vix300.csv"
+    ],
+    "probes": [
+      {
+        "url": "http://1.optbbs.com/d/csv/d/k.csv",
+        "status": 200,
+        "elapsed_sec": 8.235,
+        "bytes": 913900,
+        "location": ""
+      },
+      {
+        "url": "http://1.optbbs.com/d/csv/d/vix100.csv",
+        "status": 200,
+        "elapsed_sec": 0.035,
+        "bytes": 4464,
+        "location": ""
+      },
+      {
+        "url": "http://1.optbbs.com/d/csv/d/vix300.csv",
+        "status": 200,
+        "elapsed_sec": 0.036,
+        "bytes": 4699,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "api.ownthink.com",
+    "root_domain": "ownthink.com",
+    "urls": [
+      "https://api.ownthink.com/bot",
+      "https://api.ownthink.com/kg/knowledge"
+    ],
+    "probes": [
+      {
+        "url": "https://api.ownthink.com/bot",
+        "error": "SSLError: HTTPSConnectionPool(host='api.ownthink.com', port=443): Max retries exceeded with url: /bot (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))",
+        "elapsed_sec": 0.473
+      },
+      {
+        "url": "https://api.ownthink.com/kg/knowledge",
+        "error": "SSLError: HTTPSConnectionPool(host='api.ownthink.com', port=443): Max retries exceeded with url: /kg/knowledge (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))",
+        "elapsed_sec": 0.528
+      }
+    ]
+  },
+  {
+    "host": "basic.10jqka.com.cn",
+    "root_domain": "10jqka.com.cn",
+    "urls": [
+      "https://basic.10jqka.com.cn/api/stock/finance/000063_benefit.json",
+      "https://basic.10jqka.com.cn/api/stock/finance/000063_cash.json",
+      "https://basic.10jqka.com.cn/api/stock/finance/000063_debt.json"
+    ],
+    "probes": [
+      {
+        "url": "https://basic.10jqka.com.cn/api/stock/finance/000063_benefit.json",
+        "status": 200,
+        "elapsed_sec": 1.29,
+        "bytes": 473508,
+        "location": ""
+      },
+      {
+        "url": "https://basic.10jqka.com.cn/api/stock/finance/000063_cash.json",
+        "status": 200,
+        "elapsed_sec": 1.45,
+        "bytes": 669167,
+        "location": ""
+      },
+      {
+        "url": "https://basic.10jqka.com.cn/api/stock/finance/000063_debt.json",
+        "status": 200,
+        "elapsed_sec": 1.581,
+        "bytes": 812563,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "bond.sse.com.cn",
+    "root_domain": "sse.com.cn",
+    "urls": [
+      "http://bond.sse.com.cn/",
+      "http://bond.sse.com.cn/data/statistics/overview/bondow/",
+      "http://bond.sse.com.cn/data/statistics/overview/turnover/"
+    ],
+    "probes": [
+      {
+        "url": "http://bond.sse.com.cn/",
+        "status": 200,
+        "elapsed_sec": 0.136,
+        "bytes": 58524,
+        "location": ""
+      },
+      {
+        "url": "http://bond.sse.com.cn/data/statistics/overview/bondow/",
+        "status": 200,
+        "elapsed_sec": 0.113,
+        "bytes": 21321,
+        "location": ""
+      },
+      {
+        "url": "http://bond.sse.com.cn/data/statistics/overview/turnover/",
+        "status": 200,
+        "elapsed_sec": 0.409,
+        "bytes": 21295,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "calendar-api.ushknews.com",
+    "root_domain": "ushknews.com",
+    "urls": [
+      "https://calendar-api.ushknews.com/getWebTargetPriceList"
+    ],
+    "probes": [
+      {
+        "url": "https://calendar-api.ushknews.com/getWebTargetPriceList",
+        "status": 502,
+        "elapsed_sec": 0.512,
+        "bytes": 0,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "cdn.jin10.com",
+    "root_domain": "jin10.com",
+    "urls": [
+      "https://cdn.jin10.com/data_center/reports/baker.json",
+      "https://cdn.jin10.com/data_center/reports/cftc_1.json",
+      "https://cdn.jin10.com/data_center/reports/cftc_2.json"
+    ],
+    "probes": [
+      {
+        "url": "https://cdn.jin10.com/data_center/reports/baker.json",
+        "status": 200,
+        "elapsed_sec": 0.597,
+        "bytes": 295306,
+        "location": ""
+      },
+      {
+        "url": "https://cdn.jin10.com/data_center/reports/cftc_1.json",
+        "status": 200,
+        "elapsed_sec": 0.566,
+        "bytes": 687461,
+        "location": ""
+      },
+      {
+        "url": "https://cdn.jin10.com/data_center/reports/cftc_2.json",
+        "status": 200,
+        "elapsed_sec": 0.447,
+        "bytes": 658414,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "cn.investing.com",
+    "root_domain": "investing.com",
+    "urls": [
+      "https://cn.investing.com",
+      "https://cn.investing.com/commodities/brent-oil-historical-data",
+      "https://cn.investing.com/currencies/"
+    ],
+    "probes": [
+      {
+        "url": "https://cn.investing.com",
+        "error": "ReadTimeout: HTTPSConnectionPool(host='cn.investing.com', port=443): Read timed out. (read timeout=4)",
+        "elapsed_sec": 4.417
+      },
+      {
+        "url": "https://cn.investing.com/commodities/brent-oil-historical-data",
+        "error": "ReadTimeout: HTTPSConnectionPool(host='cn.investing.com', port=443): Read timed out. (read timeout=4)",
+        "elapsed_sec": 4.374
+      },
+      {
+        "url": "https://cn.investing.com/currencies/",
+        "error": "ReadTimeout: HTTPSConnectionPool(host='cn.investing.com', port=443): Read timed out. (read timeout=4)",
+        "elapsed_sec": 4.528
+      }
+    ]
+  },
+  {
+    "host": "d.10jqka.com.cn",
+    "root_domain": "10jqka.com.cn",
+    "urls": [],
+    "probes": []
+  },
+  {
+    "host": "data.10jqka.com.cn",
+    "root_domain": "10jqka.com.cn",
+    "urls": [
+      "http://data.10jqka.com.cn/ajax/xzjp/field/DECLAREDATE/order/desc/ajax/1/free/1/",
+      "http://data.10jqka.com.cn/funds/ddzz/order/desc/ajax/1/free/1/",
+      "http://data.10jqka.com.cn/funds/ggzjl/field/code/order/desc/ajax/1/free/1/"
+    ],
+    "probes": [
+      {
+        "url": "http://data.10jqka.com.cn/ajax/xzjp/field/DECLAREDATE/order/desc/ajax/1/free/1/",
+        "status": 401,
+        "elapsed_sec": 0.075,
+        "bytes": 415,
+        "location": ""
+      },
+      {
+        "url": "http://data.10jqka.com.cn/funds/ddzz/order/desc/ajax/1/free/1/",
+        "status": 401,
+        "elapsed_sec": 0.056,
+        "bytes": 498,
+        "location": ""
+      },
+      {
+        "url": "http://data.10jqka.com.cn/funds/ggzjl/field/code/order/desc/ajax/1/free/1/",
+        "status": 401,
+        "elapsed_sec": 0.055,
+        "bytes": 510,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "datacenter-api.jin10.com",
+    "root_domain": "jin10.com",
+    "urls": [
+      "https://datacenter-api.jin10.com/bitcoin_treasuries/list",
+      "https://datacenter-api.jin10.com/crypto_currency/list",
+      "https://datacenter-api.jin10.com/reports/dates"
+    ],
+    "probes": [
+      {
+        "url": "https://datacenter-api.jin10.com/bitcoin_treasuries/list",
+        "status": 502,
+        "elapsed_sec": 0.522,
+        "bytes": 0,
+        "location": ""
+      },
+      {
+        "url": "https://datacenter-api.jin10.com/crypto_currency/list",
+        "status": 502,
+        "elapsed_sec": 0.483,
+        "bytes": 0,
+        "location": ""
+      },
+      {
+        "url": "https://datacenter-api.jin10.com/reports/dates",
+        "status": 502,
+        "elapsed_sec": 0.691,
+        "bytes": 0,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "datacenter.jin10.com",
+    "root_domain": "jin10.com",
+    "urls": [
+      "https://datacenter.jin10.com",
+      "https://datacenter.jin10.com/",
+      "https://datacenter.jin10.com/dc_report?name=bitcoint"
+    ],
+    "probes": [
+      {
+        "url": "https://datacenter.jin10.com",
+        "status": 200,
+        "elapsed_sec": 0.507,
+        "bytes": 31519,
+        "location": ""
+      },
+      {
+        "url": "https://datacenter.jin10.com/",
+        "status": 200,
+        "elapsed_sec": 0.471,
+        "bytes": 31519,
+        "location": ""
+      },
+      {
+        "url": "https://datacenter.jin10.com/dc_report?name=bitcoint",
+        "status": 200,
+        "elapsed_sec": 0.415,
+        "bytes": 19550,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "deron.meranda.us",
+    "root_domain": "meranda.us",
+    "urls": [
+      "http://deron.meranda.us/",
+      "http://deron.meranda.us/python/demjson/"
+    ],
+    "probes": [
+      {
+        "url": "http://deron.meranda.us/",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "elapsed_sec": 3.216
+      },
+      {
+        "url": "http://deron.meranda.us/python/demjson/",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "elapsed_sec": 3.103
+      }
+    ]
+  },
+  {
+    "host": "dict.openctp.cn",
+    "root_domain": "openctp.cn",
+    "urls": [
+      "http://dict.openctp.cn/instruments?types=option"
+    ],
+    "probes": [
+      {
+        "url": "http://dict.openctp.cn/instruments?types=option",
+        "status": 200,
+        "elapsed_sec": 2.645,
+        "bytes": 21060365,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "eastmoneyfutures.com",
+    "root_domain": "eastmoneyfutures.com",
+    "urls": [
+      "https://eastmoneyfutures.com/api/ComManage/GetPZJYInfo"
+    ],
+    "probes": [
+      {
+        "url": "https://eastmoneyfutures.com/api/ComManage/GetPZJYInfo",
+        "status": 301,
+        "elapsed_sec": 0.503,
+        "bytes": 175,
+        "location": "https://www.eastmoneyfutures.com/"
+      }
+    ]
+  },
+  {
+    "host": "en.wikipedia.org",
+    "root_domain": "wikipedia.org",
+    "urls": [
+      "http://en.wikipedia.org/wiki/UTF-32",
+      "http://en.wikipedia.org/wiki/Unicode_control_characters"
+    ],
+    "probes": [
+      {
+        "url": "http://en.wikipedia.org/wiki/UTF-32",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "elapsed_sec": 5.025
+      },
+      {
+        "url": "http://en.wikipedia.org/wiki/Unicode_control_characters",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "elapsed_sec": 5.013
+      }
+    ]
+  },
+  {
+    "host": "fund.10jqka.com.cn",
+    "root_domain": "10jqka.com.cn",
+    "urls": [
+      "https://fund.10jqka.com.cn/161130/interduce.html",
+      "https://fund.10jqka.com.cn/data/Net/info/",
+      "https://fund.10jqka.com.cn/datacenter/jz/"
+    ],
+    "probes": [
+      {
+        "url": "https://fund.10jqka.com.cn/161130/interduce.html",
+        "status": 200,
+        "elapsed_sec": 0.431,
+        "bytes": 45671,
+        "location": ""
+      },
+      {
+        "url": "https://fund.10jqka.com.cn/data/Net/info/",
+        "status": 200,
+        "elapsed_sec": 2.816,
+        "bytes": 28177,
+        "location": ""
+      },
+      {
+        "url": "https://fund.10jqka.com.cn/datacenter/jz/",
+        "status": 200,
+        "elapsed_sec": 0.615,
+        "bytes": 47971,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "gs.amac.org.cn",
+    "root_domain": "amac.org.cn",
+    "urls": [
+      "https://gs.amac.org.cn",
+      "https://gs.amac.org.cn/amac-infodisc/api/aoin/product",
+      "https://gs.amac.org.cn/amac-infodisc/api/cancelled/manager"
+    ],
+    "probes": [
+      {
+        "url": "https://gs.amac.org.cn",
+        "status": 200,
+        "elapsed_sec": 0.444,
+        "bytes": 19893,
+        "location": ""
+      },
+      {
+        "url": "https://gs.amac.org.cn/amac-infodisc/api/aoin/product",
+        "status": 500,
+        "elapsed_sec": 0.621,
+        "bytes": 13,
+        "location": ""
+      },
+      {
+        "url": "https://gs.amac.org.cn/amac-infodisc/api/cancelled/manager",
+        "status": 500,
+        "elapsed_sec": 0.669,
+        "bytes": 13,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "hq.cnindex.com.cn",
+    "root_domain": "cnindex.com.cn",
+    "urls": [
+      "http://hq.cnindex.com.cn/market/market/getIndexDailyDataWithDataFormat"
+    ],
+    "probes": [
+      {
+        "url": "http://hq.cnindex.com.cn/market/market/getIndexDailyDataWithDataFormat",
+        "status": 400,
+        "elapsed_sec": 0.122,
+        "bytes": 844,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "hq.sinajs.cn",
+    "root_domain": "sinajs.cn",
+    "urls": [
+      "https://hq.sinajs.cn/",
+      "https://hq.sinajs.cn/?list=USDCNY",
+      "https://hq.sinajs.cn/list=OP_DOWN_"
+    ],
+    "probes": [
+      {
+        "url": "https://hq.sinajs.cn/",
+        "status": 403,
+        "elapsed_sec": 5.581,
+        "bytes": 9,
+        "location": ""
+      },
+      {
+        "url": "https://hq.sinajs.cn/?list=USDCNY",
+        "status": 403,
+        "elapsed_sec": 5.527,
+        "bytes": 9,
+        "location": ""
+      },
+      {
+        "url": "https://hq.sinajs.cn/list=OP_DOWN_",
+        "status": 403,
+        "elapsed_sec": 5.438,
+        "bytes": 9,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "human.amac.org.cn",
+    "root_domain": "amac.org.cn",
+    "urls": [
+      "https://human.amac.org.cn/web/api/publicityAddress?rand=0.6288001872566391&pageNum=1&pageSize=5000",
+      "https://human.amac.org.cn/web/org/personPublicity.html"
+    ],
+    "probes": [
+      {
+        "url": "https://human.amac.org.cn/web/api/publicityAddress?rand=0.6288001872566391&pageNum=1&pageSize=5000",
+        "error": "SSLError: HTTPSConnectionPool(host='human.amac.org.cn', port=443): Max retries exceeded with url: /web/api/publicityAddress?rand=0.6288001872566391&pageNum=1&pageSize=5000 (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1032)')))",
+        "elapsed_sec": 0.437
+      },
+      {
+        "url": "https://human.amac.org.cn/web/org/personPublicity.html",
+        "error": "SSLError: HTTPSConnectionPool(host='human.amac.org.cn', port=443): Max retries exceeded with url: /web/org/personPublicity.html (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1032)')))",
+        "elapsed_sec": 0.464
+      }
+    ]
+  },
+  {
+    "host": "index.0256.cn",
+    "root_domain": "0256.cn",
+    "urls": [
+      "http://index.0256.cn",
+      "http://index.0256.cn/expcenter_trend.action",
+      "http://index.0256.cn/expx.htm"
+    ],
+    "probes": [
+      {
+        "url": "http://index.0256.cn",
+        "status": 200,
+        "elapsed_sec": 0.109,
+        "bytes": 27867,
+        "location": ""
+      },
+      {
+        "url": "http://index.0256.cn/expcenter_trend.action",
+        "status": 403,
+        "elapsed_sec": 0.065,
+        "bytes": 162,
+        "location": ""
+      },
+      {
+        "url": "http://index.0256.cn/expx.htm",
+        "status": 200,
+        "elapsed_sec": 0.092,
+        "bytes": 24567,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "k.tanjiaoyi.com",
+    "root_domain": "tanjiaoyi.com",
+    "urls": [
+      "http://k.tanjiaoyi.com:8080/KDataController/getHouseDatasInAverage.do"
+    ],
+    "probes": [
+      {
+        "url": "http://k.tanjiaoyi.com:8080/KDataController/getHouseDatasInAverage.do",
+        "status": 200,
+        "elapsed_sec": 0.077,
+        "bytes": 30,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "kcb.sse.com.cn",
+    "root_domain": "sse.com.cn",
+    "urls": [
+      "http://kcb.sse.com.cn/",
+      "http://kcb.sse.com.cn/renewal/#",
+      "http://kcb.sse.com.cn/renewal/xmxq/index.shtml?auditId=926&anchor_type=0"
+    ],
+    "probes": [
+      {
+        "url": "http://kcb.sse.com.cn/",
+        "error": "ConnectionError: HTTPConnectionPool(host='kcb.sse.com.cn', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='kcb.sse.com.cn', port=80): Failed to resolve 'kcb.sse.com.cn' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.007
+      },
+      {
+        "url": "http://kcb.sse.com.cn/renewal/#",
+        "error": "ConnectionError: HTTPConnectionPool(host='kcb.sse.com.cn', port=80): Max retries exceeded with url: /renewal/ (Caused by NameResolutionError(\"HTTPConnection(host='kcb.sse.com.cn', port=80): Failed to resolve 'kcb.sse.com.cn' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.002
+      },
+      {
+        "url": "http://kcb.sse.com.cn/renewal/xmxq/index.shtml?auditId=926&anchor_type=0",
+        "error": "ConnectionError: HTTPConnectionPool(host='kcb.sse.com.cn', port=80): Max retries exceeded with url: /renewal/xmxq/index.shtml?auditId=926&anchor_type=0 (Caused by NameResolutionError(\"HTTPConnection(host='kcb.sse.com.cn', port=80): Failed to resolve 'kcb.sse.com.cn' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.001
+      }
+    ]
+  },
+  {
+    "host": "mp-api.jin10.com",
+    "root_domain": "jin10.com",
+    "urls": [
+      "https://mp-api.jin10.com/api/dynamic-data/child"
+    ],
+    "probes": [
+      {
+        "url": "https://mp-api.jin10.com/api/dynamic-data/child",
+        "status": 502,
+        "elapsed_sec": 0.483,
+        "bytes": 0,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "news.10jqka.com.cn",
+    "root_domain": "10jqka.com.cn",
+    "urls": [
+      "https://news.10jqka.com.cn/realtimenews.html",
+      "https://news.10jqka.com.cn/tapp/news/push/stock"
+    ],
+    "probes": [
+      {
+        "url": "https://news.10jqka.com.cn/realtimenews.html",
+        "status": 200,
+        "elapsed_sec": 0.503,
+        "bytes": 60513,
+        "location": ""
+      },
+      {
+        "url": "https://news.10jqka.com.cn/tapp/news/push/stock",
+        "status": 200,
+        "elapsed_sec": 0.48,
+        "bytes": 39043,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "openctp.cn",
+    "root_domain": "openctp.cn",
+    "urls": [
+      "http://openctp.cn/fees.html",
+      "http://openctp.cn/instruments.html"
+    ],
+    "probes": [
+      {
+        "url": "http://openctp.cn/fees.html",
+        "status": 200,
+        "elapsed_sec": 0.095,
+        "bytes": 494132,
+        "location": ""
+      },
+      {
+        "url": "http://openctp.cn/instruments.html",
+        "status": 404,
+        "elapsed_sec": 0.052,
+        "bytes": 9,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "ownthink.com",
+    "root_domain": "ownthink.com",
+    "urls": [
+      "https://ownthink.com/",
+      "https://ownthink.com/robot.html"
+    ],
+    "probes": [
+      {
+        "url": "https://ownthink.com/",
+        "status": 301,
+        "elapsed_sec": 0.825,
+        "bytes": 162,
+        "location": "https://www.ownthink.com/"
+      },
+      {
+        "url": "https://ownthink.com/robot.html",
+        "status": 301,
+        "elapsed_sec": 0.795,
+        "bytes": 162,
+        "location": "https://www.ownthink.com/robot.html"
+      }
+    ]
+  },
+  {
+    "host": "portal.dce.com.cn",
+    "root_domain": "dce.com.cn",
+    "urls": [
+      "http://portal.dce.com.cn",
+      "http://portal.dce.com.cn/publicweb/quotesdata/dayQuotesCh.html",
+      "http://portal.dce.com.cn/publicweb/quotesdata/exportDayQuotesChData.html"
+    ],
+    "probes": [
+      {
+        "url": "http://portal.dce.com.cn",
+        "error": "ConnectionError: HTTPConnectionPool(host='portal.dce.com.cn', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='portal.dce.com.cn', port=80): Failed to resolve 'portal.dce.com.cn' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.011
+      },
+      {
+        "url": "http://portal.dce.com.cn/publicweb/quotesdata/dayQuotesCh.html",
+        "error": "ConnectionError: HTTPConnectionPool(host='portal.dce.com.cn', port=80): Max retries exceeded with url: /publicweb/quotesdata/dayQuotesCh.html (Caused by NameResolutionError(\"HTTPConnection(host='portal.dce.com.cn', port=80): Failed to resolve 'portal.dce.com.cn' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.001
+      },
+      {
+        "url": "http://portal.dce.com.cn/publicweb/quotesdata/exportDayQuotesChData.html",
+        "error": "ConnectionError: HTTPConnectionPool(host='portal.dce.com.cn', port=80): Max retries exceeded with url: /publicweb/quotesdata/exportDayQuotesChData.html (Caused by NameResolutionError(\"HTTPConnection(host='portal.dce.com.cn', port=80): Failed to resolve 'portal.dce.com.cn' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.001
+      }
+    ]
+  },
+  {
+    "host": "portal.eastmoneyfutures.com",
+    "root_domain": "eastmoneyfutures.com",
+    "urls": [
+      "https://portal.eastmoneyfutures.com/pages/service/jyts.html#jyrl"
+    ],
+    "probes": [
+      {
+        "url": "https://portal.eastmoneyfutures.com/pages/service/jyts.html#jyrl",
+        "status": 200,
+        "elapsed_sec": 0.601,
+        "bytes": 69073,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "q.10jqka.com.cn",
+    "root_domain": "10jqka.com.cn",
+    "urls": [
+      "http://q.10jqka.com.cn",
+      "http://q.10jqka.com.cn/gn/detail/code/301558/",
+      "http://q.10jqka.com.cn/gn/index/field/addtime/order/desc/page/1/ajax/1/"
+    ],
+    "probes": [
+      {
+        "url": "http://q.10jqka.com.cn",
+        "status": 200,
+        "elapsed_sec": 0.078,
+        "bytes": 53832,
+        "location": ""
+      },
+      {
+        "url": "http://q.10jqka.com.cn/gn/detail/code/301558/",
+        "status": 200,
+        "elapsed_sec": 0.063,
+        "bytes": 75740,
+        "location": ""
+      },
+      {
+        "url": "http://q.10jqka.com.cn/gn/index/field/addtime/order/desc/page/1/ajax/1/",
+        "status": 401,
+        "elapsed_sec": 0.047,
+        "bytes": 405,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "query.sse.com.cn",
+    "root_domain": "sse.com.cn",
+    "urls": [
+      "http://query.sse.com.cn/commonExcelDd.do",
+      "http://query.sse.com.cn/commonQuery.do",
+      "http://query.sse.com.cn/commonSoaQuery.do"
+    ],
+    "probes": [
+      {
+        "url": "http://query.sse.com.cn/commonExcelDd.do",
+        "status": 200,
+        "elapsed_sec": 0.063,
+        "bytes": 105,
+        "location": ""
+      },
+      {
+        "url": "http://query.sse.com.cn/commonQuery.do",
+        "status": 200,
+        "elapsed_sec": 0.045,
+        "bytes": 130,
+        "location": ""
+      },
+      {
+        "url": "http://query.sse.com.cn/commonSoaQuery.do",
+        "status": 200,
+        "elapsed_sec": 0.046,
+        "bytes": 97,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "realized.oxford-man.ox.ac.uk",
+    "root_domain": "ox.ac.uk",
+    "urls": [
+      "https://realized.oxford-man.ox.ac.uk/?from=groupmessage&isappinstalled=0",
+      "https://realized.oxford-man.ox.ac.uk/theme/js/front-page-chart.js",
+      "https://realized.oxford-man.ox.ac.uk/theme/js/visualization-data.js?20191111113154"
+    ],
+    "probes": [
+      {
+        "url": "https://realized.oxford-man.ox.ac.uk/?from=groupmessage&isappinstalled=0",
+        "error": "ConnectionError: HTTPSConnectionPool(host='realized.oxford-man.ox.ac.uk', port=443): Max retries exceeded with url: /?from=groupmessage&isappinstalled=0 (Caused by NameResolutionError(\"HTTPSConnection(host='realized.oxford-man.ox.ac.uk', port=443): Failed to resolve 'realized.oxford-man.ox.ac.uk' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.008
+      },
+      {
+        "url": "https://realized.oxford-man.ox.ac.uk/theme/js/front-page-chart.js",
+        "error": "ConnectionError: HTTPSConnectionPool(host='realized.oxford-man.ox.ac.uk', port=443): Max retries exceeded with url: /theme/js/front-page-chart.js (Caused by NameResolutionError(\"HTTPSConnection(host='realized.oxford-man.ox.ac.uk', port=443): Failed to resolve 'realized.oxford-man.ox.ac.uk' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.002
+      },
+      {
+        "url": "https://realized.oxford-man.ox.ac.uk/theme/js/visualization-data.js?20191111113154",
+        "error": "ConnectionError: HTTPSConnectionPool(host='realized.oxford-man.ox.ac.uk', port=443): Max retries exceeded with url: /theme/js/visualization-data.js?20191111113154 (Caused by NameResolutionError(\"HTTPSConnection(host='realized.oxford-man.ox.ac.uk', port=443): Failed to resolve 'realized.oxford-man.ox.ac.uk' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.001
+      }
+    ]
+  },
+  {
+    "host": "service.99qh.com",
+    "root_domain": "99qh.com",
+    "urls": [
+      "http://service.99qh.com/Storage/Storage.aspx?page=99qh"
+    ],
+    "probes": [
+      {
+        "url": "http://service.99qh.com/Storage/Storage.aspx?page=99qh",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "elapsed_sec": 5.027
+      }
+    ]
+  },
+  {
+    "host": "service.ikuyu.cn",
+    "root_domain": "ikuyu.cn",
+    "urls": [
+      "http://service.ikuyu.cn/XinCaiFu2/pcremoting/bdListAction.do"
+    ],
+    "probes": [
+      {
+        "url": "http://service.ikuyu.cn/XinCaiFu2/pcremoting/bdListAction.do",
+        "error": "ConnectionError: HTTPConnectionPool(host='service.ikuyu.cn', port=80): Max retries exceeded with url: /XinCaiFu2/pcremoting/bdListAction.do (Caused by NameResolutionError(\"HTTPConnection(host='service.ikuyu.cn', port=80): Failed to resolve 'service.ikuyu.cn' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.072
+      }
+    ]
+  },
+  {
+    "host": "ss.kqindex.cn",
+    "root_domain": "kqindex.cn",
+    "urls": [
+      "http://ss.kqindex.cn:9559/rinder_web_kqsszs/index/index_page.do"
+    ],
+    "probes": [
+      {
+        "url": "http://ss.kqindex.cn:9559/rinder_web_kqsszs/index/index_page.do",
+        "status": 200,
+        "elapsed_sec": 0.061,
+        "bytes": 5867,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "stock.gtimg.cn",
+    "root_domain": "gtimg.cn",
+    "urls": [
+      "http://stock.gtimg.cn/data/hk_rank.php",
+      "http://stock.gtimg.cn/data/index.php"
+    ],
+    "probes": [
+      {
+        "url": "http://stock.gtimg.cn/data/hk_rank.php",
+        "status": 302,
+        "elapsed_sec": 0.069,
+        "bytes": 137,
+        "location": "https://stock.gtimg.cn/data/hk_rank.php"
+      },
+      {
+        "url": "http://stock.gtimg.cn/data/index.php",
+        "status": 302,
+        "elapsed_sec": 0.042,
+        "bytes": 137,
+        "location": "https://stock.gtimg.cn/data/index.php"
+      }
+    ]
+  },
+  {
+    "host": "stock.pingan.com",
+    "root_domain": "pingan.com",
+    "urls": [
+      "https://stock.pingan.com/fss/servlet/fsscoreapp/stockSource/mrgRatio",
+      "https://stock.pingan.com/static/webinfo/margin/business.html?businessType=0"
+    ],
+    "probes": [
+      {
+        "url": "https://stock.pingan.com/fss/servlet/fsscoreapp/stockSource/mrgRatio",
+        "status": 404,
+        "elapsed_sec": 0.689,
+        "bytes": 132,
+        "location": ""
+      },
+      {
+        "url": "https://stock.pingan.com/static/webinfo/margin/business.html?businessType=0",
+        "status": 200,
+        "elapsed_sec": 0.518,
+        "bytes": 43191,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "stock.xueqiu.com",
+    "root_domain": "xueqiu.com",
+    "urls": [
+      "https://stock.xueqiu.com/v5/stock/f10/cn/company.json",
+      "https://stock.xueqiu.com/v5/stock/f10/hk/company.json",
+      "https://stock.xueqiu.com/v5/stock/f10/us/company.json"
+    ],
+    "probes": [
+      {
+        "url": "https://stock.xueqiu.com/v5/stock/f10/cn/company.json",
+        "status": 400,
+        "elapsed_sec": 0.432,
+        "bytes": 171,
+        "location": ""
+      },
+      {
+        "url": "https://stock.xueqiu.com/v5/stock/f10/hk/company.json",
+        "status": 400,
+        "elapsed_sec": 0.433,
+        "bytes": 171,
+        "location": ""
+      },
+      {
+        "url": "https://stock.xueqiu.com/v5/stock/f10/us/company.json",
+        "status": 400,
+        "elapsed_sec": 0.544,
+        "bytes": 171,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "stockdata.stock.hexun.com",
+    "root_domain": "hexun.com",
+    "urls": [
+      "http://stockdata.stock.hexun.com/zrbg/",
+      "http://stockdata.stock.hexun.com/zrbg/data/zrbList.aspx"
+    ],
+    "probes": [
+      {
+        "url": "http://stockdata.stock.hexun.com/zrbg/",
+        "status": 307,
+        "elapsed_sec": 0.11,
+        "bytes": 164,
+        "location": "https://stockdata.hexun.com/zrbg/"
+      },
+      {
+        "url": "http://stockdata.stock.hexun.com/zrbg/data/zrbList.aspx",
+        "status": 307,
+        "elapsed_sec": 0.689,
+        "bytes": 164,
+        "location": "https://stockdata.hexun.com/zrbg/data/zrbList.aspx"
+      }
+    ]
+  },
+  {
+    "host": "stockpage.10jqka.com.cn",
+    "root_domain": "10jqka.com.cn",
+    "urls": [
+      "https://stockpage.10jqka.com.cn/HK0700/bonus/"
+    ],
+    "probes": [
+      {
+        "url": "https://stockpage.10jqka.com.cn/HK0700/bonus/",
+        "status": 200,
+        "elapsed_sec": 0.556,
+        "bytes": 40360,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "tsite.shfe.com.cn",
+    "root_domain": "shfe.com.cn",
+    "urls": [
+      "http://tsite.shfe.com.cn/data/dailydata/%sdailystock.dat",
+      "http://tsite.shfe.com.cn/data/dailydata/%sdailystock.html",
+      "http://tsite.shfe.com.cn/data/dailydata/ck/%sdailyTimePrice.dat"
+    ],
+    "probes": [
+      {
+        "url": "http://tsite.shfe.com.cn/data/dailydata/%sdailystock.dat",
+        "error": "ConnectionError: HTTPConnectionPool(host='tsite.shfe.com.cn', port=80): Max retries exceeded with url: /data/dailydata/%25sdailystock.dat (Caused by NameResolutionError(\"HTTPConnection(host='tsite.shfe.com.cn', port=80): Failed to resolve 'tsite.shfe.com.cn' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.007
+      },
+      {
+        "url": "http://tsite.shfe.com.cn/data/dailydata/%sdailystock.html",
+        "error": "ConnectionError: HTTPConnectionPool(host='tsite.shfe.com.cn', port=80): Max retries exceeded with url: /data/dailydata/%25sdailystock.html (Caused by NameResolutionError(\"HTTPConnection(host='tsite.shfe.com.cn', port=80): Failed to resolve 'tsite.shfe.com.cn' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.002
+      },
+      {
+        "url": "http://tsite.shfe.com.cn/data/dailydata/ck/%sdailyTimePrice.dat",
+        "error": "ConnectionError: HTTPConnectionPool(host='tsite.shfe.com.cn', port=80): Max retries exceeded with url: /data/dailydata/ck/%25sdailyTimePrice.dat (Caused by NameResolutionError(\"HTTPConnection(host='tsite.shfe.com.cn', port=80): Failed to resolve 'tsite.shfe.com.cn' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.002
+      }
+    ]
+  },
+  {
+    "host": "web.ifzq.gtimg.cn",
+    "root_domain": "gtimg.cn",
+    "urls": [
+      "http://web.ifzq.gtimg.cn/appstock/app/hkfqkline/get",
+      "http://web.ifzq.gtimg.cn/appstock/app/kline/kline",
+      "https://web.ifzq.gtimg.cn/appstock/app/hkfqkline/get"
+    ],
+    "probes": [
+      {
+        "url": "http://web.ifzq.gtimg.cn/appstock/app/hkfqkline/get",
+        "status": 302,
+        "elapsed_sec": 0.042,
+        "bytes": 137,
+        "location": "https://web.ifzq.gtimg.cn/appstock/app/hkfqkline/get"
+      },
+      {
+        "url": "http://web.ifzq.gtimg.cn/appstock/app/kline/kline",
+        "status": 302,
+        "elapsed_sec": 0.04,
+        "bytes": 137,
+        "location": "https://web.ifzq.gtimg.cn/appstock/app/kline/kline"
+      },
+      {
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/hkfqkline/get",
+        "status": 200,
+        "elapsed_sec": 0.513,
+        "bytes": 39,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "webusstock.hermes.hexun.com",
+    "root_domain": "hexun.com",
+    "urls": [
+      "http://webusstock.hermes.hexun.com/usa/kline"
+    ],
+    "probes": [
+      {
+        "url": "http://webusstock.hermes.hexun.com/usa/kline",
+        "error": "ConnectionError: HTTPConnectionPool(host='webusstock.hermes.hexun.com', port=80): Max retries exceeded with url: /usa/kline (Caused by NameResolutionError(\"HTTPConnection(host='webusstock.hermes.hexun.com', port=80): Failed to resolve 'webusstock.hermes.hexun.com' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.008
+      }
+    ]
+  },
+  {
+    "host": "www.96369.net",
+    "root_domain": "96369.net",
+    "urls": [
+      "http://www.96369.net",
+      "http://www.96369.net/Other/ValidateCode.aspx",
+      "http://www.96369.net/indices/67"
+    ],
+    "probes": [
+      {
+        "url": "http://www.96369.net",
+        "status": 301,
+        "elapsed_sec": 0.171,
+        "bytes": 0,
+        "location": "https://www.steelx2.com"
+      },
+      {
+        "url": "http://www.96369.net/Other/ValidateCode.aspx",
+        "status": 301,
+        "elapsed_sec": 0.179,
+        "bytes": 0,
+        "location": "https://www.steelx2.com/Other/ValidateCode.aspx"
+      },
+      {
+        "url": "http://www.96369.net/indices/67",
+        "status": 301,
+        "elapsed_sec": 0.183,
+        "bytes": 0,
+        "location": "https://www.steelx2.com/indices/67"
+      }
+    ]
+  },
+  {
+    "host": "www.99qh.com",
+    "root_domain": "99qh.com",
+    "urls": [
+      "https://www.99qh.com",
+      "https://www.99qh.com/",
+      "https://www.99qh.com/data/spotTrend"
+    ],
+    "probes": [
+      {
+        "url": "https://www.99qh.com",
+        "status": 200,
+        "elapsed_sec": 1.095,
+        "bytes": 138218,
+        "location": ""
+      },
+      {
+        "url": "https://www.99qh.com/",
+        "status": 200,
+        "elapsed_sec": 1.026,
+        "bytes": 137688,
+        "location": ""
+      },
+      {
+        "url": "https://www.99qh.com/data/spotTrend",
+        "status": 200,
+        "elapsed_sec": 0.664,
+        "bytes": 50130,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "www.9qihuo.com",
+    "root_domain": "9qihuo.com",
+    "urls": [
+      "https://www.9qihuo.com/",
+      "https://www.9qihuo.com/qihuoshouxufei",
+      "https://www.9qihuo.com/qiquanshouxufei"
+    ],
+    "probes": [
+      {
+        "url": "https://www.9qihuo.com/",
+        "status": 403,
+        "elapsed_sec": 0.473,
+        "bytes": 110,
+        "location": ""
+      },
+      {
+        "url": "https://www.9qihuo.com/qihuoshouxufei",
+        "status": 403,
+        "elapsed_sec": 0.423,
+        "bytes": 124,
+        "location": ""
+      },
+      {
+        "url": "https://www.9qihuo.com/qiquanshouxufei",
+        "status": 403,
+        "elapsed_sec": 0.439,
+        "bytes": 125,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "www.bjets.com.cn",
+    "root_domain": "bjets.com.cn",
+    "urls": [
+      "https://www.bjets.com.cn/article/jyxx/"
+    ],
+    "probes": [
+      {
+        "url": "https://www.bjets.com.cn/article/jyxx/",
+        "status": 502,
+        "elapsed_sec": 6.775,
+        "bytes": 5616,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "www.bloomberg.com",
+    "root_domain": "bloomberg.com",
+    "urls": [
+      "https://www.bloomberg.com/",
+      "https://www.bloomberg.com/billionaires",
+      "https://www.bloomberg.com/billionaires/"
+    ],
+    "probes": [
+      {
+        "url": "https://www.bloomberg.com/",
+        "error": "ReadTimeout: HTTPSConnectionPool(host='www.bloomberg.com', port=443): Read timed out. (read timeout=4)",
+        "elapsed_sec": 4.459
+      },
+      {
+        "url": "https://www.bloomberg.com/billionaires",
+        "error": "ReadTimeout: HTTPSConnectionPool(host='www.bloomberg.com', port=443): Read timed out. (read timeout=4)",
+        "elapsed_sec": 4.39
+      },
+      {
+        "url": "https://www.bloomberg.com/billionaires/",
+        "error": "ReadTimeout: HTTPSConnectionPool(host='www.bloomberg.com', port=443): Read timed out. (read timeout=4)",
+        "elapsed_sec": 4.434
+      }
+    ]
+  },
+  {
+    "host": "www.ccidx.com",
+    "root_domain": "ccidx.com",
+    "urls": [
+      "http://www.ccidx.com/",
+      "http://www.ccidx.com/CCI-ZZZS/index/getDateLine",
+      "http://www.ccidx.com/index.html"
+    ],
+    "probes": [
+      {
+        "url": "http://www.ccidx.com/",
+        "status": 200,
+        "elapsed_sec": 0.308,
+        "bytes": 410991,
+        "location": ""
+      },
+      {
+        "url": "http://www.ccidx.com/CCI-ZZZS/index/getDateLine",
+        "status": 200,
+        "elapsed_sec": 0.702,
+        "bytes": 76,
+        "location": ""
+      },
+      {
+        "url": "http://www.ccidx.com/index.html",
+        "status": 200,
+        "elapsed_sec": 0.463,
+        "bytes": 411980,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "www.cerx.cn",
+    "root_domain": "cerx.cn",
+    "urls": [
+      "http://www.cerx.cn/dailynewsCN/index.htm",
+      "http://www.cerx.cn/dailynewsOuter/index.htm"
+    ],
+    "probes": [
+      {
+        "url": "http://www.cerx.cn/dailynewsCN/index.htm",
+        "error": "ReadTimeout: HTTPConnectionPool(host='www.cerx.cn', port=80): Read timed out. (read timeout=8)",
+        "elapsed_sec": 8.019
+      },
+      {
+        "url": "http://www.cerx.cn/dailynewsOuter/index.htm",
+        "error": "ReadTimeout: HTTPConnectionPool(host='www.cerx.cn', port=80): Read timed out. (read timeout=8)",
+        "elapsed_sec": 8.039
+      }
+    ]
+  },
+  {
+    "host": "www.cffex.com.cn",
+    "root_domain": "cffex.com.cn",
+    "urls": [
+      "http://www.cffex.com.cn/ccpm/",
+      "http://www.cffex.com.cn/cn/rtj.html",
+      "http://www.cffex.com.cn/hs300gzqq/"
+    ],
+    "probes": [
+      {
+        "url": "http://www.cffex.com.cn/ccpm/",
+        "status": 301,
+        "elapsed_sec": 0.052,
+        "bytes": 244,
+        "location": "http://www.cffex.com.cn/cn/ccpm.html"
+      },
+      {
+        "url": "http://www.cffex.com.cn/cn/rtj.html",
+        "status": 200,
+        "elapsed_sec": 0.032,
+        "bytes": 42310,
+        "location": ""
+      },
+      {
+        "url": "http://www.cffex.com.cn/hs300gzqq/",
+        "status": 301,
+        "elapsed_sec": 0.025,
+        "bytes": 249,
+        "location": "http://www.cffex.com.cn/cn/hs300gzqq.html"
+      }
+    ]
+  },
+  {
+    "host": "www.chinamoney.org.cn",
+    "root_domain": "chinamoney.org.cn",
+    "urls": [
+      "https://www.chinamoney.org.cn/chinese/bkcurvfsw",
+      "https://www.chinamoney.org.cn/r/cms/www/chinamoney/data/fx/fx-c-sw-curv-USD.CNY.json"
+    ],
+    "probes": [
+      {
+        "url": "https://www.chinamoney.org.cn/chinese/bkcurvfsw",
+        "error": "SSLError: HTTPSConnectionPool(host='www.chinamoney.org.cn', port=443): Max retries exceeded with url: /chinese/bkcurvfsw (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1032)')))",
+        "elapsed_sec": 0.384
+      },
+      {
+        "url": "https://www.chinamoney.org.cn/r/cms/www/chinamoney/data/fx/fx-c-sw-curv-USD.CNY.json",
+        "error": "SSLError: HTTPSConnectionPool(host='www.chinamoney.org.cn', port=443): Max retries exceeded with url: /r/cms/www/chinamoney/data/fx/fx-c-sw-curv-USD.CNY.json (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1032)')))",
+        "elapsed_sec": 0.367
+      }
+    ]
+  },
+  {
+    "host": "www.cnindex.com.cn",
+    "root_domain": "cnindex.com.cn",
+    "urls": [
+      "http://www.cnindex.com.cn/module/index-detail.html?act_menu=1&indexCode=399001",
+      "http://www.cnindex.com.cn/module/index-detail.html?act_menu=1&indexCode=399005",
+      "http://www.cnindex.com.cn/sample-detail/download-adjustment"
+    ],
+    "probes": [
+      {
+        "url": "http://www.cnindex.com.cn/module/index-detail.html?act_menu=1&indexCode=399001",
+        "status": 301,
+        "elapsed_sec": 0.925,
+        "bytes": 166,
+        "location": "https://www.cnindex.com.cn/module/index-detail.html?act_menu=1&indexCode=399001"
+      },
+      {
+        "url": "http://www.cnindex.com.cn/module/index-detail.html?act_menu=1&indexCode=399005",
+        "status": 301,
+        "elapsed_sec": 0.041,
+        "bytes": 166,
+        "location": "https://www.cnindex.com.cn/module/index-detail.html?act_menu=1&indexCode=399005"
+      },
+      {
+        "url": "http://www.cnindex.com.cn/sample-detail/download-adjustment",
+        "status": 301,
+        "elapsed_sec": 0.038,
+        "bytes": 166,
+        "location": "https://www.cnindex.com.cn/sample-detail/download-adjustment"
+      }
+    ]
+  },
+  {
+    "host": "www.dce.com.cn",
+    "root_domain": "dce.com.cn",
+    "urls": [
+      "http://www.dce.com.cn",
+      "http://www.dce.com.cn/",
+      "http://www.dce.com.cn//publicweb/quotesdata/dayQuotesCh.html"
+    ],
+    "probes": [
+      {
+        "url": "http://www.dce.com.cn",
+        "status": 412,
+        "elapsed_sec": 0.122,
+        "bytes": 2607,
+        "location": ""
+      },
+      {
+        "url": "http://www.dce.com.cn/",
+        "status": 412,
+        "elapsed_sec": 0.106,
+        "bytes": 2574,
+        "location": ""
+      },
+      {
+        "url": "http://www.dce.com.cn//publicweb/quotesdata/dayQuotesCh.html",
+        "status": 412,
+        "elapsed_sec": 0.108,
+        "bytes": 2726,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "www.econ.yale.edu",
+    "root_domain": "yale.edu",
+    "urls": [
+      "http://www.econ.yale.edu/~shiller/data.htm"
+    ],
+    "probes": [
+      {
+        "url": "http://www.econ.yale.edu/~shiller/data.htm",
+        "status": 200,
+        "elapsed_sec": 0.509,
+        "bytes": 7931,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "www.forbeschina.com",
+    "root_domain": "forbeschina.com",
+    "urls": [
+      "https://www.forbeschina.com",
+      "https://www.forbeschina.com/lists",
+      "https://www.forbeschina.com/lists/1750"
+    ],
+    "probes": [
+      {
+        "url": "https://www.forbeschina.com",
+        "error": "SSLError: HTTPSConnectionPool(host='www.forbeschina.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))",
+        "elapsed_sec": 0.42
+      },
+      {
+        "url": "https://www.forbeschina.com/lists",
+        "error": "SSLError: HTTPSConnectionPool(host='www.forbeschina.com', port=443): Max retries exceeded with url: /lists (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))",
+        "elapsed_sec": 0.374
+      },
+      {
+        "url": "https://www.forbeschina.com/lists/1750",
+        "error": "SSLError: HTTPSConnectionPool(host='www.forbeschina.com', port=443): Max retries exceeded with url: /lists/1750 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))",
+        "elapsed_sec": 0.433
+      }
+    ]
+  },
+  {
+    "host": "www.gfex.com.cn",
+    "root_domain": "gfex.com.cn",
+    "urls": [
+      "http://www.gfex.com.cn",
+      "http://www.gfex.com.cn/gfex/cdrb/hqsj_tjsj.shtml",
+      "http://www.gfex.com.cn/gfex/hyxx/ywcs.shtml"
+    ],
+    "probes": [
+      {
+        "url": "http://www.gfex.com.cn",
+        "status": 200,
+        "elapsed_sec": 0.103,
+        "bytes": 188328,
+        "location": ""
+      },
+      {
+        "url": "http://www.gfex.com.cn/gfex/cdrb/hqsj_tjsj.shtml",
+        "status": 200,
+        "elapsed_sec": 0.098,
+        "bytes": 52766,
+        "location": ""
+      },
+      {
+        "url": "http://www.gfex.com.cn/gfex/hyxx/ywcs.shtml",
+        "status": 200,
+        "elapsed_sec": 0.054,
+        "bytes": 50824,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "www.jin10.com",
+    "root_domain": "jin10.com",
+    "urls": [
+      "https://www.jin10.com",
+      "https://www.jin10.com/"
+    ],
+    "probes": [
+      {
+        "url": "https://www.jin10.com",
+        "status": 200,
+        "elapsed_sec": 0.469,
+        "bytes": 5011,
+        "location": ""
+      },
+      {
+        "url": "https://www.jin10.com/",
+        "status": 200,
+        "elapsed_sec": 0.403,
+        "bytes": 5011,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "www.kqindex.cn",
+    "root_domain": "kqindex.cn",
+    "urls": [
+      "http://www.kqindex.cn/flzs/jiage",
+      "http://www.kqindex.cn/flzs/table_data"
+    ],
+    "probes": [
+      {
+        "url": "http://www.kqindex.cn/flzs/jiage",
+        "status": 200,
+        "elapsed_sec": 0.039,
+        "bytes": 1228,
+        "location": ""
+      },
+      {
+        "url": "http://www.kqindex.cn/flzs/table_data",
+        "status": 200,
+        "elapsed_sec": 0.051,
+        "bytes": 1228,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "www.nafmii.org.cn",
+    "root_domain": "nafmii.org.cn",
+    "urls": [
+      "https://www.nafmii.org.cn/"
+    ],
+    "probes": [
+      {
+        "url": "https://www.nafmii.org.cn/",
+        "status": 200,
+        "elapsed_sec": 1.002,
+        "bytes": 195138,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "www.ownthink.com",
+    "root_domain": "ownthink.com",
+    "urls": [
+      "https://www.ownthink.com/docs/kg/"
+    ],
+    "probes": [
+      {
+        "url": "https://www.ownthink.com/docs/kg/",
+        "status": 302,
+        "elapsed_sec": 0.763,
+        "bytes": 90,
+        "location": "/404"
+      }
+    ]
+  },
+  {
+    "host": "www.shfe.com.cn",
+    "root_domain": "shfe.com.cn",
+    "urls": [
+      "https://www.shfe.com.cn/",
+      "https://www.shfe.com.cn/data/tradedata/future/dailydata/%sdailystock.dat",
+      "https://www.shfe.com.cn/data/tradedata/future/dailydata/kx%s.dat"
+    ],
+    "probes": [
+      {
+        "url": "https://www.shfe.com.cn/",
+        "status": 200,
+        "elapsed_sec": 0.441,
+        "bytes": 198931,
+        "location": ""
+      },
+      {
+        "url": "https://www.shfe.com.cn/data/tradedata/future/dailydata/%sdailystock.dat",
+        "status": 404,
+        "elapsed_sec": 0.403,
+        "bytes": 4832,
+        "location": ""
+      },
+      {
+        "url": "https://www.shfe.com.cn/data/tradedata/future/dailydata/kx%s.dat",
+        "status": 404,
+        "elapsed_sec": 0.45,
+        "bytes": 4832,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "www.sse.com.cn",
+    "root_domain": "sse.com.cn",
+    "urls": [
+      "http://www.sse.com.cn/",
+      "http://www.sse.com.cn/assortment/options/disclo/preinfo/",
+      "http://www.sse.com.cn/assortment/options/price/"
+    ],
+    "probes": [
+      {
+        "url": "http://www.sse.com.cn/",
+        "status": 200,
+        "elapsed_sec": 0.095,
+        "bytes": 66105,
+        "location": ""
+      },
+      {
+        "url": "http://www.sse.com.cn/assortment/options/disclo/preinfo/",
+        "status": 200,
+        "elapsed_sec": 0.091,
+        "bytes": 27310,
+        "location": ""
+      },
+      {
+        "url": "http://www.sse.com.cn/assortment/options/price/",
+        "status": 200,
+        "elapsed_sec": 0.27,
+        "bytes": 27540,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "www.super-ping.com",
+    "root_domain": "super-ping.com",
+    "urls": [
+      "http://www.super-ping.com/?ping=www.google.com&locale=sc"
+    ],
+    "probes": [
+      {
+        "url": "http://www.super-ping.com/?ping=www.google.com&locale=sc",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "elapsed_sec": 5.083
+      }
+    ]
+  },
+  {
+    "host": "www.swhyresearch.com",
+    "root_domain": "swhyresearch.com",
+    "urls": [
+      "http://www.swhyresearch.com/institute_sw/allIndex/downloadCenter/industryType"
+    ],
+    "probes": [
+      {
+        "url": "http://www.swhyresearch.com/institute_sw/allIndex/downloadCenter/industryType",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "elapsed_sec": 5.017
+      }
+    ]
+  },
+  {
+    "host": "www.swsindex.com",
+    "root_domain": "swsindex.com",
+    "urls": [
+      "http://www.swsindex.com",
+      "http://www.swsindex.com/handler.aspx",
+      "http://www.swsindex.com/idx0120.aspx?columnid=8832"
+    ],
+    "probes": [
+      {
+        "url": "http://www.swsindex.com",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "elapsed_sec": 5.019
+      },
+      {
+        "url": "http://www.swsindex.com/handler.aspx",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "elapsed_sec": 5.018
+      },
+      {
+        "url": "http://www.swsindex.com/idx0120.aspx?columnid=8832",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "elapsed_sec": 5.018
+      }
+    ]
+  },
+  {
+    "host": "www.swsresearch.com",
+    "root_domain": "swsresearch.com",
+    "urls": [
+      "https://www.swsresearch.com/insWechatSw/dflgOrJcIndex/pageList",
+      "https://www.swsresearch.com/insWechatSw/fundIndex/getFundKChartData",
+      "https://www.swsresearch.com/insWechatSw/fundIndex/pageList"
+    ],
+    "probes": [
+      {
+        "url": "https://www.swsresearch.com/insWechatSw/dflgOrJcIndex/pageList",
+        "error": "SSLError: HTTPSConnectionPool(host='www.swsresearch.com', port=443): Max retries exceeded with url: /insWechatSw/dflgOrJcIndex/pageList (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))",
+        "elapsed_sec": 0.365
+      },
+      {
+        "url": "https://www.swsresearch.com/insWechatSw/fundIndex/getFundKChartData",
+        "error": "SSLError: HTTPSConnectionPool(host='www.swsresearch.com', port=443): Max retries exceeded with url: /insWechatSw/fundIndex/getFundKChartData (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))",
+        "elapsed_sec": 0.628
+      },
+      {
+        "url": "https://www.swsresearch.com/insWechatSw/fundIndex/pageList",
+        "error": "SSLError: HTTPSConnectionPool(host='www.swsresearch.com', port=443): Max retries exceeded with url: /insWechatSw/fundIndex/pageList (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))",
+        "elapsed_sec": 0.423
+      }
+    ]
+  },
+  {
+    "host": "www.tanjiaoyi.com",
+    "root_domain": "tanjiaoyi.com",
+    "urls": [
+      "http://www.tanjiaoyi.com/"
+    ],
+    "probes": [
+      {
+        "url": "http://www.tanjiaoyi.com/",
+        "status": 200,
+        "elapsed_sec": 2.333,
+        "bytes": 79607,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "www.timeanddate.com",
+    "root_domain": "timeanddate.com",
+    "urls": [
+      "https://www.timeanddate.com",
+      "https://www.timeanddate.com/astronomy/china",
+      "https://www.timeanddate.com/astronomy/china/shaoxing"
+    ],
+    "probes": [
+      {
+        "url": "https://www.timeanddate.com",
+        "status": 403,
+        "elapsed_sec": 0.78,
+        "bytes": 5475,
+        "location": ""
+      },
+      {
+        "url": "https://www.timeanddate.com/astronomy/china",
+        "status": 403,
+        "elapsed_sec": 0.795,
+        "bytes": 5541,
+        "location": ""
+      },
+      {
+        "url": "https://www.timeanddate.com/astronomy/china/shaoxing",
+        "status": 403,
+        "elapsed_sec": 0.844,
+        "bytes": 5568,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "www.ushknews.com",
+    "root_domain": "ushknews.com",
+    "urls": [
+      "https://www.ushknews.com",
+      "https://www.ushknews.com/",
+      "https://www.ushknews.com/report.html"
+    ],
+    "probes": [
+      {
+        "url": "https://www.ushknews.com",
+        "status": 200,
+        "elapsed_sec": 0.412,
+        "bytes": 4908,
+        "location": ""
+      },
+      {
+        "url": "https://www.ushknews.com/",
+        "status": 200,
+        "elapsed_sec": 0.413,
+        "bytes": 4908,
+        "location": ""
+      },
+      {
+        "url": "https://www.ushknews.com/report.html",
+        "status": 200,
+        "elapsed_sec": 0.604,
+        "bytes": 4326,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "xueqiu.com",
+    "root_domain": "xueqiu.com",
+    "urls": [
+      "https://xueqiu.com",
+      "https://xueqiu.com/S/00700",
+      "https://xueqiu.com/S/SH513520"
+    ],
+    "probes": [
+      {
+        "url": "https://xueqiu.com",
+        "status": 200,
+        "elapsed_sec": 0.639,
+        "bytes": 110310,
+        "location": ""
+      },
+      {
+        "url": "https://xueqiu.com/S/00700",
+        "status": 200,
+        "elapsed_sec": 0.657,
+        "bytes": 110310,
+        "location": ""
+      },
+      {
+        "url": "https://xueqiu.com/S/SH513520",
+        "status": 200,
+        "elapsed_sec": 0.666,
+        "bytes": 110310,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "yun.ccxe.com.cn",
+    "root_domain": "ccxe.com.cn",
+    "urls": [
+      "https://yun.ccxe.com.cn/api/index/pro/cxIndexTrendInfo",
+      "https://yun.ccxe.com.cn/indices/ai",
+      "https://yun.ccxe.com.cn/indices/bei"
+    ],
+    "probes": [
+      {
+        "url": "https://yun.ccxe.com.cn/api/index/pro/cxIndexTrendInfo",
+        "status": 200,
+        "elapsed_sec": 0.495,
+        "bytes": 926,
+        "location": ""
+      },
+      {
+        "url": "https://yun.ccxe.com.cn/indices/ai",
+        "status": 200,
+        "elapsed_sec": 0.473,
+        "bytes": 926,
+        "location": ""
+      },
+      {
+        "url": "https://yun.ccxe.com.cn/indices/bei",
+        "status": 200,
+        "elapsed_sec": 0.532,
+        "bytes": 926,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "yunhq.sse.com.cn",
+    "root_domain": "sse.com.cn",
+    "urls": [
+      "http://yunhq.sse.com.cn:32041/v1/sh1/list/self/510050",
+      "http://yunhq.sse.com.cn:32041/v1/sh1/list/self/510300",
+      "http://yunhq.sse.com.cn:32041/v1/sh1/list/self/510500"
+    ],
+    "probes": [
+      {
+        "url": "http://yunhq.sse.com.cn:32041/v1/sh1/list/self/510050",
+        "status": 200,
+        "elapsed_sec": 0.08,
+        "bytes": 94,
+        "location": ""
+      },
+      {
+        "url": "http://yunhq.sse.com.cn:32041/v1/sh1/list/self/510300",
+        "status": 200,
+        "elapsed_sec": 0.064,
+        "bytes": 95,
+        "location": ""
+      },
+      {
+        "url": "http://yunhq.sse.com.cn:32041/v1/sh1/list/self/510500",
+        "status": 200,
+        "elapsed_sec": 0.067,
+        "bytes": 95,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "zhuce.nafmii.org.cn",
+    "root_domain": "nafmii.org.cn",
+    "urls": [
+      "http://zhuce.nafmii.org.cn/fans/publicQuery/manager",
+      "http://zhuce.nafmii.org.cn/fans/publicQuery/manager)��ծȯ������Ϣ����",
+      "http://zhuce.nafmii.org.cn/fans/publicQuery/releFileProjDataGrid"
+    ],
+    "probes": [
+      {
+        "url": "http://zhuce.nafmii.org.cn/fans/publicQuery/manager",
+        "status": 200,
+        "elapsed_sec": 0.146,
+        "bytes": 10698,
+        "location": ""
+      },
+      {
+        "url": "http://zhuce.nafmii.org.cn/fans/publicQuery/manager)��ծȯ������Ϣ����",
+        "status": 200,
+        "elapsed_sec": 0.137,
+        "bytes": 269,
+        "location": ""
+      },
+      {
+        "url": "http://zhuce.nafmii.org.cn/fans/publicQuery/releFileProjDataGrid",
+        "status": 404,
+        "elapsed_sec": 0.122,
+        "bytes": 6688,
+        "location": ""
+      }
+    ]
+  },
+  {
+    "host": "zs.zjpwq.net",
+    "root_domain": "zjpwq.net",
+    "urls": [
+      "https://zs.zjpwq.net",
+      "https://zs.zjpwq.net/",
+      "https://zs.zjpwq.net/pwq-index-webapi/dataStatistics"
+    ],
+    "probes": [
+      {
+        "url": "https://zs.zjpwq.net",
+        "error": "ConnectionError: HTTPSConnectionPool(host='zs.zjpwq.net', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='zs.zjpwq.net', port=443): Failed to resolve 'zs.zjpwq.net' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.071
+      },
+      {
+        "url": "https://zs.zjpwq.net/",
+        "error": "ConnectionError: HTTPSConnectionPool(host='zs.zjpwq.net', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='zs.zjpwq.net', port=443): Failed to resolve 'zs.zjpwq.net' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.002
+      },
+      {
+        "url": "https://zs.zjpwq.net/pwq-index-webapi/dataStatistics",
+        "error": "ConnectionError: HTTPSConnectionPool(host='zs.zjpwq.net', port=443): Max retries exceeded with url: /pwq-index-webapi/dataStatistics (Caused by NameResolutionError(\"HTTPSConnection(host='zs.zjpwq.net', port=443): Failed to resolve 'zs.zjpwq.net' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.001
+      }
+    ]
+  }
+]

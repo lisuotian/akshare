@@ -1,0 +1,1002 @@
+[
+  {
+    "root_domain": "0256.cn",
+    "ips": [
+      "139.159.148.20"
+    ],
+    "hosts": [
+      "index.0256.cn"
+    ],
+    "evidence": [
+      {
+        "host": "index.0256.cn",
+        "url": "http://index.0256.cn/expcenter_trend.action",
+        "ip": [
+          "139.159.148.20"
+        ],
+        "status": 403,
+        "error": ""
+      }
+    ]
+  },
+  {
+    "root_domain": "10jqka.com.cn",
+    "ips": [
+      "221.6.171.142",
+      "221.6.171.143"
+    ],
+    "hosts": [
+      "data.10jqka.com.cn",
+      "q.10jqka.com.cn"
+    ],
+    "evidence": [
+      {
+        "host": "data.10jqka.com.cn",
+        "url": "http://data.10jqka.com.cn/ajax/xzjp/field/DECLAREDATE/order/desc/ajax/1/free/1/",
+        "ip": [
+          "221.6.171.142",
+          "221.6.171.143"
+        ],
+        "status": 401,
+        "error": ""
+      },
+      {
+        "host": "data.10jqka.com.cn",
+        "url": "http://data.10jqka.com.cn/funds/ddzz/order/desc/ajax/1/free/1/",
+        "ip": [
+          "221.6.171.142",
+          "221.6.171.143"
+        ],
+        "status": 401,
+        "error": ""
+      },
+      {
+        "host": "data.10jqka.com.cn",
+        "url": "http://data.10jqka.com.cn/funds/ggzjl/field/code/order/desc/ajax/1/free/1/",
+        "ip": [
+          "221.6.171.142",
+          "221.6.171.143"
+        ],
+        "status": 401,
+        "error": ""
+      },
+      {
+        "host": "q.10jqka.com.cn",
+        "url": "http://q.10jqka.com.cn/gn/index/field/addtime/order/desc/page/1/ajax/1/",
+        "ip": [
+          "221.6.171.142",
+          "221.6.171.143"
+        ],
+        "status": 401,
+        "error": ""
+      }
+    ]
+  },
+  {
+    "root_domain": "99qh.com",
+    "ips": [
+      "43.179.214.53"
+    ],
+    "hosts": [
+      "service.99qh.com"
+    ],
+    "evidence": [
+      {
+        "host": "service.99qh.com",
+        "url": "http://service.99qh.com/Storage/Storage.aspx?page=99qh",
+        "ip": [
+          "43.179.214.53"
+        ],
+        "status": null,
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))"
+      }
+    ]
+  },
+  {
+    "root_domain": "9qihuo.com",
+    "ips": [
+      "47.101.166.114"
+    ],
+    "hosts": [
+      "www.9qihuo.com"
+    ],
+    "evidence": [
+      {
+        "host": "www.9qihuo.com",
+        "url": "https://www.9qihuo.com/",
+        "ip": [
+          "47.101.166.114"
+        ],
+        "status": 403,
+        "error": ""
+      },
+      {
+        "host": "www.9qihuo.com",
+        "url": "https://www.9qihuo.com/qihuoshouxufei",
+        "ip": [
+          "47.101.166.114"
+        ],
+        "status": 403,
+        "error": ""
+      },
+      {
+        "host": "www.9qihuo.com",
+        "url": "https://www.9qihuo.com/qiquanshouxufei",
+        "ip": [
+          "47.101.166.114"
+        ],
+        "status": 403,
+        "error": ""
+      }
+    ]
+  },
+  {
+    "root_domain": "amac.org.cn",
+    "ips": [
+      "1.56.98.184",
+      "116.169.183.111",
+      "116.178.78.215",
+      "120.86.187.183",
+      "211.93.211.158",
+      "221.204.15.51",
+      "36.35.39.162",
+      "42.236.90.50"
+    ],
+    "hosts": [
+      "gs.amac.org.cn",
+      "human.amac.org.cn"
+    ],
+    "evidence": [
+      {
+        "host": "gs.amac.org.cn",
+        "url": "https://gs.amac.org.cn/amac-infodisc/api/aoin/product",
+        "ip": [
+          "1.56.98.184",
+          "116.169.183.111",
+          "116.178.78.215",
+          "211.93.211.158",
+          "221.204.15.51",
+          "36.35.39.162",
+          "42.236.90.50"
+        ],
+        "status": 500,
+        "error": ""
+      },
+      {
+        "host": "gs.amac.org.cn",
+        "url": "https://gs.amac.org.cn/amac-infodisc/api/cancelled/manager",
+        "ip": [
+          "1.56.98.184",
+          "116.169.183.111",
+          "116.178.78.215",
+          "211.93.211.158",
+          "221.204.15.51",
+          "36.35.39.162",
+          "42.236.90.50"
+        ],
+        "status": 500,
+        "error": ""
+      },
+      {
+        "host": "human.amac.org.cn",
+        "url": "https://human.amac.org.cn/web/api/publicityAddress?rand=0.6288001872566391&pageNum=1&pageSize=5000",
+        "ip": [
+          "120.86.187.183"
+        ],
+        "status": null,
+        "error": "SSLError: HTTPSConnectionPool(host='human.amac.org.cn', port=443): Max retries exceeded with url: /web/api/publicityAddress?rand=0.6288001872566391&pageNum=1&pageSize=5000 (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1032)')))"
+      },
+      {
+        "host": "human.amac.org.cn",
+        "url": "https://human.amac.org.cn/web/org/personPublicity.html",
+        "ip": [
+          "120.86.187.183"
+        ],
+        "status": null,
+        "error": "SSLError: HTTPSConnectionPool(host='human.amac.org.cn', port=443): Max retries exceeded with url: /web/org/personPublicity.html (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1032)')))"
+      }
+    ]
+  },
+  {
+    "root_domain": "bjets.com.cn",
+    "ips": [
+      "36.158.231.193",
+      "36.158.231.194"
+    ],
+    "hosts": [
+      "www.bjets.com.cn"
+    ],
+    "evidence": [
+      {
+        "host": "www.bjets.com.cn",
+        "url": "https://www.bjets.com.cn/article/jyxx/",
+        "ip": [
+          "36.158.231.193",
+          "36.158.231.194"
+        ],
+        "status": 502,
+        "error": ""
+      }
+    ]
+  },
+  {
+    "root_domain": "bloomberg.com",
+    "ips": [
+      "151.101.1.73",
+      "151.101.129.73",
+      "151.101.193.73",
+      "151.101.65.73"
+    ],
+    "hosts": [
+      "www.bloomberg.com"
+    ],
+    "evidence": [
+      {
+        "host": "www.bloomberg.com",
+        "url": "https://www.bloomberg.com/",
+        "ip": [
+          "151.101.1.73",
+          "151.101.129.73",
+          "151.101.193.73",
+          "151.101.65.73"
+        ],
+        "status": null,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='www.bloomberg.com', port=443): Read timed out. (read timeout=4)"
+      },
+      {
+        "host": "www.bloomberg.com",
+        "url": "https://www.bloomberg.com/billionaires",
+        "ip": [
+          "151.101.1.73",
+          "151.101.129.73",
+          "151.101.193.73",
+          "151.101.65.73"
+        ],
+        "status": null,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='www.bloomberg.com', port=443): Read timed out. (read timeout=4)"
+      },
+      {
+        "host": "www.bloomberg.com",
+        "url": "https://www.bloomberg.com/billionaires/",
+        "ip": [
+          "151.101.1.73",
+          "151.101.129.73",
+          "151.101.193.73",
+          "151.101.65.73"
+        ],
+        "status": null,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='www.bloomberg.com', port=443): Read timed out. (read timeout=4)"
+      }
+    ]
+  },
+  {
+    "root_domain": "cerx.cn",
+    "ips": [
+      "183.62.141.75"
+    ],
+    "hosts": [
+      "www.cerx.cn"
+    ],
+    "evidence": [
+      {
+        "host": "www.cerx.cn",
+        "url": "http://www.cerx.cn/dailynewsCN/index.htm",
+        "ip": [
+          "183.62.141.75"
+        ],
+        "status": null,
+        "error": "ReadTimeout: HTTPConnectionPool(host='www.cerx.cn', port=80): Read timed out. (read timeout=8)"
+      },
+      {
+        "host": "www.cerx.cn",
+        "url": "http://www.cerx.cn/dailynewsOuter/index.htm",
+        "ip": [
+          "183.62.141.75"
+        ],
+        "status": null,
+        "error": "ReadTimeout: HTTPConnectionPool(host='www.cerx.cn', port=80): Read timed out. (read timeout=8)"
+      }
+    ]
+  },
+  {
+    "root_domain": "chinamoney.org.cn",
+    "ips": [
+      "180.168.81.211"
+    ],
+    "hosts": [
+      "www.chinamoney.org.cn"
+    ],
+    "evidence": [
+      {
+        "host": "www.chinamoney.org.cn",
+        "url": "https://www.chinamoney.org.cn/chinese/bkcurvfsw",
+        "ip": [
+          "180.168.81.211"
+        ],
+        "status": null,
+        "error": "SSLError: HTTPSConnectionPool(host='www.chinamoney.org.cn', port=443): Max retries exceeded with url: /chinese/bkcurvfsw (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1032)')))"
+      },
+      {
+        "host": "www.chinamoney.org.cn",
+        "url": "https://www.chinamoney.org.cn/r/cms/www/chinamoney/data/fx/fx-c-sw-curv-USD.CNY.json",
+        "ip": [
+          "180.168.81.211"
+        ],
+        "status": null,
+        "error": "SSLError: HTTPSConnectionPool(host='www.chinamoney.org.cn', port=443): Max retries exceeded with url: /r/cms/www/chinamoney/data/fx/fx-c-sw-curv-USD.CNY.json (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1032)')))"
+      }
+    ]
+  },
+  {
+    "root_domain": "dce.com.cn",
+    "ips": [],
+    "hosts": [
+      "portal.dce.com.cn"
+    ],
+    "evidence": [
+      {
+        "host": "portal.dce.com.cn",
+        "url": "http://portal.dce.com.cn",
+        "ip": [],
+        "status": null,
+        "error": "ConnectionError: HTTPConnectionPool(host='portal.dce.com.cn', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='portal.dce.com.cn', port=80): Failed to resolve 'portal.dce.com.cn' ([Errno 11001] getaddrinfo failed)\"))"
+      },
+      {
+        "host": "portal.dce.com.cn",
+        "url": "http://portal.dce.com.cn/publicweb/quotesdata/dayQuotesCh.html",
+        "ip": [],
+        "status": null,
+        "error": "ConnectionError: HTTPConnectionPool(host='portal.dce.com.cn', port=80): Max retries exceeded with url: /publicweb/quotesdata/dayQuotesCh.html (Caused by NameResolutionError(\"HTTPConnection(host='portal.dce.com.cn', port=80): Failed to resolve 'portal.dce.com.cn' ([Errno 11001] getaddrinfo failed)\"))"
+      },
+      {
+        "host": "portal.dce.com.cn",
+        "url": "http://portal.dce.com.cn/publicweb/quotesdata/exportDayQuotesChData.html",
+        "ip": [],
+        "status": null,
+        "error": "ConnectionError: HTTPConnectionPool(host='portal.dce.com.cn', port=80): Max retries exceeded with url: /publicweb/quotesdata/exportDayQuotesChData.html (Caused by NameResolutionError(\"HTTPConnection(host='portal.dce.com.cn', port=80): Failed to resolve 'portal.dce.com.cn' ([Errno 11001] getaddrinfo failed)\"))"
+      }
+    ]
+  },
+  {
+    "root_domain": "eastmoney.com",
+    "ips": [
+      "61.129.129.199"
+    ],
+    "hosts": [
+      "push2his.eastmoney.com"
+    ],
+    "evidence": [
+      {
+        "host": "push2his.eastmoney.com",
+        "url": "https://push2his.eastmoney.com/api/qt/stock/kline/get",
+        "ip": [
+          "61.129.129.199"
+        ],
+        "status": null,
+        "error": "RemoteDisconnected during stock/index history endpoint probe"
+      }
+    ]
+  },
+  {
+    "root_domain": "forbeschina.com",
+    "ips": [
+      "47.52.123.208"
+    ],
+    "hosts": [
+      "www.forbeschina.com"
+    ],
+    "evidence": [
+      {
+        "host": "www.forbeschina.com",
+        "url": "https://www.forbeschina.com",
+        "ip": [
+          "47.52.123.208"
+        ],
+        "status": null,
+        "error": "SSLError: HTTPSConnectionPool(host='www.forbeschina.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
+      },
+      {
+        "host": "www.forbeschina.com",
+        "url": "https://www.forbeschina.com/lists",
+        "ip": [
+          "47.52.123.208"
+        ],
+        "status": null,
+        "error": "SSLError: HTTPSConnectionPool(host='www.forbeschina.com', port=443): Max retries exceeded with url: /lists (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
+      },
+      {
+        "host": "www.forbeschina.com",
+        "url": "https://www.forbeschina.com/lists/1750",
+        "ip": [
+          "47.52.123.208"
+        ],
+        "status": null,
+        "error": "SSLError: HTTPSConnectionPool(host='www.forbeschina.com', port=443): Max retries exceeded with url: /lists/1750 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
+      }
+    ]
+  },
+  {
+    "root_domain": "hexun.com",
+    "ips": [],
+    "hosts": [
+      "webusstock.hermes.hexun.com"
+    ],
+    "evidence": [
+      {
+        "host": "webusstock.hermes.hexun.com",
+        "url": "http://webusstock.hermes.hexun.com/usa/kline",
+        "ip": [],
+        "status": null,
+        "error": "ConnectionError: HTTPConnectionPool(host='webusstock.hermes.hexun.com', port=80): Max retries exceeded with url: /usa/kline (Caused by NameResolutionError(\"HTTPConnection(host='webusstock.hermes.hexun.com', port=80): Failed to resolve 'webusstock.hermes.hexun.com' ([Errno 11001] getaddrinfo failed)\"))"
+      }
+    ]
+  },
+  {
+    "root_domain": "ikuyu.cn",
+    "ips": [],
+    "hosts": [
+      "service.ikuyu.cn"
+    ],
+    "evidence": [
+      {
+        "host": "service.ikuyu.cn",
+        "url": "http://service.ikuyu.cn/XinCaiFu2/pcremoting/bdListAction.do",
+        "ip": [],
+        "status": null,
+        "error": "ConnectionError: HTTPConnectionPool(host='service.ikuyu.cn', port=80): Max retries exceeded with url: /XinCaiFu2/pcremoting/bdListAction.do (Caused by NameResolutionError(\"HTTPConnection(host='service.ikuyu.cn', port=80): Failed to resolve 'service.ikuyu.cn' ([Errno 11001] getaddrinfo failed)\"))"
+      }
+    ]
+  },
+  {
+    "root_domain": "investing.com",
+    "ips": [
+      "104.18.32.151",
+      "172.64.155.105"
+    ],
+    "hosts": [
+      "cn.investing.com"
+    ],
+    "evidence": [
+      {
+        "host": "cn.investing.com",
+        "url": "https://cn.investing.com",
+        "ip": [
+          "104.18.32.151",
+          "172.64.155.105"
+        ],
+        "status": null,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='cn.investing.com', port=443): Read timed out. (read timeout=4)"
+      },
+      {
+        "host": "cn.investing.com",
+        "url": "https://cn.investing.com/commodities/brent-oil-historical-data",
+        "ip": [
+          "104.18.32.151",
+          "172.64.155.105"
+        ],
+        "status": null,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='cn.investing.com', port=443): Read timed out. (read timeout=4)"
+      },
+      {
+        "host": "cn.investing.com",
+        "url": "https://cn.investing.com/currencies/",
+        "ip": [
+          "104.18.32.151",
+          "172.64.155.105"
+        ],
+        "status": null,
+        "error": "ReadTimeout: HTTPSConnectionPool(host='cn.investing.com', port=443): Read timed out. (read timeout=4)"
+      }
+    ]
+  },
+  {
+    "root_domain": "jin10.com",
+    "ips": [
+      "114.215.172.231",
+      "120.55.71.177",
+      "121.40.128.214",
+      "121.40.189.47",
+      "121.40.195.238",
+      "121.40.226.146",
+      "218.244.148.250",
+      "218.244.149.96",
+      "47.96.218.159",
+      "47.99.184.42"
+    ],
+    "hosts": [
+      "datacenter-api.jin10.com",
+      "mp-api.jin10.com"
+    ],
+    "evidence": [
+      {
+        "host": "datacenter-api.jin10.com",
+        "url": "https://datacenter-api.jin10.com/bitcoin_treasuries/list",
+        "ip": [
+          "120.55.71.177",
+          "121.40.128.214",
+          "121.40.189.47",
+          "121.40.195.238",
+          "121.40.226.146"
+        ],
+        "status": 502,
+        "error": ""
+      },
+      {
+        "host": "datacenter-api.jin10.com",
+        "url": "https://datacenter-api.jin10.com/crypto_currency/list",
+        "ip": [
+          "120.55.71.177",
+          "121.40.128.214",
+          "121.40.189.47",
+          "121.40.195.238",
+          "121.40.226.146"
+        ],
+        "status": 502,
+        "error": ""
+      },
+      {
+        "host": "datacenter-api.jin10.com",
+        "url": "https://datacenter-api.jin10.com/reports/dates",
+        "ip": [
+          "120.55.71.177",
+          "121.40.128.214",
+          "121.40.189.47",
+          "121.40.195.238",
+          "121.40.226.146"
+        ],
+        "status": 502,
+        "error": ""
+      },
+      {
+        "host": "mp-api.jin10.com",
+        "url": "https://mp-api.jin10.com/api/dynamic-data/child",
+        "ip": [
+          "114.215.172.231",
+          "218.244.148.250",
+          "218.244.149.96",
+          "47.96.218.159",
+          "47.99.184.42"
+        ],
+        "status": 502,
+        "error": ""
+      }
+    ]
+  },
+  {
+    "root_domain": "meranda.us",
+    "ips": [
+      "66.117.209.18"
+    ],
+    "hosts": [
+      "deron.meranda.us"
+    ],
+    "evidence": [
+      {
+        "host": "deron.meranda.us",
+        "url": "http://deron.meranda.us/",
+        "ip": [
+          "66.117.209.18"
+        ],
+        "status": null,
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))"
+      },
+      {
+        "host": "deron.meranda.us",
+        "url": "http://deron.meranda.us/python/demjson/",
+        "ip": [
+          "66.117.209.18"
+        ],
+        "status": null,
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))"
+      }
+    ]
+  },
+  {
+    "root_domain": "ownthink.com",
+    "ips": [
+      "47.116.79.13"
+    ],
+    "hosts": [
+      "api.ownthink.com"
+    ],
+    "evidence": [
+      {
+        "host": "api.ownthink.com",
+        "url": "https://api.ownthink.com/bot",
+        "ip": [
+          "47.116.79.13"
+        ],
+        "status": null,
+        "error": "SSLError: HTTPSConnectionPool(host='api.ownthink.com', port=443): Max retries exceeded with url: /bot (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"
+      },
+      {
+        "host": "api.ownthink.com",
+        "url": "https://api.ownthink.com/kg/knowledge",
+        "ip": [
+          "47.116.79.13"
+        ],
+        "status": null,
+        "error": "SSLError: HTTPSConnectionPool(host='api.ownthink.com', port=443): Max retries exceeded with url: /kg/knowledge (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))"
+      }
+    ]
+  },
+  {
+    "root_domain": "ox.ac.uk",
+    "ips": [],
+    "hosts": [
+      "realized.oxford-man.ox.ac.uk"
+    ],
+    "evidence": [
+      {
+        "host": "realized.oxford-man.ox.ac.uk",
+        "url": "https://realized.oxford-man.ox.ac.uk/?from=groupmessage&isappinstalled=0",
+        "ip": [],
+        "status": null,
+        "error": "ConnectionError: HTTPSConnectionPool(host='realized.oxford-man.ox.ac.uk', port=443): Max retries exceeded with url: /?from=groupmessage&isappinstalled=0 (Caused by NameResolutionError(\"HTTPSConnection(host='realized.oxford-man.ox.ac.uk', port=443): Failed to resolve 'realized.oxford-man.ox.ac.uk' ([Errno 11001] getaddrinfo failed)\"))"
+      },
+      {
+        "host": "realized.oxford-man.ox.ac.uk",
+        "url": "https://realized.oxford-man.ox.ac.uk/theme/js/front-page-chart.js",
+        "ip": [],
+        "status": null,
+        "error": "ConnectionError: HTTPSConnectionPool(host='realized.oxford-man.ox.ac.uk', port=443): Max retries exceeded with url: /theme/js/front-page-chart.js (Caused by NameResolutionError(\"HTTPSConnection(host='realized.oxford-man.ox.ac.uk', port=443): Failed to resolve 'realized.oxford-man.ox.ac.uk' ([Errno 11001] getaddrinfo failed)\"))"
+      },
+      {
+        "host": "realized.oxford-man.ox.ac.uk",
+        "url": "https://realized.oxford-man.ox.ac.uk/theme/js/visualization-data.js?20191111113154",
+        "ip": [],
+        "status": null,
+        "error": "ConnectionError: HTTPSConnectionPool(host='realized.oxford-man.ox.ac.uk', port=443): Max retries exceeded with url: /theme/js/visualization-data.js?20191111113154 (Caused by NameResolutionError(\"HTTPSConnection(host='realized.oxford-man.ox.ac.uk', port=443): Failed to resolve 'realized.oxford-man.ox.ac.uk' ([Errno 11001] getaddrinfo failed)\"))"
+      }
+    ]
+  },
+  {
+    "root_domain": "shfe.com.cn",
+    "ips": [],
+    "hosts": [
+      "tsite.shfe.com.cn"
+    ],
+    "evidence": [
+      {
+        "host": "tsite.shfe.com.cn",
+        "url": "http://tsite.shfe.com.cn/data/dailydata/%sdailystock.dat",
+        "ip": [],
+        "status": null,
+        "error": "ConnectionError: HTTPConnectionPool(host='tsite.shfe.com.cn', port=80): Max retries exceeded with url: /data/dailydata/%25sdailystock.dat (Caused by NameResolutionError(\"HTTPConnection(host='tsite.shfe.com.cn', port=80): Failed to resolve 'tsite.shfe.com.cn' ([Errno 11001] getaddrinfo failed)\"))"
+      },
+      {
+        "host": "tsite.shfe.com.cn",
+        "url": "http://tsite.shfe.com.cn/data/dailydata/%sdailystock.html",
+        "ip": [],
+        "status": null,
+        "error": "ConnectionError: HTTPConnectionPool(host='tsite.shfe.com.cn', port=80): Max retries exceeded with url: /data/dailydata/%25sdailystock.html (Caused by NameResolutionError(\"HTTPConnection(host='tsite.shfe.com.cn', port=80): Failed to resolve 'tsite.shfe.com.cn' ([Errno 11001] getaddrinfo failed)\"))"
+      },
+      {
+        "host": "tsite.shfe.com.cn",
+        "url": "http://tsite.shfe.com.cn/data/dailydata/ck/%sdailyTimePrice.dat",
+        "ip": [],
+        "status": null,
+        "error": "ConnectionError: HTTPConnectionPool(host='tsite.shfe.com.cn', port=80): Max retries exceeded with url: /data/dailydata/ck/%25sdailyTimePrice.dat (Caused by NameResolutionError(\"HTTPConnection(host='tsite.shfe.com.cn', port=80): Failed to resolve 'tsite.shfe.com.cn' ([Errno 11001] getaddrinfo failed)\"))"
+      }
+    ]
+  },
+  {
+    "root_domain": "sinajs.cn",
+    "ips": [
+      "125.94.246.104"
+    ],
+    "hosts": [
+      "hq.sinajs.cn"
+    ],
+    "evidence": [
+      {
+        "host": "hq.sinajs.cn",
+        "url": "https://hq.sinajs.cn/",
+        "ip": [
+          "125.94.246.104"
+        ],
+        "status": 403,
+        "error": ""
+      },
+      {
+        "host": "hq.sinajs.cn",
+        "url": "https://hq.sinajs.cn/?list=USDCNY",
+        "ip": [
+          "125.94.246.104"
+        ],
+        "status": 403,
+        "error": ""
+      },
+      {
+        "host": "hq.sinajs.cn",
+        "url": "https://hq.sinajs.cn/list=OP_DOWN_",
+        "ip": [
+          "125.94.246.104"
+        ],
+        "status": 403,
+        "error": ""
+      }
+    ]
+  },
+  {
+    "root_domain": "sse.com.cn",
+    "ips": [],
+    "hosts": [
+      "kcb.sse.com.cn"
+    ],
+    "evidence": [
+      {
+        "host": "kcb.sse.com.cn",
+        "url": "http://kcb.sse.com.cn/",
+        "ip": [],
+        "status": null,
+        "error": "ConnectionError: HTTPConnectionPool(host='kcb.sse.com.cn', port=80): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPConnection(host='kcb.sse.com.cn', port=80): Failed to resolve 'kcb.sse.com.cn' ([Errno 11001] getaddrinfo failed)\"))"
+      },
+      {
+        "host": "kcb.sse.com.cn",
+        "url": "http://kcb.sse.com.cn/renewal/#",
+        "ip": [],
+        "status": null,
+        "error": "ConnectionError: HTTPConnectionPool(host='kcb.sse.com.cn', port=80): Max retries exceeded with url: /renewal/ (Caused by NameResolutionError(\"HTTPConnection(host='kcb.sse.com.cn', port=80): Failed to resolve 'kcb.sse.com.cn' ([Errno 11001] getaddrinfo failed)\"))"
+      },
+      {
+        "host": "kcb.sse.com.cn",
+        "url": "http://kcb.sse.com.cn/renewal/xmxq/index.shtml?auditId=926&anchor_type=0",
+        "ip": [],
+        "status": null,
+        "error": "ConnectionError: HTTPConnectionPool(host='kcb.sse.com.cn', port=80): Max retries exceeded with url: /renewal/xmxq/index.shtml?auditId=926&anchor_type=0 (Caused by NameResolutionError(\"HTTPConnection(host='kcb.sse.com.cn', port=80): Failed to resolve 'kcb.sse.com.cn' ([Errno 11001] getaddrinfo failed)\"))"
+      }
+    ]
+  },
+  {
+    "root_domain": "super-ping.com",
+    "ips": [
+      "46.62.237.138",
+      "5.161.47.86",
+      "5.78.156.59",
+      "76.223.91.20"
+    ],
+    "hosts": [
+      "www.super-ping.com"
+    ],
+    "evidence": [
+      {
+        "host": "www.super-ping.com",
+        "url": "http://www.super-ping.com/?ping=www.google.com&locale=sc",
+        "ip": [
+          "46.62.237.138",
+          "5.161.47.86",
+          "5.78.156.59",
+          "76.223.91.20"
+        ],
+        "status": null,
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))"
+      }
+    ]
+  },
+  {
+    "root_domain": "swhyresearch.com",
+    "ips": [
+      "222.73.228.211"
+    ],
+    "hosts": [
+      "www.swhyresearch.com"
+    ],
+    "evidence": [
+      {
+        "host": "www.swhyresearch.com",
+        "url": "http://www.swhyresearch.com/institute_sw/allIndex/downloadCenter/industryType",
+        "ip": [
+          "222.73.228.211"
+        ],
+        "status": null,
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))"
+      }
+    ]
+  },
+  {
+    "root_domain": "swsindex.com",
+    "ips": [
+      "222.73.228.201"
+    ],
+    "hosts": [
+      "www.swsindex.com"
+    ],
+    "evidence": [
+      {
+        "host": "www.swsindex.com",
+        "url": "http://www.swsindex.com",
+        "ip": [
+          "222.73.228.201"
+        ],
+        "status": null,
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))"
+      },
+      {
+        "host": "www.swsindex.com",
+        "url": "http://www.swsindex.com/handler.aspx",
+        "ip": [
+          "222.73.228.201"
+        ],
+        "status": null,
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))"
+      },
+      {
+        "host": "www.swsindex.com",
+        "url": "http://www.swsindex.com/idx0120.aspx?columnid=8832",
+        "ip": [
+          "222.73.228.201"
+        ],
+        "status": null,
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))"
+      }
+    ]
+  },
+  {
+    "root_domain": "swsresearch.com",
+    "ips": [
+      "202.122.119.203"
+    ],
+    "hosts": [
+      "www.swsresearch.com"
+    ],
+    "evidence": [
+      {
+        "host": "www.swsresearch.com",
+        "url": "https://www.swsresearch.com/insWechatSw/dflgOrJcIndex/pageList",
+        "ip": [
+          "202.122.119.203"
+        ],
+        "status": null,
+        "error": "SSLError: HTTPSConnectionPool(host='www.swsresearch.com', port=443): Max retries exceeded with url: /insWechatSw/dflgOrJcIndex/pageList (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
+      },
+      {
+        "host": "www.swsresearch.com",
+        "url": "https://www.swsresearch.com/insWechatSw/fundIndex/getFundKChartData",
+        "ip": [
+          "202.122.119.203"
+        ],
+        "status": null,
+        "error": "SSLError: HTTPSConnectionPool(host='www.swsresearch.com', port=443): Max retries exceeded with url: /insWechatSw/fundIndex/getFundKChartData (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
+      },
+      {
+        "host": "www.swsresearch.com",
+        "url": "https://www.swsresearch.com/insWechatSw/fundIndex/pageList",
+        "ip": [
+          "202.122.119.203"
+        ],
+        "status": null,
+        "error": "SSLError: HTTPSConnectionPool(host='www.swsresearch.com', port=443): Max retries exceeded with url: /insWechatSw/fundIndex/pageList (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
+      }
+    ]
+  },
+  {
+    "root_domain": "timeanddate.com",
+    "ips": [
+      "104.18.20.57",
+      "104.18.21.57"
+    ],
+    "hosts": [
+      "www.timeanddate.com"
+    ],
+    "evidence": [
+      {
+        "host": "www.timeanddate.com",
+        "url": "https://www.timeanddate.com",
+        "ip": [
+          "104.18.20.57",
+          "104.18.21.57"
+        ],
+        "status": 403,
+        "error": ""
+      },
+      {
+        "host": "www.timeanddate.com",
+        "url": "https://www.timeanddate.com/astronomy/china",
+        "ip": [
+          "104.18.20.57",
+          "104.18.21.57"
+        ],
+        "status": 403,
+        "error": ""
+      },
+      {
+        "host": "www.timeanddate.com",
+        "url": "https://www.timeanddate.com/astronomy/china/shaoxing",
+        "ip": [
+          "104.18.20.57",
+          "104.18.21.57"
+        ],
+        "status": 403,
+        "error": ""
+      }
+    ]
+  },
+  {
+    "root_domain": "ushknews.com",
+    "ips": [
+      "120.55.71.177",
+      "121.40.128.214",
+      "121.40.189.47",
+      "121.40.195.238",
+      "121.40.226.146"
+    ],
+    "hosts": [
+      "calendar-api.ushknews.com"
+    ],
+    "evidence": [
+      {
+        "host": "calendar-api.ushknews.com",
+        "url": "https://calendar-api.ushknews.com/getWebTargetPriceList",
+        "ip": [
+          "120.55.71.177",
+          "121.40.128.214",
+          "121.40.189.47",
+          "121.40.195.238",
+          "121.40.226.146"
+        ],
+        "status": 502,
+        "error": ""
+      }
+    ]
+  },
+  {
+    "root_domain": "wikipedia.org",
+    "ips": [
+      "198.35.26.224"
+    ],
+    "hosts": [
+      "en.wikipedia.org"
+    ],
+    "evidence": [
+      {
+        "host": "en.wikipedia.org",
+        "url": "http://en.wikipedia.org/wiki/UTF-32",
+        "ip": [
+          "198.35.26.224"
+        ],
+        "status": null,
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))"
+      },
+      {
+        "host": "en.wikipedia.org",
+        "url": "http://en.wikipedia.org/wiki/Unicode_control_characters",
+        "ip": [
+          "198.35.26.224"
+        ],
+        "status": null,
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))"
+      }
+    ]
+  },
+  {
+    "root_domain": "zjpwq.net",
+    "ips": [],
+    "hosts": [
+      "zs.zjpwq.net"
+    ],
+    "evidence": [
+      {
+        "host": "zs.zjpwq.net",
+        "url": "https://zs.zjpwq.net",
+        "ip": [],
+        "status": null,
+        "error": "ConnectionError: HTTPSConnectionPool(host='zs.zjpwq.net', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='zs.zjpwq.net', port=443): Failed to resolve 'zs.zjpwq.net' ([Errno 11001] getaddrinfo failed)\"))"
+      },
+      {
+        "host": "zs.zjpwq.net",
+        "url": "https://zs.zjpwq.net/",
+        "ip": [],
+        "status": null,
+        "error": "ConnectionError: HTTPSConnectionPool(host='zs.zjpwq.net', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='zs.zjpwq.net', port=443): Failed to resolve 'zs.zjpwq.net' ([Errno 11001] getaddrinfo failed)\"))"
+      },
+      {
+        "host": "zs.zjpwq.net",
+        "url": "https://zs.zjpwq.net/pwq-index-webapi/dataStatistics",
+        "ip": [],
+        "status": null,
+        "error": "ConnectionError: HTTPSConnectionPool(host='zs.zjpwq.net', port=443): Max retries exceeded with url: /pwq-index-webapi/dataStatistics (Caused by NameResolutionError(\"HTTPSConnection(host='zs.zjpwq.net', port=443): Failed to resolve 'zs.zjpwq.net' ([Errno 11001] getaddrinfo failed)\"))"
+      }
+    ]
+  }
+]

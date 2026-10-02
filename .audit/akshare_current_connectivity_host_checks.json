@@ -1,0 +1,4792 @@
+[
+  {
+    "host": "1.optbbs.com",
+    "root_domain": "optbbs.com",
+    "dns_ips": [
+      "47.96.186.151"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://1.optbbs.com/d/csv/d/vixindex1000.csv",
+        "status": 200,
+        "elapsed_sec": 0.192,
+        "bytes": 4705
+      },
+      {
+        "url": "http://1.optbbs.com/d/csv/d/vix50index.csv",
+        "status": 200,
+        "elapsed_sec": 0.027,
+        "bytes": 4708
+      }
+    ]
+  },
+  {
+    "host": "15.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://15.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.744
+      }
+    ]
+  },
+  {
+    "host": "16.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://16.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.735
+      }
+    ]
+  },
+  {
+    "host": "17.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://17.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.746
+      }
+    ]
+  },
+  {
+    "host": "2.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://2.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.771
+      }
+    ]
+  },
+  {
+    "host": "23.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://23.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.742
+      }
+    ]
+  },
+  {
+    "host": "28.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://28.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.766
+      }
+    ]
+  },
+  {
+    "host": "29.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://29.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.739
+      }
+    ]
+  },
+  {
+    "host": "33.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://33.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.613
+      }
+    ]
+  },
+  {
+    "host": "33.push2his.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "101.226.30.221"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://33.push2his.eastmoney.com/api/qt/stock/kline/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.631
+      }
+    ]
+  },
+  {
+    "host": "40.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://40.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.714
+      }
+    ]
+  },
+  {
+    "host": "48.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://48.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.703
+      }
+    ]
+  },
+  {
+    "host": "5.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://5.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.733
+      }
+    ]
+  },
+  {
+    "host": "63.push2his.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "101.226.30.221"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://63.push2his.eastmoney.com/api/qt/stock/kline/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.635
+      }
+    ]
+  },
+  {
+    "host": "69.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://69.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.728
+      }
+    ]
+  },
+  {
+    "host": "7.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://7.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.735
+      }
+    ]
+  },
+  {
+    "host": "7.push2his.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "101.226.30.221"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://7.push2his.eastmoney.com/api/qt/stock/kline/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.573
+      },
+      {
+        "url": "http://7.push2his.eastmoney.com/api/qt/stock/kline/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.024
+      }
+    ]
+  },
+  {
+    "host": "70.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://70.push2.eastmoney.com/api/qt/stock/details/sse",
+        "status": 200,
+        "elapsed_sec": 0.726,
+        "bytes": 91
+      }
+    ]
+  },
+  {
+    "host": "72.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://72.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.704
+      }
+    ]
+  },
+  {
+    "host": "79.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://79.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.769
+      }
+    ]
+  },
+  {
+    "host": "80.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://80.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.723
+      }
+    ]
+  },
+  {
+    "host": "81.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://81.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.721
+      }
+    ]
+  },
+  {
+    "host": "82.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://82.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.718
+      }
+    ]
+  },
+  {
+    "host": "88.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://88.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.732
+      }
+    ]
+  },
+  {
+    "host": "91.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://91.push2.eastmoney.com/api/qt/stock/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.659
+      }
+    ]
+  },
+  {
+    "host": "91.push2his.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "101.226.30.221"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://91.push2his.eastmoney.com/api/qt/stock/kline/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.479
+      }
+    ]
+  },
+  {
+    "host": "95.push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://95.push2.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.605
+      }
+    ]
+  },
+  {
+    "host": "akshare.akfamily.xyz",
+    "root_domain": "akfamily.xyz",
+    "dns_ips": [
+      "104.16.253.120",
+      "104.16.254.120"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://akshare.akfamily.xyz",
+        "status": 200,
+        "elapsed_sec": 1.005,
+        "bytes": 19280
+      }
+    ]
+  },
+  {
+    "host": "api-one-wscn.awtmt.com",
+    "root_domain": "awtmt.com",
+    "dns_ips": [
+      "49.51.38.130"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://api-one-wscn.awtmt.com/apiv1/finance/macrodatas",
+        "status": 200,
+        "elapsed_sec": 2.404,
+        "bytes": 14201
+      }
+    ]
+  },
+  {
+    "host": "api.currencyscoop.com",
+    "root_domain": "currencyscoop.com",
+    "dns_ips": [
+      "104.21.6.145",
+      "172.67.155.40"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://api.currencyscoop.com/v1/currencies",
+        "status": 301,
+        "elapsed_sec": 1.04,
+        "bytes": 167
+      },
+      {
+        "url": "https://api.currencyscoop.com/v1/historical",
+        "status": 301,
+        "elapsed_sec": 0.863,
+        "bytes": 167
+      }
+    ]
+  },
+  {
+    "host": "api.fund.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.254.146.201"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://api.fund.eastmoney.com/FundTradeRank/GetRankList",
+        "status": 200,
+        "elapsed_sec": 0.539,
+        "bytes": 99
+      },
+      {
+        "url": "https://api.fund.eastmoney.com/FundGuZhi/GetFundGZList",
+        "status": 200,
+        "elapsed_sec": 0.593,
+        "bytes": 99
+      }
+    ]
+  },
+  {
+    "host": "api.idx365.com",
+    "root_domain": "idx365.com",
+    "dns_ips": [
+      "202.91.240.139"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://api.idx365.com/index/project/34/data",
+        "status": 200,
+        "elapsed_sec": 0.609,
+        "bytes": 10147
+      }
+    ]
+  },
+  {
+    "host": "api.ownthink.com",
+    "root_domain": "ownthink.com",
+    "dns_ips": [
+      "47.116.79.13"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://api.ownthink.com/kg/knowledge",
+        "error": "SSLError: HTTPSConnectionPool(host='api.ownthink.com', port=443): Max retries exceeded with url: /kg/knowledge (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))",
+        "elapsed_sec": 0.607
+      },
+      {
+        "url": "https://api.ownthink.com/bot",
+        "error": "SSLError: HTTPSConnectionPool(host='api.ownthink.com', port=443): Max retries exceeded with url: /bot (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))",
+        "elapsed_sec": 0.494
+      }
+    ]
+  },
+  {
+    "host": "api.qhkch.com",
+    "root_domain": "qhkch.com",
+    "dns_ips": [
+      "119.3.2.214"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://api.qhkch.com",
+        "status": 302,
+        "elapsed_sec": 0.923,
+        "bytes": 54
+      }
+    ]
+  },
+  {
+    "host": "apiserver.chinagoods.com",
+    "root_domain": "chinagoods.com",
+    "dns_ips": [
+      "124.223.125.69"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://apiserver.chinagoods.com/yiwuindex/v1/active/industry/class/history/piweek?gcCode=",
+        "status": 200,
+        "elapsed_sec": 0.983,
+        "bytes": 115
+      },
+      {
+        "url": "https://apiserver.chinagoods.com/yiwuindex/v1/active/industry/class/history/month?gcCode=",
+        "status": 200,
+        "elapsed_sec": 0.648,
+        "bytes": 2042
+      }
+    ]
+  },
+  {
+    "host": "basic.10jqka.com.cn",
+    "root_domain": "10jqka.com.cn",
+    "dns_ips": [
+      "221.6.171.142",
+      "221.6.171.143"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://basic.10jqka.com.cn/astockpc/astockmain/index.html#/financen?code=000063",
+        "status": 200,
+        "elapsed_sec": 0.63,
+        "bytes": 12050
+      },
+      {
+        "url": "https://basic.10jqka.com.cn/api/stock/finance/000063_benefit.json",
+        "status": 200,
+        "elapsed_sec": 1.359,
+        "bytes": 473508
+      }
+    ]
+  },
+  {
+    "host": "biz.finance.sina.com.cn",
+    "root_domain": "sina.com.cn",
+    "dns_ips": [
+      "202.108.6.87"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://biz.finance.sina.com.cn/forex/forex.php?startdate=2012-01-01&enddate=2021-06-14&money_code=EUR&type=0",
+        "status": 200,
+        "elapsed_sec": 0.828,
+        "bytes": 133262
+      },
+      {
+        "url": "http://biz.finance.sina.com.cn/hq/qmxIndustryHq.php",
+        "status": 200,
+        "elapsed_sec": 0.197,
+        "bytes": 8699
+      }
+    ]
+  },
+  {
+    "host": "bond.finance.sina.com.cn",
+    "root_domain": "sina.com.cn",
+    "dns_ips": [
+      "202.108.6.87"
+    ],
+    "dns_error": "",
+    "checks": []
+  },
+  {
+    "host": "bond.sse.com.cn",
+    "root_domain": "sse.com.cn",
+    "dns_ips": [
+      "202.122.113.73"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://bond.sse.com.cn/data/statistics/overview/turnover/",
+        "status": 200,
+        "elapsed_sec": 0.099,
+        "bytes": 21295
+      },
+      {
+        "url": "http://bond.sse.com.cn/data/statistics/overview/bondow/",
+        "status": 200,
+        "elapsed_sec": 0.13,
+        "bytes": 21321
+      }
+    ]
+  },
+  {
+    "host": "calendar-api.ushknews.com",
+    "root_domain": "ushknews.com",
+    "dns_ips": [
+      "120.55.71.177",
+      "121.40.128.214",
+      "121.40.189.47",
+      "121.40.195.238",
+      "121.40.226.146"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://calendar-api.ushknews.com/getWebTargetPriceList",
+        "status": 502,
+        "elapsed_sec": 0.679,
+        "bytes": 0
+      }
+    ]
+  },
+  {
+    "host": "cctv.cntv.cn",
+    "root_domain": "cntv.cn",
+    "dns_ips": [
+      "211.95.35.138",
+      "211.95.37.69",
+      "211.95.52.245",
+      "211.95.52.65"
+    ],
+    "dns_error": "",
+    "checks": []
+  },
+  {
+    "host": "cdn.jin10.com",
+    "root_domain": "jin10.com",
+    "dns_ips": [
+      "139.227.230.38",
+      "139.227.230.39",
+      "139.227.230.40",
+      "139.227.230.41",
+      "140.207.63.157",
+      "140.207.63.160",
+      "140.207.63.161",
+      "140.207.63.162",
+      "211.95.51.13",
+      "211.95.51.14",
+      "211.95.51.15",
+      "211.95.51.16",
+      "211.95.51.17",
+      "211.95.51.18",
+      "211.95.51.19",
+      "211.95.51.20"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://cdn.jin10.com/dc/reports/dc_eurozone_sentix_investor_confidence_all.js?v=1578577195",
+        "status": 200,
+        "elapsed_sec": 0.662,
+        "bytes": 29165
+      },
+      {
+        "url": "https://cdn.jin10.com/dc/reports/dc_eurozone_industrial_production_mom_all.js?v=1578577377",
+        "status": 200,
+        "elapsed_sec": 0.617,
+        "bytes": 41343
+      }
+    ]
+  },
+  {
+    "host": "centerapi.fx168api.com",
+    "root_domain": "fx168api.com",
+    "dns_ips": [
+      "43.159.108.101",
+      "43.159.109.102"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://centerapi.fx168api.com/app/qh/api/stock/trend",
+        "status": 412,
+        "elapsed_sec": 1.533,
+        "bytes": 0
+      },
+      {
+        "url": "https://centerapi.fx168api.com/app/qh/api/spot/trend",
+        "status": 412,
+        "elapsed_sec": 1.387,
+        "bytes": 0
+      }
+    ]
+  },
+  {
+    "host": "cn.investing.com",
+    "root_domain": "investing.com",
+    "dns_ips": [
+      "104.18.32.151",
+      "172.64.155.105"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://cn.investing.com/commodities/brent-oil-historical-data",
+        "status": 403,
+        "elapsed_sec": 0.998,
+        "bytes": 3
+      },
+      {
+        "url": "https://cn.investing.com/currencies/eur-usd-historical-data",
+        "status": 403,
+        "elapsed_sec": 0.861,
+        "bytes": 3
+      }
+    ]
+  },
+  {
+    "host": "currencyscoop.com",
+    "root_domain": "currencyscoop.com",
+    "dns_ips": [
+      "104.21.6.145",
+      "172.67.155.40"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://currencyscoop.com/api-documentation",
+        "status": 301,
+        "elapsed_sec": 1.045,
+        "bytes": 167
+      },
+      {
+        "url": "https://currencyscoop.com/",
+        "status": 301,
+        "elapsed_sec": 0.869,
+        "bytes": 167
+      }
+    ]
+  },
+  {
+    "host": "cxdata.caixin.com",
+    "root_domain": "caixin.com",
+    "dns_ips": [
+      "106.3.129.148",
+      "218.245.1.79"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://cxdata.caixin.com/index/newsTab?tab=latest",
+        "status": 200,
+        "elapsed_sec": 0.721,
+        "bytes": 5320
+      },
+      {
+        "url": "https://cxdata.caixin.com/api/dataplus/sjtPc/news",
+        "status": 400,
+        "elapsed_sec": 0.68,
+        "bytes": 169
+      }
+    ]
+  },
+  {
+    "host": "d.10jqka.com.cn",
+    "root_domain": "10jqka.com.cn",
+    "dns_ips": [
+      "116.63.233.254",
+      "116.63.35.245"
+    ],
+    "dns_error": "",
+    "checks": []
+  },
+  {
+    "host": "dachxiu.chicagobooth.edu",
+    "root_domain": "chicagobooth.edu",
+    "dns_ips": [
+      "128.135.211.129"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://dachxiu.chicagobooth.edu/data.php",
+        "error": "ReadTimeout: HTTPSConnectionPool(host='dachxiu.chicagobooth.edu', port=443): Read timed out. (read timeout=8)",
+        "elapsed_sec": 8.947
+      },
+      {
+        "url": "https://dachxiu.chicagobooth.edu/",
+        "status": 200,
+        "elapsed_sec": 1.69,
+        "bytes": 72117
+      }
+    ]
+  },
+  {
+    "host": "danjuanfunds.com",
+    "root_domain": "danjuanfunds.com",
+    "dns_ips": [
+      "39.107.197.131"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://danjuanfunds.com/djapi/fund/base/quote/data/index/analysis/675091",
+        "status": 200,
+        "elapsed_sec": 0.664,
+        "bytes": 2279
+      },
+      {
+        "url": "https://danjuanfunds.com/djapi/fundx/base/fund/record/asset/percent",
+        "status": 200,
+        "elapsed_sec": 0.617,
+        "bytes": 50
+      }
+    ]
+  },
+  {
+    "host": "data.10jqka.com.cn",
+    "root_domain": "10jqka.com.cn",
+    "dns_ips": [
+      "221.6.171.142",
+      "221.6.171.143"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://data.10jqka.com.cn/ifmarket/lhbyyb/type/1/tab/zjsl/field/zgczje/sort/desc/page/1/",
+        "status": 200,
+        "elapsed_sec": 0.622,
+        "bytes": 15328
+      },
+      {
+        "url": "http://data.10jqka.com.cn/rank/cxfl/field/count/order/desc/ajax/1/free/1/page/1/free/1/",
+        "status": 401,
+        "elapsed_sec": 0.07,
+        "bytes": 523
+      }
+    ]
+  },
+  {
+    "host": "data.cpcadata.com",
+    "root_domain": "cpcadata.com",
+    "dns_ips": [
+      "106.12.191.143"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://data.cpcadata.com/api/chartlist_2",
+        "status": 500,
+        "elapsed_sec": 0.074,
+        "bytes": 125
+      },
+      {
+        "url": "http://data.cpcadata.com/CategoryMarket",
+        "status": 200,
+        "elapsed_sec": 0.051,
+        "bytes": 12661
+      }
+    ]
+  },
+  {
+    "host": "data.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "101.71.73.135",
+      "112.84.131.227",
+      "116.153.78.163",
+      "119.36.225.121",
+      "61.241.148.62"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://data.eastmoney.com/dxf/marketStatistics.html?type=day&startdate=2022-11-08&enddate=2022-12-19",
+        "status": 200,
+        "elapsed_sec": 0.645,
+        "bytes": 179773
+      },
+      {
+        "url": "https://data.eastmoney.com/executive/personinfo.html?name=%E5%90%B4%E8%BF%9C&code=001308",
+        "status": 200,
+        "elapsed_sec": 0.658,
+        "bytes": 175212
+      }
+    ]
+  },
+  {
+    "host": "data.mofcom.gov.cn",
+    "root_domain": "mofcom.gov.cn",
+    "dns_ips": [
+      "211.88.33.144"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://data.mofcom.gov.cn/datamofcom/front/gnmy/shrzgmQuery",
+        "status": 405,
+        "elapsed_sec": 0.68,
+        "bytes": 1088
+      },
+      {
+        "url": "https://data.mofcom.gov.cn/gnmy/shrzgm.shtml",
+        "status": 200,
+        "elapsed_sec": 0.62,
+        "bytes": 12504
+      }
+    ]
+  },
+  {
+    "host": "data.stats.gov.cn",
+    "root_domain": "stats.gov.cn",
+    "dns_ips": [
+      "122.190.204.82"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/getDaCatalogTreeByIndicatorCid",
+        "status": 200,
+        "elapsed_sec": 0.7,
+        "bytes": 21960
+      },
+      {
+        "url": "https://data.stats.gov.cn/dg/website/publicrelease/web/external/new/queryIndicatorsByCid",
+        "status": 200,
+        "elapsed_sec": 0.976,
+        "bytes": 3099
+      }
+    ]
+  },
+  {
+    "host": "data.weibo.com",
+    "root_domain": "weibo.com",
+    "dns_ips": [
+      "116.133.8.32",
+      "49.7.36.95"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://data.weibo.com/index/newindex",
+        "status": 301,
+        "elapsed_sec": 0.198,
+        "bytes": 0
+      },
+      {
+        "url": "https://data.weibo.com",
+        "status": 200,
+        "elapsed_sec": 1.087,
+        "bytes": 44551
+      }
+    ]
+  },
+  {
+    "host": "datacenter-api.jin10.com",
+    "root_domain": "jin10.com",
+    "dns_ips": [
+      "120.55.71.177",
+      "121.40.128.214",
+      "121.40.189.47",
+      "121.40.195.238",
+      "121.40.226.146"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://datacenter-api.jin10.com/bitcoin_treasuries/list",
+        "status": 502,
+        "elapsed_sec": 0.636,
+        "bytes": 0
+      },
+      {
+        "url": "https://datacenter-api.jin10.com/crypto_currency/list",
+        "status": 502,
+        "elapsed_sec": 0.586,
+        "bytes": 0
+      }
+    ]
+  },
+  {
+    "host": "datacenter-web.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "119.167.184.187",
+      "119.167.184.188",
+      "119.167.184.189",
+      "119.167.184.190",
+      "119.167.184.191",
+      "119.167.184.192",
+      "119.167.184.193",
+      "119.167.184.194"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://datacenter-web.eastmoney.com/api/data/v1/get",
+        "status": 200,
+        "elapsed_sec": 0.714,
+        "bytes": 95
+      },
+      {
+        "url": "http://datacenter-web.eastmoney.com/api/data/v1/get",
+        "status": 200,
+        "elapsed_sec": 0.14,
+        "bytes": 95
+      }
+    ]
+  },
+  {
+    "host": "datacenter.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "139.227.230.38",
+      "139.227.230.39",
+      "139.227.230.40",
+      "139.227.230.41",
+      "139.227.230.42",
+      "139.227.230.46",
+      "139.227.230.47",
+      "139.227.230.85",
+      "210.22.248.54",
+      "210.22.248.55",
+      "210.22.248.56",
+      "210.22.248.57",
+      "210.22.248.58",
+      "210.22.248.59",
+      "210.22.248.64",
+      "210.22.248.65"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://datacenter.eastmoney.com/securities/api/data/v1/get",
+        "status": 200,
+        "elapsed_sec": 0.602,
+        "bytes": 95
+      },
+      {
+        "url": "https://datacenter.eastmoney.com/securities/api/data/get",
+        "status": 200,
+        "elapsed_sec": 0.628,
+        "bytes": 95
+      }
+    ]
+  },
+  {
+    "host": "datacenter.jin10.com",
+    "root_domain": "jin10.com",
+    "dns_ips": [
+      "8.136.112.138"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://datacenter.jin10.com/reportType/dc_eurozone_sentix_investor_confidence",
+        "status": 200,
+        "elapsed_sec": 2.383,
+        "bytes": 26878
+      },
+      {
+        "url": "https://datacenter.jin10.com/reportType/dc_eurozone_industrial_production_mom",
+        "status": 200,
+        "elapsed_sec": 1.489,
+        "bytes": 26831
+      }
+    ]
+  },
+  {
+    "host": "deron.meranda.us",
+    "root_domain": "meranda.us",
+    "dns_ips": [
+      "66.117.209.18"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://deron.meranda.us/python/demjson/",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "elapsed_sec": 3.364
+      },
+      {
+        "url": "http://deron.meranda.us/",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "elapsed_sec": 3.21
+      }
+    ]
+  },
+  {
+    "host": "dict.openctp.cn",
+    "root_domain": "openctp.cn",
+    "dns_ips": [
+      "118.184.178.137"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://dict.openctp.cn/instruments?types=option",
+        "status": 200,
+        "elapsed_sec": 1.57,
+        "bytes": 21060365
+      }
+    ]
+  },
+  {
+    "host": "docs.static.szse.cn",
+    "root_domain": "szse.cn",
+    "dns_ips": [
+      "211.95.51.13",
+      "211.95.51.14",
+      "211.95.51.15",
+      "211.95.51.16",
+      "211.95.51.17",
+      "211.95.51.18",
+      "211.95.51.19",
+      "211.95.51.20"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://docs.static.szse.cn/www/market/periodical/month/W020220511355248518608.html",
+        "status": 200,
+        "elapsed_sec": 0.881,
+        "bytes": 22556
+      }
+    ]
+  },
+  {
+    "host": "eastmoneyfutures.com",
+    "root_domain": "eastmoneyfutures.com",
+    "dns_ips": [
+      "140.207.67.15"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://eastmoneyfutures.com/api/ComManage/GetPZJYInfo",
+        "status": 301,
+        "elapsed_sec": 0.527,
+        "bytes": 175
+      }
+    ]
+  },
+  {
+    "host": "emappdata.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.254.147.119"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://emappdata.eastmoney.com/stockrank/getFollowStockRankList",
+        "status": 200,
+        "elapsed_sec": 0.515,
+        "bytes": 87
+      },
+      {
+        "url": "https://emappdata.eastmoney.com/stockrank/getCurrentHkUsLatest",
+        "status": 200,
+        "elapsed_sec": 0.497,
+        "bytes": 87
+      }
+    ]
+  },
+  {
+    "host": "emweb.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "47.117.234.88"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://emweb.eastmoney.com/PC_USF10/pages/index.html?code=TSLA&type=web&color=w#/cwfx",
+        "status": 200,
+        "elapsed_sec": 0.52,
+        "bytes": 3977
+      }
+    ]
+  },
+  {
+    "host": "emweb.securities.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "139.227.230.38",
+      "139.227.230.39",
+      "139.227.230.40",
+      "139.227.230.41",
+      "139.227.230.42",
+      "139.227.230.46",
+      "139.227.230.47",
+      "139.227.230.85"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://emweb.securities.eastmoney.com/PC_HKF10/pages/home/index.html?code=03900&type=web&color=w#/IndustryComparison",
+        "status": 200,
+        "elapsed_sec": 0.544,
+        "bytes": 4749
+      },
+      {
+        "url": "https://emweb.securities.eastmoney.com/PC_HKF10/pages/home/index.html?code=03900&type=web&color=w#/CompanyProfile",
+        "status": 200,
+        "elapsed_sec": 0.477,
+        "bytes": 4749
+      }
+    ]
+  },
+  {
+    "host": "en.wikipedia.org",
+    "root_domain": "wikipedia.org",
+    "dns_ips": [
+      "198.35.26.224"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://en.wikipedia.org/wiki/Unicode_control_characters",
+        "status": 301,
+        "elapsed_sec": 0.456,
+        "bytes": 0
+      },
+      {
+        "url": "http://en.wikipedia.org/wiki/UTF-32",
+        "status": 301,
+        "elapsed_sec": 0.302,
+        "bytes": 0
+      }
+    ]
+  },
+  {
+    "host": "eniu.com",
+    "root_domain": "eniu.com",
+    "dns_ips": [
+      "47.99.63.82"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://eniu.com/static/data/stock_list.json",
+        "status": 200,
+        "elapsed_sec": 16.689,
+        "bytes": 797349
+      },
+      {
+        "url": "https://eniu.com/gu/hk01093/roe",
+        "status": 200,
+        "elapsed_sec": 0.879,
+        "bytes": 1884
+      }
+    ]
+  },
+  {
+    "host": "ets.cnemission.com",
+    "root_domain": "cnemission.com",
+    "dns_ips": [
+      "110.41.216.124",
+      "110.41.216.89",
+      "110.41.217.112",
+      "110.41.217.57"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://ets.cnemission.com/carbon/portalIndex/markethistory",
+        "status": 301,
+        "elapsed_sec": 0.515,
+        "bytes": 165
+      }
+    ]
+  },
+  {
+    "host": "finance.baidu.com",
+    "root_domain": "baidu.com",
+    "dns_ips": [
+      "153.3.237.178",
+      "153.3.237.196"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://finance.baidu.com/top/foreign-rmb",
+        "status": 200,
+        "elapsed_sec": 0.651,
+        "bytes": 31331
+      },
+      {
+        "url": "https://finance.baidu.com/calendar",
+        "status": 200,
+        "elapsed_sec": 0.57,
+        "bytes": 31345
+      }
+    ]
+  },
+  {
+    "host": "finance.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "101.71.73.135",
+      "112.84.131.227",
+      "116.153.78.163",
+      "119.36.225.121",
+      "61.241.148.62"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://finance.eastmoney.com/news/1622,20161118685370149.html",
+        "status": 200,
+        "elapsed_sec": 0.66,
+        "bytes": 54430
+      },
+      {
+        "url": "http://finance.eastmoney.com/a/",
+        "status": 302,
+        "elapsed_sec": 0.053,
+        "bytes": 0
+      }
+    ]
+  },
+  {
+    "host": "finance.pae.baidu.com",
+    "root_domain": "baidu.com",
+    "dns_ips": [
+      "153.3.237.178",
+      "153.3.237.196"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://finance.pae.baidu.com/selfselect/listsugrecomm",
+        "status": 200,
+        "elapsed_sec": 0.643,
+        "bytes": 57
+      },
+      {
+        "url": "https://finance.pae.baidu.com/vapi/v1/stockvoterecords",
+        "status": 200,
+        "elapsed_sec": 0.562,
+        "bytes": 1473
+      }
+    ]
+  },
+  {
+    "host": "finance.sina.com.cn",
+    "root_domain": "sina.com.cn",
+    "dns_ips": [
+      "211.95.51.13",
+      "211.95.51.14",
+      "211.95.51.15",
+      "211.95.51.16",
+      "211.95.51.17",
+      "211.95.51.18",
+      "211.95.51.19",
+      "211.95.51.20"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://finance.sina.com.cn/futuremarket/spotprice.shtml#titlePos_0",
+        "status": 200,
+        "elapsed_sec": 0.535,
+        "bytes": 34973
+      },
+      {
+        "url": "https://finance.sina.com.cn/realstock/company/sh000909/nc.shtml",
+        "status": 200,
+        "elapsed_sec": 0.595,
+        "bytes": 140500
+      }
+    ]
+  },
+  {
+    "host": "fund.10jqka.com.cn",
+    "root_domain": "10jqka.com.cn",
+    "dns_ips": [
+      "221.6.171.142",
+      "221.6.171.143"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://fund.10jqka.com.cn/datacenter/jz/kfs/etf/",
+        "status": 200,
+        "elapsed_sec": 0.589,
+        "bytes": 47980
+      },
+      {
+        "url": "https://fund.10jqka.com.cn/161130/interduce.html",
+        "status": 200,
+        "elapsed_sec": 0.788,
+        "bytes": 45671
+      }
+    ]
+  },
+  {
+    "host": "fund.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "116.153.42.186",
+      "122.192.140.57"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://fund.eastmoney.com/manager/default.html#dt14;mcreturnjson;ftall;pn20;pi1;scabbname;stasc",
+        "status": 200,
+        "elapsed_sec": 0.634,
+        "bytes": 37851
+      },
+      {
+        "url": "https://fund.eastmoney.com/data/lcxfundranking.html#t;c0;r;sSYL_Z;ddesc;pn50;f;os1",
+        "status": 200,
+        "elapsed_sec": 0.649,
+        "bytes": 32590
+      }
+    ]
+  },
+  {
+    "host": "fund.szse.cn",
+    "root_domain": "szse.cn",
+    "dns_ips": [
+      "120.86.114.74"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://fund.szse.cn/marketdata/fundslist/index.html",
+        "status": 200,
+        "elapsed_sec": 0.626,
+        "bytes": 11660
+      },
+      {
+        "url": "https://fund.szse.cn/api/report/ShowReport",
+        "status": 500,
+        "elapsed_sec": 0.674,
+        "bytes": 2226
+      }
+    ]
+  },
+  {
+    "host": "fundf10.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "119.36.224.12",
+      "122.188.45.140"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://fundf10.eastmoney.com/FundArchivesDatas.aspx",
+        "status": 404,
+        "elapsed_sec": 0.802,
+        "bytes": 1163
+      },
+      {
+        "url": "https://fundf10.eastmoney.com/jjgg_000001_2.html",
+        "status": 200,
+        "elapsed_sec": 0.747,
+        "bytes": 42280
+      }
+    ]
+  },
+  {
+    "host": "futsse-static.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "117.184.34.136",
+      "43.254.146.220",
+      "61.129.248.116"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://futsse-static.eastmoney.com/redis",
+        "status": 400,
+        "elapsed_sec": 0.602,
+        "bytes": 157
+      }
+    ]
+  },
+  {
+    "host": "futsseapi.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "103.220.165.253",
+      "114.80.72.85",
+      "117.184.34.239",
+      "117.184.45.36",
+      "120.25.123.80",
+      "14.103.169.92",
+      "140.207.64.203",
+      "180.153.34.76"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://futsseapi.eastmoney.com/list/COMEX,NYMEX,COBOT,SGX,NYBOT,LME,MDEX,TOCOM,IPE",
+        "status": 400,
+        "elapsed_sec": 0.571,
+        "bytes": 142
+      },
+      {
+        "url": "https://futsseapi.eastmoney.com/list/option/221",
+        "status": 400,
+        "elapsed_sec": 0.538,
+        "bytes": 106
+      }
+    ]
+  },
+  {
+    "host": "gi.finance.sina.com.cn",
+    "root_domain": "sina.com.cn",
+    "dns_ips": [
+      "202.108.6.87"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://gi.finance.sina.com.cn/hq/daily",
+        "status": 200,
+        "elapsed_sec": 0.58,
+        "bytes": 165
+      }
+    ]
+  },
+  {
+    "host": "github.com",
+    "root_domain": "github.com",
+    "dns_ips": [
+      "172.182.252.133"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://github.com/hugogobato/Yang-Zhang-s-Realized-Volatility-Automated-Estimation-in-Python",
+        "status": 200,
+        "elapsed_sec": 1.697,
+        "bytes": 260150
+      },
+      {
+        "url": "https://github.com/akfamily/akshare/issues/4299",
+        "status": 200,
+        "elapsed_sec": 1.658,
+        "bytes": 254724
+      }
+    ]
+  },
+  {
+    "host": "global.finance.sina.com.cn",
+    "root_domain": "sina.com.cn",
+    "dns_ips": [
+      "202.108.6.87"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://global.finance.sina.com.cn/api/openapi.php/EsgService.getRftEsgStocks?p=1&num=20000",
+        "status": 200,
+        "elapsed_sec": 0.674,
+        "bytes": 140540
+      },
+      {
+        "url": "https://global.finance.sina.com.cn/api/openapi.php/EsgService.getMsciEsgStocks?p=1&num=100",
+        "status": 200,
+        "elapsed_sec": 0.559,
+        "bytes": 14771
+      }
+    ]
+  },
+  {
+    "host": "gs.amac.org.cn",
+    "root_domain": "amac.org.cn",
+    "dns_ips": [
+      "116.153.4.244",
+      "122.189.168.219"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/member/index.html?primaryInvestType=private",
+        "status": 200,
+        "elapsed_sec": 0.531,
+        "bytes": 36189
+      },
+      {
+        "url": "https://gs.amac.org.cn/amac-infodisc/res/pof/person/personOrgList.html",
+        "status": 200,
+        "elapsed_sec": 0.494,
+        "bytes": 15452
+      }
+    ]
+  },
+  {
+    "host": "gu.qq.com",
+    "root_domain": "qq.com",
+    "dns_ips": [
+      "112.65.195.181",
+      "122.193.7.240",
+      "153.3.150.224",
+      "220.196.159.46"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://gu.qq.com/sz300494/gp/detail",
+        "status": 200,
+        "elapsed_sec": 0.579,
+        "bytes": 4310
+      },
+      {
+        "url": "https://gu.qq.com/sh000919/zs",
+        "status": 200,
+        "elapsed_sec": 0.588,
+        "bytes": 4310
+      }
+    ]
+  },
+  {
+    "host": "guba.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "112.65.216.153",
+      "140.207.67.163"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://guba.eastmoney.com/rank/stock?code=HK_00700",
+        "status": 200,
+        "elapsed_sec": 0.512,
+        "bytes": 8346
+      },
+      {
+        "url": "https://guba.eastmoney.com/rank/stock?code=000665",
+        "status": 200,
+        "elapsed_sec": 0.521,
+        "bytes": 8346
+      }
+    ]
+  },
+  {
+    "host": "gushitong.baidu.com",
+    "root_domain": "baidu.com",
+    "dns_ips": [
+      "153.3.237.178",
+      "153.3.237.196"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://gushitong.baidu.com/hotlist?mainTab=hotSearch&market=all",
+        "status": 301,
+        "elapsed_sec": 0.645,
+        "bytes": 184
+      },
+      {
+        "url": "https://gushitong.baidu.com/index/ab-000001",
+        "status": 301,
+        "elapsed_sec": 0.561,
+        "bytes": 184
+      }
+    ]
+  },
+  {
+    "host": "help.1234567.com.cn",
+    "root_domain": "1234567.com.cn",
+    "dns_ips": [
+      "119.36.224.12",
+      "122.188.45.140"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://help.1234567.com.cn/list_236.html",
+        "status": 200,
+        "elapsed_sec": 1.01,
+        "bytes": 37241
+      }
+    ]
+  },
+  {
+    "host": "hq.cnindex.com.cn",
+    "root_domain": "cnindex.com.cn",
+    "dns_ips": [
+      "59.35.205.81"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://hq.cnindex.com.cn/market/market/getIndexDailyDataWithDataFormat",
+        "status": 400,
+        "elapsed_sec": 0.116,
+        "bytes": 844
+      }
+    ]
+  },
+  {
+    "host": "hq.sinajs.cn",
+    "root_domain": "sinajs.cn",
+    "dns_ips": [
+      "120.83.145.204"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://hq.sinajs.cn/rn=mtf2t&list=hkCES100,hkCES120,hkCES280,hkCES300,hkCESA80,hkCESG10",
+        "status": 403,
+        "elapsed_sec": 5.566,
+        "bytes": 9
+      },
+      {
+        "url": "https://hq.sinajs.cn/list=OP_DOWN_",
+        "status": 403,
+        "elapsed_sec": 5.66,
+        "bytes": 9
+      }
+    ]
+  },
+  {
+    "host": "hqb.nxin.com",
+    "root_domain": "nxin.com",
+    "dns_ips": [
+      "220.243.128.67"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://hqb.nxin.com/pigindex/getPigIndexChart.shtml",
+        "status": 200,
+        "elapsed_sec": 1.62,
+        "bytes": 33993
+      },
+      {
+        "url": "https://hqb.nxin.com/pigindex/index.shtml",
+        "status": 200,
+        "elapsed_sec": 0.723,
+        "bytes": 8764
+      }
+    ]
+  },
+  {
+    "host": "huiyan.baidu.com",
+    "root_domain": "baidu.com",
+    "dns_ips": [
+      "157.0.146.145"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://huiyan.baidu.com/migration/historycurve.jsonp",
+        "status": 200,
+        "elapsed_sec": 0.693,
+        "bytes": 134
+      },
+      {
+        "url": "https://huiyan.baidu.com/migration/cityrank.jsonp",
+        "status": 200,
+        "elapsed_sec": 0.668,
+        "bytes": 130
+      }
+    ]
+  },
+  {
+    "host": "human.amac.org.cn",
+    "root_domain": "amac.org.cn",
+    "dns_ips": [
+      "120.86.187.183"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://human.amac.org.cn/web/api/publicityAddress?rand=0.6288001872566391&pageNum=1&pageSize=5000",
+        "error": "SSLError: HTTPSConnectionPool(host='human.amac.org.cn', port=443): Max retries exceeded with url: /web/api/publicityAddress?rand=0.6288001872566391&pageNum=1&pageSize=5000 (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1032)')))",
+        "elapsed_sec": 0.593
+      },
+      {
+        "url": "https://human.amac.org.cn/web/org/personPublicity.html",
+        "error": "SSLError: HTTPSConnectionPool(host='human.amac.org.cn', port=443): Max retries exceeded with url: /web/org/personPublicity.html (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1032)')))",
+        "elapsed_sec": 0.544
+      }
+    ]
+  },
+  {
+    "host": "i.gasgoo.com",
+    "root_domain": "gasgoo.com",
+    "dns_ips": [
+      "118.25.29.143"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://i.gasgoo.com/data/sales/AutoModelSalesRank.aspx/GetSalesRank",
+        "status": 200,
+        "elapsed_sec": 0.735,
+        "bytes": 35717
+      },
+      {
+        "url": "https://i.gasgoo.com/data/ranking",
+        "status": 200,
+        "elapsed_sec": 0.662,
+        "bytes": 35764
+      }
+    ]
+  },
+  {
+    "host": "index.0256.cn",
+    "root_domain": "0256.cn",
+    "dns_ips": [
+      "139.159.148.20"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://index.0256.cn/expcenter_trend.action",
+        "status": 403,
+        "elapsed_sec": 0.119,
+        "bytes": 162
+      },
+      {
+        "url": "http://index.0256.cn/volume_query.action",
+        "status": 404,
+        "elapsed_sec": 0.077,
+        "bytes": 0
+      }
+    ]
+  },
+  {
+    "host": "infogram.com",
+    "root_domain": "infogram.com",
+    "dns_ips": [
+      "13.248.197.75",
+      "76.223.83.205"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://infogram.com/world-container-index-1h17493095xl4zj",
+        "status": 200,
+        "elapsed_sec": 2.267,
+        "bytes": 576928
+      }
+    ]
+  },
+  {
+    "host": "investor.szse.cn",
+    "root_domain": "szse.cn",
+    "dns_ips": [
+      "58.251.50.138"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://investor.szse.cn/market/option/day/index.html",
+        "status": 200,
+        "elapsed_sec": 0.662,
+        "bytes": 27387
+      },
+      {
+        "url": "https://investor.szse.cn/api/report/ShowReport/data",
+        "status": 200,
+        "elapsed_sec": 0.59,
+        "bytes": 465
+      }
+    ]
+  },
+  {
+    "host": "irm.cninfo.com.cn",
+    "root_domain": "cninfo.com.cn",
+    "dns_ips": [
+      "59.35.205.73"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://irm.cninfo.com.cn/ircs/question/questionDetail?questionId=1515236357817618432",
+        "status": 200,
+        "elapsed_sec": 0.652,
+        "bytes": 7254
+      },
+      {
+        "url": "https://irm.cninfo.com.cn/newircs/question/getQuestionDetail",
+        "status": 400,
+        "elapsed_sec": 0.572,
+        "bytes": 435
+      }
+    ]
+  },
+  {
+    "host": "k.tanjiaoyi.com",
+    "root_domain": "tanjiaoyi.com",
+    "dns_ips": [
+      "123.56.230.233"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://k.tanjiaoyi.com:8080/KDataController/getHouseDatasInAverage.do",
+        "status": 200,
+        "elapsed_sec": 0.822,
+        "bytes": 30
+      }
+    ]
+  },
+  {
+    "host": "kcb.sse.com.cn",
+    "root_domain": "sse.com.cn",
+    "dns_ips": [],
+    "dns_error": "gaierror: [Errno 11001] getaddrinfo failed",
+    "checks": [
+      {
+        "url": "http://kcb.sse.com.cn/renewal/xmxq/index.shtml?auditId=926&anchor_type=0",
+        "error": "ConnectionError: HTTPConnectionPool(host='kcb.sse.com.cn', port=80): Max retries exceeded with url: /renewal/xmxq/index.shtml?auditId=926&anchor_type=0 (Caused by NameResolutionError(\"HTTPConnection(host='kcb.sse.com.cn', port=80): Failed to resolve 'kcb.sse.com.cn' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.007
+      },
+      {
+        "url": "http://kcb.sse.com.cn/renewal/#",
+        "error": "ConnectionError: HTTPConnectionPool(host='kcb.sse.com.cn', port=80): Max retries exceeded with url: /renewal/ (Caused by NameResolutionError(\"HTTPConnection(host='kcb.sse.com.cn', port=80): Failed to resolve 'kcb.sse.com.cn' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.002
+      }
+    ]
+  },
+  {
+    "host": "kuaixun.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "103.220.167.56",
+      "140.207.64.76"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://kuaixun.eastmoney.com/7_24.html",
+        "status": 200,
+        "elapsed_sec": 0.551,
+        "bytes": 49127
+      }
+    ]
+  },
+  {
+    "host": "legulegu.com",
+    "root_domain": "legulegu.com",
+    "dns_ips": [
+      "182.92.2.73"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://legulegu.com/stockdata/index-composition?industryCode=801120.SI",
+        "status": 200,
+        "elapsed_sec": 1.174,
+        "bytes": 510725
+      },
+      {
+        "url": "https://legulegu.com/stockdata/index-composition?industryCode=851921.SI",
+        "status": 200,
+        "elapsed_sec": 0.622,
+        "bytes": 144249
+      }
+    ]
+  },
+  {
+    "host": "links.sgx.com",
+    "root_domain": "sgx.com",
+    "dns_ips": [
+      "23.211.139.202",
+      "23.211.139.209"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://links.sgx.com/1.0.0/derivatives-daily/5888/FUTURE.zip",
+        "status": 200,
+        "elapsed_sec": 1.993,
+        "bytes": 20901
+      }
+    ]
+  },
+  {
+    "host": "mba.tuck.dartmouth.edu",
+    "root_domain": "dartmouth.edu",
+    "dns_ips": [
+      "129.170.225.178"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html",
+        "status": 200,
+        "elapsed_sec": 1.584,
+        "bytes": 245732
+      },
+      {
+        "url": "http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html",
+        "status": 200,
+        "elapsed_sec": 0.669,
+        "bytes": 245732
+      }
+    ]
+  },
+  {
+    "host": "money.finance.sina.com.cn",
+    "root_domain": "sina.com.cn",
+    "dns_ips": [
+      "106.63.15.52",
+      "116.133.8.236",
+      "49.7.36.205"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://money.finance.sina.com.cn/corp/go.php/vFD_FinancialGuideLine/stockid/600004/ctrl/2019/displaytype/4.phtml",
+        "status": 200,
+        "elapsed_sec": 0.597,
+        "bytes": 71046
+      },
+      {
+        "url": "https://money.finance.sina.com.cn/corp/go.php/vFD_FinancialGuideLine/stockid/600004/displaytype/4.phtml",
+        "status": 200,
+        "elapsed_sec": 0.532,
+        "bytes": 70970
+      }
+    ]
+  },
+  {
+    "host": "mp-api.jin10.com",
+    "root_domain": "jin10.com",
+    "dns_ips": [
+      "120.55.71.177",
+      "121.40.128.214",
+      "121.40.189.47",
+      "121.40.195.238",
+      "121.40.226.146"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://mp-api.jin10.com/api/dynamic-data/child",
+        "status": 502,
+        "elapsed_sec": 0.545,
+        "bytes": 0
+      }
+    ]
+  },
+  {
+    "host": "news.10jqka.com.cn",
+    "root_domain": "10jqka.com.cn",
+    "dns_ips": [
+      "221.6.171.142",
+      "221.6.171.143"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://news.10jqka.com.cn/tapp/news/push/stock",
+        "status": 200,
+        "elapsed_sec": 0.618,
+        "bytes": 32757
+      },
+      {
+        "url": "https://news.10jqka.com.cn/realtimenews.html",
+        "status": 200,
+        "elapsed_sec": 0.601,
+        "bytes": 60513
+      }
+    ]
+  },
+  {
+    "host": "news.futunn.com",
+    "root_domain": "futunn.com",
+    "dns_ips": [
+      "101.71.73.135",
+      "112.84.131.227",
+      "116.153.78.163",
+      "119.36.225.121",
+      "61.241.148.62"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://news.futunn.com/news-site-api/main/get-flash-list",
+        "status": 200,
+        "elapsed_sec": 0.752,
+        "bytes": 53
+      },
+      {
+        "url": "https://news.futunn.com/main/live",
+        "status": 200,
+        "elapsed_sec": 0.675,
+        "bytes": 144422
+      }
+    ]
+  },
+  {
+    "host": "np-anotice-stock.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "101.71.73.135",
+      "112.84.131.227",
+      "116.153.78.163",
+      "119.36.225.121",
+      "61.241.148.62"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://np-anotice-stock.eastmoney.com/api/security/ann",
+        "status": 400,
+        "elapsed_sec": 1.071,
+        "bytes": 156
+      }
+    ]
+  },
+  {
+    "host": "np-listapi.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "101.71.73.135",
+      "112.84.131.227",
+      "116.153.78.163",
+      "119.36.225.121",
+      "61.241.148.62"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://np-listapi.eastmoney.com/comm/web/getNewsByColumns",
+        "status": 200,
+        "elapsed_sec": 0.617,
+        "bytes": 84
+      }
+    ]
+  },
+  {
+    "host": "np-weblist.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "101.71.73.135",
+      "112.84.131.227",
+      "116.153.78.163",
+      "119.36.225.121",
+      "61.241.148.62"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://np-weblist.eastmoney.com/comm/web/getFastNewsList",
+        "status": 200,
+        "elapsed_sec": 0.531,
+        "bytes": 84
+      }
+    ]
+  },
+  {
+    "host": "openctp.cn",
+    "root_domain": "openctp.cn",
+    "dns_ips": [
+      "118.184.178.137"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://openctp.cn/instruments.html",
+        "status": 404,
+        "elapsed_sec": 0.064,
+        "bytes": 9
+      },
+      {
+        "url": "http://openctp.cn/fees.html",
+        "status": 200,
+        "elapsed_sec": 0.068,
+        "bytes": 494132
+      }
+    ]
+  },
+  {
+    "host": "oss-ch.csindex.com.cn",
+    "root_domain": "csindex.com.cn",
+    "dns_ips": [
+      "27.115.119.182"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://oss-ch.csindex.com.cn/static/html/csindex/",
+        "status": 200,
+        "elapsed_sec": 0.616,
+        "bytes": 201426
+      },
+      {
+        "url": "https://oss-ch.csindex.com.cn/static/",
+        "status": 200,
+        "elapsed_sec": 0.667,
+        "bytes": 201426
+      }
+    ]
+  },
+  {
+    "host": "overseas.1234567.com.cn",
+    "root_domain": "1234567.com.cn",
+    "dns_ips": [
+      "103.220.165.216"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://overseas.1234567.com.cn/overseasapi/OpenApiHander.ashx",
+        "status": 200,
+        "elapsed_sec": 0.601,
+        "bytes": 47
+      },
+      {
+        "url": "https://overseas.1234567.com.cn/f10/FundJz/968092#FHPS",
+        "status": 200,
+        "elapsed_sec": 0.592,
+        "bytes": 100255
+      }
+    ]
+  },
+  {
+    "host": "ownthink.com",
+    "root_domain": "ownthink.com",
+    "dns_ips": [
+      "43.159.142.192"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://ownthink.com/robot.html",
+        "status": 301,
+        "elapsed_sec": 0.9,
+        "bytes": 162
+      },
+      {
+        "url": "https://ownthink.com/",
+        "status": 301,
+        "elapsed_sec": 0.851,
+        "bytes": 162
+      }
+    ]
+  },
+  {
+    "host": "pdf.dfcfw.com",
+    "root_domain": "dfcfw.com",
+    "dns_ips": [
+      "61.170.66.121",
+      "61.170.82.99"
+    ],
+    "dns_error": "",
+    "checks": []
+  },
+  {
+    "host": "portal.dce.com.cn",
+    "root_domain": "dce.com.cn",
+    "dns_ips": [],
+    "dns_error": "gaierror: [Errno 11001] getaddrinfo failed",
+    "checks": [
+      {
+        "url": "http://portal.dce.com.cn/publicweb/quotesdata/exportMemberDealPosiQuotesData.html?",
+        "error": "ConnectionError: HTTPConnectionPool(host='portal.dce.com.cn', port=80): Max retries exceeded with url: /publicweb/quotesdata/exportMemberDealPosiQuotesData.html (Caused by NameResolutionError(\"HTTPConnection(host='portal.dce.com.cn', port=80): Failed to resolve 'portal.dce.com.cn' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.015
+      },
+      {
+        "url": "http://portal.dce.com.cn/publicweb/quotesdata/memberDealPosiQuotes.html?memberDeal",
+        "error": "ConnectionError: HTTPConnectionPool(host='portal.dce.com.cn', port=80): Max retries exceeded with url: /publicweb/quotesdata/memberDealPosiQuotes.html?memberDeal (Caused by NameResolutionError(\"HTTPConnection(host='portal.dce.com.cn', port=80): Failed to resolve 'portal.dce.com.cn' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.003
+      }
+    ]
+  },
+  {
+    "host": "portal.eastmoneyfutures.com",
+    "root_domain": "eastmoneyfutures.com",
+    "dns_ips": [
+      "140.207.67.14"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://portal.eastmoneyfutures.com/pages/service/jyts.html#jyrl",
+        "status": 200,
+        "elapsed_sec": 0.776,
+        "bytes": 69073
+      }
+    ]
+  },
+  {
+    "host": "proxy.finance.qq.com",
+    "root_domain": "qq.com",
+    "dns_ips": [
+      "122.193.7.240",
+      "153.3.150.224"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://proxy.finance.qq.com/ifzqgtimg/appstock/app/newfqkline/get",
+        "status": 200,
+        "elapsed_sec": 0.685,
+        "bytes": 58
+      },
+      {
+        "url": "https://proxy.finance.qq.com/cgi/cgi-bin/rank/hs/getBoardRankList",
+        "status": 400,
+        "elapsed_sec": 0.627,
+        "bytes": 88
+      }
+    ]
+  },
+  {
+    "host": "push2.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "43.144.251.121"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://push2.eastmoney.com/api/qt/stock/trends2/get",
+        "status": 200,
+        "elapsed_sec": 0.697,
+        "bytes": 83
+      },
+      {
+        "url": "https://push2.eastmoney.com/api/qt/kamtbs.rtmin/get",
+        "status": 200,
+        "elapsed_sec": 0.665,
+        "bytes": 83
+      }
+    ]
+  },
+  {
+    "host": "push2delay.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "61.152.229.217"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://push2delay.eastmoney.com/api/qt/clist/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.581
+      }
+    ]
+  },
+  {
+    "host": "push2ex.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "117.184.38.248"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://push2ex.eastmoney.com/getAllStockChanges",
+        "status": 200,
+        "elapsed_sec": 0.575,
+        "bytes": 61
+      },
+      {
+        "url": "https://push2ex.eastmoney.com/getYesterdayZTPool",
+        "status": 200,
+        "elapsed_sec": 0.573,
+        "bytes": 61
+      }
+    ]
+  },
+  {
+    "host": "push2his.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "101.226.30.221"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://push2his.eastmoney.com/api/qt/stock/fflow/daykline/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.525
+      },
+      {
+        "url": "https://push2his.eastmoney.com/api/qt/stock/trends2/get",
+        "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+        "elapsed_sec": 0.575
+      }
+    ]
+  },
+  {
+    "host": "q.10jqka.com.cn",
+    "root_domain": "10jqka.com.cn",
+    "dns_ips": [
+      "221.6.171.142",
+      "221.6.171.143"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://q.10jqka.com.cn/thshy/index/field/199112/order/desc/page/1/ajax/1/",
+        "status": 401,
+        "elapsed_sec": 0.078,
+        "bytes": 407
+      },
+      {
+        "url": "http://q.10jqka.com.cn/gn/index/field/addtime/order/desc/page/1/ajax/1/",
+        "status": 401,
+        "elapsed_sec": 0.069,
+        "bytes": 405
+      }
+    ]
+  },
+  {
+    "host": "qhkch.com",
+    "root_domain": "qhkch.com",
+    "dns_ips": [
+      "119.3.145.208"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://qhkch.com/dist/views/toolbox/gdp.html?v=1.10.7.1",
+        "status": 200,
+        "elapsed_sec": 0.878,
+        "bytes": 2170
+      },
+      {
+        "url": "https://qhkch.com/ajax/fund_position_chge_pie.php",
+        "status": 404,
+        "elapsed_sec": 0.548,
+        "bytes": 34
+      }
+    ]
+  },
+  {
+    "host": "qhweb.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "140.207.67.151"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://qhweb.eastmoney.com/tradinghours",
+        "status": 200,
+        "elapsed_sec": 0.546,
+        "bytes": 17302
+      },
+      {
+        "url": "https://qhweb.eastmoney.com/quote",
+        "status": 200,
+        "elapsed_sec": 0.554,
+        "bytes": 41389
+      }
+    ]
+  },
+  {
+    "host": "qianxi.baidu.com",
+    "root_domain": "baidu.com",
+    "dns_ips": [
+      "157.0.146.145"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://qianxi.baidu.com/?from=shoubai#city=0",
+        "status": 200,
+        "elapsed_sec": 0.654,
+        "bytes": 2254
+      }
+    ]
+  },
+  {
+    "host": "query.sse.com.cn",
+    "root_domain": "sse.com.cn",
+    "dns_ips": [
+      "202.122.113.77"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://query.sse.com.cn/marketdata/tradedata/queryMargin.do",
+        "status": 200,
+        "elapsed_sec": 0.576,
+        "bytes": 105
+      },
+      {
+        "url": "https://query.sse.com.cn/sseQuery/commonQuery.do",
+        "status": 200,
+        "elapsed_sec": 0.573,
+        "bytes": 130
+      }
+    ]
+  },
+  {
+    "host": "quote.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "101.71.73.135",
+      "112.84.131.227",
+      "116.153.78.163",
+      "119.36.225.121",
+      "61.241.148.62"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://quote.eastmoney.com/center/fullscreenlist.html#convertible_comparison",
+        "status": 200,
+        "elapsed_sec": 0.604,
+        "bytes": 23074
+      },
+      {
+        "url": "https://quote.eastmoney.com/center/boardlist.html#boards-BK06551",
+        "status": 200,
+        "elapsed_sec": 0.57,
+        "bytes": 23170
+      }
+    ]
+  },
+  {
+    "host": "quotes.sina.cn",
+    "root_domain": "sina.cn",
+    "dns_ips": [
+      "106.63.15.52",
+      "116.133.8.236",
+      "49.7.36.205"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://quotes.sina.cn/mac/api/jsonp_v3.php/SINAREMOTECALLCALLBACK1601557771972/MacPage_Service.get_pagedata",
+        "status": 200,
+        "elapsed_sec": 0.606,
+        "bytes": 125
+      },
+      {
+        "url": "https://quotes.sina.cn/mac/api/jsonp_v3.php/SINAREMOTECALLCALLBACK1601559094538/MacPage_Service.get_pagedata",
+        "status": 200,
+        "elapsed_sec": 0.582,
+        "bytes": 125
+      }
+    ]
+  },
+  {
+    "host": "realized.oxford-man.ox.ac.uk",
+    "root_domain": "ox.ac.uk",
+    "dns_ips": [],
+    "dns_error": "gaierror: [Errno 11001] getaddrinfo failed",
+    "checks": [
+      {
+        "url": "https://realized.oxford-man.ox.ac.uk/theme/js/visualization-data.js?20191111113154",
+        "error": "ConnectionError: HTTPSConnectionPool(host='realized.oxford-man.ox.ac.uk', port=443): Max retries exceeded with url: /theme/js/visualization-data.js?20191111113154 (Caused by NameResolutionError(\"HTTPSConnection(host='realized.oxford-man.ox.ac.uk', port=443): Failed to resolve 'realized.oxford-man.ox.ac.uk' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.007
+      },
+      {
+        "url": "https://realized.oxford-man.ox.ac.uk/theme/js/front-page-chart.js",
+        "error": "ConnectionError: HTTPSConnectionPool(host='realized.oxford-man.ox.ac.uk', port=443): Max retries exceeded with url: /theme/js/front-page-chart.js (Caused by NameResolutionError(\"HTTPSConnection(host='realized.oxford-man.ox.ac.uk', port=443): Failed to resolve 'realized.oxford-man.ox.ac.uk' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.002
+      }
+    ]
+  },
+  {
+    "host": "reportapi.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "101.71.73.135",
+      "112.84.131.227",
+      "116.153.78.163",
+      "119.36.225.121",
+      "61.241.148.62"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://reportapi.eastmoney.com/report/list",
+        "status": 400,
+        "elapsed_sec": 0.666,
+        "bytes": 166
+      }
+    ]
+  },
+  {
+    "host": "research.stlouisfed.org",
+    "root_domain": "stlouisfed.org",
+    "dns_ips": [
+      "104.68.110.104"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://research.stlouisfed.org/econ/mccracken/fred-databases/",
+        "status": 301,
+        "elapsed_sec": 1.002,
+        "bytes": 0
+      }
+    ]
+  },
+  {
+    "host": "s3.amazonaws.com",
+    "root_domain": "amazonaws.com",
+    "dns_ips": [
+      "16.15.191.149",
+      "16.15.207.184",
+      "16.15.207.54",
+      "16.15.237.227",
+      "16.15.252.18",
+      "16.15.254.203",
+      "52.217.95.184",
+      "54.231.197.136"
+    ],
+    "dns_error": "",
+    "checks": []
+  },
+  {
+    "host": "search-api-web.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "103.220.165.249"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://search-api-web.eastmoney.com/search/jsonp",
+        "status": 200,
+        "elapsed_sec": 0.555,
+        "bytes": 706
+      }
+    ]
+  },
+  {
+    "host": "service.99qh.com",
+    "root_domain": "99qh.com",
+    "dns_ips": [
+      "43.179.214.53"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://service.99qh.com/Storage/Storage.aspx?page=99qh",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "elapsed_sec": 5.039
+      }
+    ]
+  },
+  {
+    "host": "service.ikuyu.cn",
+    "root_domain": "ikuyu.cn",
+    "dns_ips": [],
+    "dns_error": "gaierror: [Errno 11001] getaddrinfo failed",
+    "checks": [
+      {
+        "url": "http://service.ikuyu.cn/XinCaiFu2/pcremoting/bdListAction.do",
+        "error": "ConnectionError: HTTPConnectionPool(host='service.ikuyu.cn', port=80): Max retries exceeded with url: /XinCaiFu2/pcremoting/bdListAction.do (Caused by NameResolutionError(\"HTTPConnection(host='service.ikuyu.cn', port=80): Failed to resolve 'service.ikuyu.cn' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.189
+      }
+    ]
+  },
+  {
+    "host": "sns.sseinfo.com",
+    "root_domain": "sseinfo.com",
+    "dns_ips": [
+      "202.122.113.54"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://sns.sseinfo.com/ajax/userfeeds.do",
+        "status": 500,
+        "elapsed_sec": 0.556,
+        "bytes": 42
+      },
+      {
+        "url": "https://sns.sseinfo.com/company.do?uid=65",
+        "status": 200,
+        "elapsed_sec": 0.564,
+        "bytes": 40822
+      }
+    ]
+  },
+  {
+    "host": "so.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "103.220.165.202",
+      "140.207.64.71"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://so.eastmoney.com/news/s?keyword=603777",
+        "status": 200,
+        "elapsed_sec": 0.528,
+        "bytes": 13592
+      }
+    ]
+  },
+  {
+    "host": "ss.kqindex.cn",
+    "root_domain": "kqindex.cn",
+    "dns_ips": [
+      "122.224.56.37"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://ss.kqindex.cn:9559/rinder_web_kqsszs/index/index_page.do",
+        "status": 200,
+        "elapsed_sec": 0.074,
+        "bytes": 5867
+      }
+    ]
+  },
+  {
+    "host": "stats.areppim.com",
+    "root_domain": "areppim.com",
+    "dns_ips": [
+      "157.90.80.162"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://stats.areppim.com/stats/links_billionairexlists.htm",
+        "status": 200,
+        "elapsed_sec": 1.668,
+        "bytes": 16147
+      }
+    ]
+  },
+  {
+    "host": "stock.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "103.220.167.56",
+      "140.207.64.76"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://stock.eastmoney.com/a/czpnc.html",
+        "status": 200,
+        "elapsed_sec": 0.5,
+        "bytes": 46241
+      }
+    ]
+  },
+  {
+    "host": "stock.finance.sina.com.cn",
+    "root_domain": "sina.com.cn",
+    "dns_ips": [
+      "106.63.15.52",
+      "116.133.8.236",
+      "49.7.36.205"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://stock.finance.sina.com.cn/futures/api/jsonp.php/var%20_m2009C30002020_7_17=/FutureOptionAllService.getOptionDayline",
+        "status": 200,
+        "elapsed_sec": 0.53,
+        "bytes": 81
+      },
+      {
+        "url": "https://stock.finance.sina.com.cn/futures/api/openapi.php/StockOptionDaylineService.getOptionMinline",
+        "status": 200,
+        "elapsed_sec": 0.574,
+        "bytes": 42
+      }
+    ]
+  },
+  {
+    "host": "stock.gtimg.cn",
+    "root_domain": "gtimg.cn",
+    "dns_ips": [
+      "122.193.7.240",
+      "153.3.150.224"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://stock.gtimg.cn/data/hk_rank.php",
+        "status": 302,
+        "elapsed_sec": 0.098,
+        "bytes": 137
+      },
+      {
+        "url": "http://stock.gtimg.cn/data/index.php",
+        "status": 302,
+        "elapsed_sec": 0.057,
+        "bytes": 137
+      }
+    ]
+  },
+  {
+    "host": "stock.pingan.com",
+    "root_domain": "pingan.com",
+    "dns_ips": [
+      "139.227.231.103"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://stock.pingan.com/static/webinfo/margin/business.html?businessType=0",
+        "status": 200,
+        "elapsed_sec": 0.588,
+        "bytes": 43191
+      },
+      {
+        "url": "https://stock.pingan.com/fss/servlet/fsscoreapp/stockSource/mrgRatio",
+        "status": 404,
+        "elapsed_sec": 0.781,
+        "bytes": 132
+      }
+    ]
+  },
+  {
+    "host": "stock.xueqiu.com",
+    "root_domain": "xueqiu.com",
+    "dns_ips": [
+      "39.106.123.113",
+      "47.93.55.132"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://stock.xueqiu.com/v5/stock/f10/cn/company.json",
+        "status": 400,
+        "elapsed_sec": 0.606,
+        "bytes": 171
+      },
+      {
+        "url": "https://stock.xueqiu.com/v5/stock/f10/hk/company.json",
+        "status": 400,
+        "elapsed_sec": 0.577,
+        "bytes": 171
+      }
+    ]
+  },
+  {
+    "host": "stock2.finance.sina.com.cn",
+    "root_domain": "sina.com.cn",
+    "dns_ips": [
+      "106.63.15.52",
+      "116.133.8.236",
+      "49.7.36.205"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/=/InnerFuturesNewService.getFewMinLine",
+        "status": 200,
+        "elapsed_sec": 0.84,
+        "bytes": 57
+      },
+      {
+        "url": "https://stock2.finance.sina.com.cn/futures/api/jsonp.php/var%20_V21052021_4_12=",
+        "status": 200,
+        "elapsed_sec": 0.571,
+        "bytes": 258
+      }
+    ]
+  },
+  {
+    "host": "stockapp.finance.qq.com",
+    "root_domain": "qq.com",
+    "dns_ips": [
+      "122.193.7.240",
+      "153.3.150.224"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://stockapp.finance.qq.com/mstats/#mod=list&id=hs_hsj&module=hs&type=hsj&sort=2&page=1&max=20",
+        "status": 200,
+        "elapsed_sec": 0.626,
+        "bytes": 2727
+      },
+      {
+        "url": "https://stockapp.finance.qq.com/mstats/#mod=list&id=hk_ah&module=HK&type=AH&sort=3&page=3&max=20",
+        "status": 200,
+        "elapsed_sec": 0.644,
+        "bytes": 2727
+      }
+    ]
+  },
+  {
+    "host": "stockdata.stock.hexun.com",
+    "root_domain": "hexun.com",
+    "dns_ips": [
+      "123.148.116.184"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://stockdata.stock.hexun.com/zrbg/data/zrbList.aspx",
+        "status": 307,
+        "elapsed_sec": 0.206,
+        "bytes": 164
+      },
+      {
+        "url": "http://stockdata.stock.hexun.com/zrbg/",
+        "status": 307,
+        "elapsed_sec": 0.127,
+        "bytes": 164
+      }
+    ]
+  },
+  {
+    "host": "stockpage.10jqka.com.cn",
+    "root_domain": "10jqka.com.cn",
+    "dns_ips": [
+      "221.6.171.142",
+      "221.6.171.143"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://stockpage.10jqka.com.cn/HK0700/bonus/",
+        "status": 200,
+        "elapsed_sec": 0.67,
+        "bytes": 40360
+      }
+    ]
+  },
+  {
+    "host": "tsite.shfe.com.cn",
+    "root_domain": "shfe.com.cn",
+    "dns_ips": [],
+    "dns_error": "gaierror: [Errno 11001] getaddrinfo failed",
+    "checks": [
+      {
+        "url": "https://tsite.shfe.com.cn/statements/dataview.html?paramid=dailystock",
+        "error": "ConnectionError: HTTPSConnectionPool(host='tsite.shfe.com.cn', port=443): Max retries exceeded with url: /statements/dataview.html?paramid=dailystock (Caused by NameResolutionError(\"HTTPSConnection(host='tsite.shfe.com.cn', port=443): Failed to resolve 'tsite.shfe.com.cn' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.009
+      },
+      {
+        "url": "https://tsite.shfe.com.cn/bourseService/businessdata/summaryinquiry/",
+        "error": "ConnectionError: HTTPSConnectionPool(host='tsite.shfe.com.cn', port=443): Max retries exceeded with url: /bourseService/businessdata/summaryinquiry/ (Caused by NameResolutionError(\"HTTPSConnection(host='tsite.shfe.com.cn', port=443): Failed to resolve 'tsite.shfe.com.cn' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.017
+      }
+    ]
+  },
+  {
+    "host": "tv.cctv.com",
+    "root_domain": "cctv.com",
+    "dns_ips": [
+      "211.95.35.138",
+      "211.95.37.69",
+      "211.95.52.245",
+      "211.95.52.65"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://tv.cctv.com/lm/xwlb",
+        "status": 301,
+        "elapsed_sec": 0.595,
+        "bytes": 171
+      }
+    ]
+  },
+  {
+    "host": "vip.stock.finance.sina.com.cn",
+    "root_domain": "sina.com.cn",
+    "dns_ips": [
+      "106.63.15.52",
+      "116.133.8.236",
+      "49.7.36.205"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://vip.stock.finance.sina.com.cn/corp/go.php/vFD_FinanceSummary/stockid/600600/displaytype/4.phtml?source=fzb&qq-pf-to=pcqq.group",
+        "status": 200,
+        "elapsed_sec": 0.613,
+        "bytes": 47010
+      },
+      {
+        "url": "http://vip.stock.finance.sina.com.cn/quotes_service/api/json_v2.php/Market_Center.getHQNodeStockCountSimple",
+        "status": 200,
+        "elapsed_sec": 0.059,
+        "bytes": 40
+      }
+    ]
+  },
+  {
+    "host": "wallstreetcn.com",
+    "root_domain": "wallstreetcn.com",
+    "dns_ips": [
+      "175.24.250.19"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://wallstreetcn.com/calendar",
+        "status": 200,
+        "elapsed_sec": 0.601,
+        "bytes": 5633
+      }
+    ]
+  },
+  {
+    "host": "wap.eastmoney.com",
+    "root_domain": "eastmoney.com",
+    "dns_ips": [
+      "101.71.73.135",
+      "112.84.131.227",
+      "116.153.78.163",
+      "119.36.225.121",
+      "61.241.148.62"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://wap.eastmoney.com/quote/stock/151.cu2404P61000.html",
+        "status": 404,
+        "elapsed_sec": 0.645,
+        "bytes": 531
+      },
+      {
+        "url": "https://wap.eastmoney.com/quote/stock/100.STI.html",
+        "status": 200,
+        "elapsed_sec": 0.632,
+        "bytes": 2928
+      }
+    ]
+  },
+  {
+    "host": "web.ifzq.gtimg.cn",
+    "root_domain": "gtimg.cn",
+    "dns_ips": [
+      "112.65.195.233",
+      "116.128.177.165"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://web.ifzq.gtimg.cn/other/klineweb/klineWeb/weekTrends",
+        "status": 200,
+        "elapsed_sec": 0.69,
+        "bytes": 42
+      },
+      {
+        "url": "https://web.ifzq.gtimg.cn/appstock/app/hkfqkline/get",
+        "status": 200,
+        "elapsed_sec": 0.626,
+        "bytes": 39
+      }
+    ]
+  },
+  {
+    "host": "webapi.cninfo.com.cn",
+    "root_domain": "cninfo.com.cn",
+    "dns_ips": [
+      "59.35.205.15"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://webapi.cninfo.com.cn/api/sysapi/p_sysapi1029",
+        "status": 200,
+        "elapsed_sec": 0.627,
+        "bytes": 89
+      },
+      {
+        "url": "https://webapi.cninfo.com.cn/api/sysapi/p_sysapi1030",
+        "status": 200,
+        "elapsed_sec": 0.598,
+        "bytes": 89
+      }
+    ]
+  },
+  {
+    "host": "webusstock.hermes.hexun.com",
+    "root_domain": "hexun.com",
+    "dns_ips": [],
+    "dns_error": "gaierror: [Errno 11001] getaddrinfo failed",
+    "checks": [
+      {
+        "url": "http://webusstock.hermes.hexun.com/usa/kline",
+        "error": "ConnectionError: HTTPConnectionPool(host='webusstock.hermes.hexun.com', port=80): Max retries exceeded with url: /usa/kline (Caused by NameResolutionError(\"HTTPConnection(host='webusstock.hermes.hexun.com', port=80): Failed to resolve 'webusstock.hermes.hexun.com' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.007
+      }
+    ]
+  },
+  {
+    "host": "www.100ppi.com",
+    "root_domain": "100ppi.com",
+    "dns_ips": [
+      "222.73.8.59"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.100ppi.com/sf/day-2017-09-12.html",
+        "status": 200,
+        "elapsed_sec": 1.013,
+        "bytes": 660
+      },
+      {
+        "url": "https://www.100ppi.com/sf/day-2018-09-12.html",
+        "status": 200,
+        "elapsed_sec": 0.582,
+        "bytes": 660
+      }
+    ]
+  },
+  {
+    "host": "www.96369.net",
+    "root_domain": "96369.net",
+    "dns_ips": [
+      "203.107.45.167"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.96369.net/Other/ValidateCode.aspx",
+        "status": 301,
+        "elapsed_sec": 0.469,
+        "bytes": 0
+      },
+      {
+        "url": "http://www.96369.net/indices/67",
+        "status": 301,
+        "elapsed_sec": 0.158,
+        "bytes": 0
+      }
+    ]
+  },
+  {
+    "host": "www.99qh.com",
+    "root_domain": "99qh.com",
+    "dns_ips": [
+      "119.36.224.12",
+      "122.188.45.140"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.99qh.com/data/stockIn?productId=12",
+        "status": 200,
+        "elapsed_sec": 1.457,
+        "bytes": 74368
+      },
+      {
+        "url": "https://www.99qh.com/data/spotTrend",
+        "status": 200,
+        "elapsed_sec": 0.808,
+        "bytes": 50130
+      }
+    ]
+  },
+  {
+    "host": "www.9qihuo.com",
+    "root_domain": "9qihuo.com",
+    "dns_ips": [
+      "47.101.166.114"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.9qihuo.com/qiquanshouxufei",
+        "status": 403,
+        "elapsed_sec": 0.852,
+        "bytes": 125
+      },
+      {
+        "url": "https://www.9qihuo.com/qihuoshouxufei",
+        "status": 403,
+        "elapsed_sec": 0.5,
+        "bytes": 124
+      }
+    ]
+  },
+  {
+    "host": "www.aqistudy.cn",
+    "root_domain": "aqistudy.cn",
+    "dns_ips": [
+      "120.26.232.200"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.aqistudy.cn/",
+        "status": 200,
+        "elapsed_sec": 0.605,
+        "bytes": 7422
+      }
+    ]
+  },
+  {
+    "host": "www.bjets.com.cn",
+    "root_domain": "bjets.com.cn",
+    "dns_ips": [
+      "112.84.222.26",
+      "112.84.222.43"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.bjets.com.cn/article/jyxx/",
+        "status": 502,
+        "elapsed_sec": 6.813,
+        "bytes": 5616
+      }
+    ]
+  },
+  {
+    "host": "www.bloomberg.com",
+    "root_domain": "bloomberg.com",
+    "dns_ips": [
+      "151.101.1.73",
+      "151.101.129.73",
+      "151.101.193.73",
+      "151.101.65.73"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.bloomberg.com/billionaires/",
+        "status": 403,
+        "elapsed_sec": 1.105,
+        "bytes": 13856
+      },
+      {
+        "url": "https://www.bloomberg.com/billionaires",
+        "status": 403,
+        "elapsed_sec": 0.972,
+        "bytes": 13856
+      }
+    ]
+  },
+  {
+    "host": "www.bse.cn",
+    "root_domain": "bse.cn",
+    "dns_ips": [
+      "211.95.37.69",
+      "211.95.52.65"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.bse.cn/rzrqjyyexxController/summaryInfoResult.do",
+        "status": 302,
+        "elapsed_sec": 0.65,
+        "bytes": 138
+      },
+      {
+        "url": "https://www.bse.cn/rzrqjyyexxController/detailInfoResult.do",
+        "status": 302,
+        "elapsed_sec": 0.518,
+        "bytes": 138
+      }
+    ]
+  },
+  {
+    "host": "www.ccidx.com",
+    "root_domain": "ccidx.com",
+    "dns_ips": [
+      "61.135.173.166"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.ccidx.com/CCI-ZZZS/index/getDateLine",
+        "status": 200,
+        "elapsed_sec": 1.019,
+        "bytes": 76
+      },
+      {
+        "url": "http://www.ccidx.com/index.html",
+        "status": 200,
+        "elapsed_sec": 0.343,
+        "bytes": 411980
+      }
+    ]
+  },
+  {
+    "host": "www.cerx.cn",
+    "root_domain": "cerx.cn",
+    "dns_ips": [
+      "183.62.141.75"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.cerx.cn/dailynewsOuter/index.htm",
+        "error": "ReadTimeout: HTTPConnectionPool(host='www.cerx.cn', port=80): Read timed out. (read timeout=8)",
+        "elapsed_sec": 8.057
+      },
+      {
+        "url": "http://www.cerx.cn/dailynewsCN/index.htm",
+        "error": "ReadTimeout: HTTPConnectionPool(host='www.cerx.cn', port=80): Read timed out. (read timeout=8)",
+        "elapsed_sec": 8.036
+      }
+    ]
+  },
+  {
+    "host": "www.cffex.com.cn",
+    "root_domain": "cffex.com.cn",
+    "dns_ips": [
+      "112.64.143.225",
+      "58.247.34.225"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.cffex.com.cn/sj/ccpm/201908/05/IF_1.csv",
+        "status": 200,
+        "elapsed_sec": 0.053,
+        "bytes": 6342
+      },
+      {
+        "url": "http://www.cffex.com.cn/sj/ccpm/202308/08/IF_1.csv",
+        "status": 200,
+        "elapsed_sec": 0.025,
+        "bytes": 5842
+      }
+    ]
+  },
+  {
+    "host": "www.chinabond.com.cn",
+    "root_domain": "chinabond.com.cn",
+    "dns_ips": [
+      "124.126.23.194"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.chinabond.com.cn/",
+        "status": 200,
+        "elapsed_sec": 2.714,
+        "bytes": 415173
+      }
+    ]
+  },
+  {
+    "host": "www.chinamoney.com.cn",
+    "root_domain": "chinamoney.com.cn",
+    "dns_ips": [
+      "112.84.130.125"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.chinamoney.com.cn/ags/ms/cm-u-md-bond/CbMktMakQuot?flag=1&lang=cn&abdAssetEncdShrtDesc=&emaEntyEncdShrtDesc=",
+        "status": 302,
+        "elapsed_sec": 0.067,
+        "bytes": 142
+      },
+      {
+        "url": "https://www.chinamoney.com.cn/chinese/bkcurvclosedyhis/?bondType=CYCC000&reference=1",
+        "status": 200,
+        "elapsed_sec": 0.87,
+        "bytes": 3677
+      }
+    ]
+  },
+  {
+    "host": "www.chinamoney.org.cn",
+    "root_domain": "chinamoney.org.cn",
+    "dns_ips": [
+      "27.115.79.93"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.chinamoney.org.cn/r/cms/www/chinamoney/data/fx/fx-c-sw-curv-USD.CNY.json",
+        "error": "SSLError: HTTPSConnectionPool(host='www.chinamoney.org.cn', port=443): Max retries exceeded with url: /r/cms/www/chinamoney/data/fx/fx-c-sw-curv-USD.CNY.json (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1032)')))",
+        "elapsed_sec": 0.543
+      },
+      {
+        "url": "https://www.chinamoney.org.cn/chinese/bkcurvfsw",
+        "error": "SSLError: HTTPSConnectionPool(host='www.chinamoney.org.cn', port=443): Max retries exceeded with url: /chinese/bkcurvfsw (Caused by SSLError(SSLError(1, '[SSL: UNSAFE_LEGACY_RENEGOTIATION_DISABLED] unsafe legacy renegotiation disabled (_ssl.c:1032)')))",
+        "elapsed_sec": 0.355
+      }
+    ]
+  },
+  {
+    "host": "www.chinascope.com",
+    "root_domain": "chinascope.com",
+    "dns_ips": [
+      "119.45.172.252"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.chinascope.com/inews/senti/index",
+        "status": 301,
+        "elapsed_sec": 0.88,
+        "bytes": 162
+      },
+      {
+        "url": "https://www.chinascope.com/reasearch.html",
+        "status": 301,
+        "elapsed_sec": 0.521,
+        "bytes": 162
+      }
+    ]
+  },
+  {
+    "host": "www.cls.cn",
+    "root_domain": "cls.cn",
+    "dns_ips": [
+      "47.110.216.157"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.cls.cn/v1/roll/get_roll_list",
+        "status": 200,
+        "elapsed_sec": 0.501,
+        "bytes": 39
+      },
+      {
+        "url": "https://www.cls.cn/telegraph",
+        "status": 200,
+        "elapsed_sec": 0.558,
+        "bytes": 17889
+      }
+    ]
+  },
+  {
+    "host": "www.cnemission.com",
+    "root_domain": "cnemission.com",
+    "dns_ips": [
+      "116.205.146.101",
+      "116.205.146.110",
+      "123.60.238.155",
+      "123.60.238.175"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.cnemission.com/article/hqxx/",
+        "status": 301,
+        "elapsed_sec": 0.378,
+        "bytes": 165
+      }
+    ]
+  },
+  {
+    "host": "www.cnindex.com.cn",
+    "root_domain": "cnindex.com.cn",
+    "dns_ips": [
+      "140.207.66.158",
+      "140.207.66.163",
+      "140.207.66.165",
+      "140.207.66.167",
+      "140.207.66.168",
+      "140.207.66.169",
+      "140.207.66.170",
+      "140.207.66.171",
+      "140.207.66.173",
+      "140.207.66.174",
+      "140.207.66.177",
+      "140.207.66.181"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.cnindex.com.cn/module/index-detail.html?act_menu=1&indexCode=399001",
+        "status": 200,
+        "elapsed_sec": 0.677,
+        "bytes": 84490
+      },
+      {
+        "url": "http://www.cnindex.com.cn/module/index-detail.html?act_menu=1&indexCode=399001",
+        "status": 301,
+        "elapsed_sec": 0.035,
+        "bytes": 166
+      }
+    ]
+  },
+  {
+    "host": "www.cninfo.com.cn",
+    "root_domain": "cninfo.com.cn",
+    "dns_ips": [
+      "140.207.66.158",
+      "140.207.66.159",
+      "140.207.66.160",
+      "140.207.66.162",
+      "140.207.66.163",
+      "140.207.66.165",
+      "140.207.66.166",
+      "140.207.66.167",
+      "140.207.66.169",
+      "140.207.66.174",
+      "140.207.66.175",
+      "140.207.66.178"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.cninfo.com.cn/new/js/app/disclosure/notice/history-notice.js?v=20231124083101",
+        "status": 200,
+        "elapsed_sec": 0.18,
+        "bytes": 70937
+      },
+      {
+        "url": "http://www.cninfo.com.cn/new/commonUrl/pageOfSearch?url=disclosure/list/search",
+        "status": 200,
+        "elapsed_sec": 0.143,
+        "bytes": 60638
+      }
+    ]
+  },
+  {
+    "host": "www.csindex.com.cn",
+    "root_domain": "csindex.com.cn",
+    "dns_ips": [
+      "103.251.86.61",
+      "27.115.119.161"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.csindex.com.cn/zh-CN/indices/index-detail/H30374#/indices/family/detail?indexCode=H30374",
+        "status": 200,
+        "elapsed_sec": 0.786,
+        "bytes": 19563
+      },
+      {
+        "url": "https://www.csindex.com.cn/zh-CN/indices/index-detail/H30374#/indices/family/list?index_series=1",
+        "status": 200,
+        "elapsed_sec": 0.424,
+        "bytes": 19563
+      }
+    ]
+  },
+  {
+    "host": "www.czce.com.cn",
+    "root_domain": "czce.com.cn",
+    "dns_ips": [
+      "218.29.68.227"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.czce.com.cn/cn/DFSStaticFiles/Future/2020/20200727/FutureDataHolding.txt",
+        "status": 301,
+        "elapsed_sec": 2.261,
+        "bytes": 0
+      },
+      {
+        "url": "http://www.czce.com.cn/cn/DFSStaticFiles/Future/%s/%s/FutureDataHolding.htm",
+        "status": 301,
+        "elapsed_sec": 0.406,
+        "bytes": 0
+      }
+    ]
+  },
+  {
+    "host": "www.dce.com.cn",
+    "root_domain": "dce.com.cn",
+    "dns_ips": [
+      "218.25.154.72",
+      "59.44.106.20"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.dce.com.cn/dcereport/publicweb/dailystat/memberDealPosi/batchDownload",
+        "status": 412,
+        "elapsed_sec": 0.169,
+        "bytes": 2723
+      },
+      {
+        "url": "http://www.dce.com.cn/dalianshangpin/xqsj/tjsj26/rtj/rcjccpm/index.html",
+        "status": 412,
+        "elapsed_sec": 0.116,
+        "bytes": 2739
+      }
+    ]
+  },
+  {
+    "host": "www.drewry.co.uk",
+    "root_domain": "drewry.co.uk",
+    "dns_ips": [
+      "54.194.233.75",
+      "54.228.90.107"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
+        "status": 429,
+        "elapsed_sec": 1.477,
+        "bytes": 110
+      }
+    ]
+  },
+  {
+    "host": "www.econ.yale.edu",
+    "root_domain": "yale.edu",
+    "dns_ips": [
+      "128.36.64.169"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.econ.yale.edu/~shiller/data.htm",
+        "status": 200,
+        "elapsed_sec": 0.704,
+        "bytes": 7931
+      }
+    ]
+  },
+  {
+    "host": "www.endata.com.cn",
+    "root_domain": "endata.com.cn",
+    "dns_ips": [
+      "101.42.221.71"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.endata.com.cn/BoxOffice/BO/Month/oneMonth.html",
+        "status": 200,
+        "elapsed_sec": 0.49,
+        "bytes": 353
+      },
+      {
+        "url": "https://www.endata.com.cn/BoxOffice/BO/Year/firstWeek.html",
+        "status": 200,
+        "elapsed_sec": 0.565,
+        "bytes": 353
+      }
+    ]
+  },
+  {
+    "host": "www.etnet.com.hk",
+    "root_domain": "etnet.com.hk",
+    "dns_ips": [
+      "202.62.215.9"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.etnet.com.hk/www/sc/stocks/realtime/quote_profit.php?code=9999",
+        "status": 200,
+        "elapsed_sec": 1.897,
+        "bytes": 128783
+      },
+      {
+        "url": "https://www.etnet.com.hk/www/sc/stocks/realtime/quote_profit.php",
+        "status": 200,
+        "elapsed_sec": 1.315,
+        "bytes": 232
+      }
+    ]
+  },
+  {
+    "host": "www.forbeschina.com",
+    "root_domain": "forbeschina.com",
+    "dns_ips": [
+      "47.52.123.208"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.forbeschina.com/lists/1750",
+        "error": "SSLError: HTTPSConnectionPool(host='www.forbeschina.com', port=443): Max retries exceeded with url: /lists/1750 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))",
+        "elapsed_sec": 1.081
+      },
+      {
+        "url": "https://www.forbeschina.com/lists",
+        "error": "SSLError: HTTPSConnectionPool(host='www.forbeschina.com', port=443): Max retries exceeded with url: /lists (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))",
+        "elapsed_sec": 0.727
+      }
+    ]
+  },
+  {
+    "host": "www.fortunechina.com",
+    "root_domain": "fortunechina.com",
+    "dns_ips": [
+      "91.110.142.68"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.fortunechina.com/fortune500/c/2023-08/02/content_436874.htm",
+        "status": 200,
+        "elapsed_sec": 1.797,
+        "bytes": 192650
+      },
+      {
+        "url": "https://www.fortunechina.com/fortune500/index.htm",
+        "status": 301,
+        "elapsed_sec": 1.072,
+        "bytes": 194
+      }
+    ]
+  },
+  {
+    "host": "www.futunn.com",
+    "root_domain": "futunn.com",
+    "dns_ips": [
+      "101.71.73.135",
+      "112.84.131.227",
+      "116.153.78.163",
+      "119.36.225.121",
+      "61.241.148.62"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.futunn.com/quote-api/quote-v2/get-plate-stock",
+        "status": 200,
+        "elapsed_sec": 0.653,
+        "bytes": 47
+      },
+      {
+        "url": "https://www.futunn.com/quote/sparks-us",
+        "status": 200,
+        "elapsed_sec": 0.684,
+        "bytes": 939721
+      }
+    ]
+  },
+  {
+    "host": "www.gfex.com.cn",
+    "root_domain": "gfex.com.cn",
+    "dns_ips": [
+      "101.71.73.136",
+      "112.84.131.226",
+      "116.153.78.175",
+      "119.36.225.137",
+      "122.193.250.188",
+      "61.241.148.123"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.gfex.com.cn/u/interfacesWebTiMemberDealPosiQuotes/loadListContract_id",
+        "status": 520,
+        "elapsed_sec": 0.312,
+        "bytes": 0
+      },
+      {
+        "url": "http://www.gfex.com.cn/u/interfacesWebTiDayQuotes/loadListOptVolatility",
+        "status": 520,
+        "elapsed_sec": 0.207,
+        "bytes": 0
+      }
+    ]
+  },
+  {
+    "host": "www.gtjaqh.com",
+    "root_domain": "gtjaqh.com",
+    "dns_ips": [
+      "114.94.108.182",
+      "183.193.54.86",
+      "220.196.85.22"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.gtjaqh.com/pc/calendar.html",
+        "status": 301,
+        "elapsed_sec": 0.687,
+        "bytes": 169
+      },
+      {
+        "url": "https://www.gtjaqh.com/pc/calendar",
+        "status": 200,
+        "elapsed_sec": 0.535,
+        "bytes": 52563
+      }
+    ]
+  },
+  {
+    "host": "www.hbets.cn",
+    "root_domain": "hbets.cn",
+    "dns_ips": [
+      "120.202.35.210"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.hbets.cn/list/13.html?page=42",
+        "status": 302,
+        "elapsed_sec": 0.143,
+        "bytes": 0
+      },
+      {
+        "url": "https://www.hbets.cn/",
+        "status": 200,
+        "elapsed_sec": 1.205,
+        "bytes": 580406
+      }
+    ]
+  },
+  {
+    "host": "www.hurun.net",
+    "root_domain": "hurun.net",
+    "dns_ips": [
+      "114.55.145.64"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.hurun.net/zh-CN/Rank/HsRankDetails?pagetype=rich",
+        "status": 200,
+        "elapsed_sec": 1.135,
+        "bytes": 307212
+      },
+      {
+        "url": "https://www.hurun.net/CN/HuList/Index?num=3YwKs889SRIm",
+        "status": 404,
+        "elapsed_sec": 0.652,
+        "bytes": 0
+      }
+    ]
+  },
+  {
+    "host": "www.ine.cn",
+    "root_domain": "ine.cn",
+    "dns_ips": [
+      "140.207.78.1"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.ine.cn/bourseService/summary/?name=currinstrumentprop",
+        "status": 404,
+        "elapsed_sec": 0.543,
+        "bytes": 4229
+      },
+      {
+        "url": "https://www.ine.cn/reports/businessdata/prmsummary/",
+        "status": 200,
+        "elapsed_sec": 0.515,
+        "bytes": 202603
+      }
+    ]
+  },
+  {
+    "host": "www.iweiai.com",
+    "root_domain": "iweiai.com",
+    "dns_ips": [
+      "39.100.93.195"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.iweiai.com/qiquan/yuanyou",
+        "status": 200,
+        "elapsed_sec": 1.011,
+        "bytes": 342256
+      },
+      {
+        "url": "https://www.iweiai.com/qihuo/yuanyou",
+        "status": 200,
+        "elapsed_sec": 0.63,
+        "bytes": 47174
+      }
+    ]
+  },
+  {
+    "host": "www.jiaoyifamen.com",
+    "root_domain": "jiaoyifamen.com",
+    "dns_ips": [
+      "106.15.182.105"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.jiaoyifamen.com/tools/future/valence/free",
+        "status": 500,
+        "elapsed_sec": 0.939,
+        "bytes": 118
+      },
+      {
+        "url": "https://www.jiaoyifamen.com/tools/future/spread/free",
+        "status": 500,
+        "elapsed_sec": 0.627,
+        "bytes": 118
+      }
+    ]
+  },
+  {
+    "host": "www.jin10.com",
+    "root_domain": "jin10.com",
+    "dns_ips": [
+      "211.95.51.13",
+      "211.95.51.14",
+      "211.95.51.15",
+      "211.95.51.16",
+      "211.95.51.17",
+      "211.95.51.18",
+      "211.95.51.19",
+      "211.95.51.20"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.jin10.com/",
+        "status": 200,
+        "elapsed_sec": 0.473,
+        "bytes": 5011
+      },
+      {
+        "url": "https://www.jin10.com",
+        "status": 200,
+        "elapsed_sec": 0.525,
+        "bytes": 5011
+      }
+    ]
+  },
+  {
+    "host": "www.jisilu.cn",
+    "root_domain": "jisilu.cn",
+    "dns_ips": [
+      "182.92.149.237"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.jisilu.cn/webapi/cb/index_history/",
+        "status": 200,
+        "elapsed_sec": 0.73,
+        "bytes": 43966
+      },
+      {
+        "url": "https://www.jisilu.cn/data/cbnew/cb_list_new/",
+        "status": 200,
+        "elapsed_sec": 0.811,
+        "bytes": 40337
+      }
+    ]
+  },
+  {
+    "host": "www.joinquant.com",
+    "root_domain": "joinquant.com",
+    "dns_ips": [
+      "39.96.11.44"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.joinquant.com/data/dict/indexData",
+        "status": 200,
+        "elapsed_sec": 0.755,
+        "bytes": 6314
+      }
+    ]
+  },
+  {
+    "host": "www.jstor.org",
+    "root_domain": "jstor.org",
+    "dns_ips": [
+      "151.101.0.152",
+      "151.101.128.152",
+      "151.101.192.152",
+      "151.101.64.152"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.jstor.org/stable/10.1086/209650",
+        "status": 200,
+        "elapsed_sec": 1.125,
+        "bytes": 3038
+      }
+    ]
+  },
+  {
+    "host": "www.kqindex.cn",
+    "root_domain": "kqindex.cn",
+    "dns_ips": [
+      "122.224.56.37"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.kqindex.cn/flzs/table_data",
+        "status": 200,
+        "elapsed_sec": 0.049,
+        "bytes": 1228
+      },
+      {
+        "url": "http://www.kqindex.cn/flzs/jiage",
+        "status": 200,
+        "elapsed_sec": 0.041,
+        "bytes": 1228
+      }
+    ]
+  },
+  {
+    "host": "www.legulegu.com",
+    "root_domain": "legulegu.com",
+    "dns_ips": [
+      "182.92.2.73"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.legulegu.com/stockdata/below-net-asset-statistics",
+        "status": 200,
+        "elapsed_sec": 0.818,
+        "bytes": 65862
+      },
+      {
+        "url": "https://www.legulegu.com/stockdata/high-low-statistics",
+        "status": 200,
+        "elapsed_sec": 0.614,
+        "bytes": 65791
+      }
+    ]
+  },
+  {
+    "host": "www.msweet.com.cn",
+    "root_domain": "msweet.com.cn",
+    "dns_ips": [
+      "124.226.193.53",
+      "124.226.193.54"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.msweet.com.cn/datacenterapply/datacenter/json/JinKongTang.json",
+        "status": 200,
+        "elapsed_sec": 0.867,
+        "bytes": 471998
+      },
+      {
+        "url": "https://www.msweet.com.cn/datacenterapply/datacenter/json/Jkpewlr.json",
+        "status": 200,
+        "elapsed_sec": 0.709,
+        "bytes": 83368
+      }
+    ]
+  },
+  {
+    "host": "www.nafmii.org.cn",
+    "root_domain": "nafmii.org.cn",
+    "dns_ips": [
+      "122.190.204.44"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.nafmii.org.cn/",
+        "status": 200,
+        "elapsed_sec": 1.248,
+        "bytes": 195138
+      }
+    ]
+  },
+  {
+    "host": "www.nfra.gov.cn",
+    "root_domain": "nfra.gov.cn",
+    "dns_ips": [
+      "101.71.77.151",
+      "140.207.243.207"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.nfra.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=4115&itemUrl=ItemListRightList.html&itemName=%E9%93%B6%E4%BF%9D%E7%9B%91%E5%88%86%E5%B1%80%E6%9C%AC%E7%BA%A7&itemsubPId=931&itemsubPName=%E8%A1%8C%E6%94%BF%E5%A4%84%E7%BD%9A#2",
+        "status": 200,
+        "elapsed_sec": 0.643,
+        "bytes": 4012
+      },
+      {
+        "url": "http://www.nfra.gov.cn/cn/view/pages/ItemList.html?itemPId=923&itemId=4115&itemUrl=ItemListRightList.html&itemName=%E9%93%B6%E4%BF%9D%E7%9B%91%E5%88%86%E5%B1%80%E6%9C%AC%E7%BA%A7&itemsubPId=931&itemsubPName=%E8%A1%8C%E6%94%BF%E5%A4%84%E7%BD%9A",
+        "status": 302,
+        "elapsed_sec": 0.03,
+        "bytes": 138
+      }
+    ]
+  },
+  {
+    "host": "www.ownthink.com",
+    "root_domain": "ownthink.com",
+    "dns_ips": [
+      "43.159.142.192"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.ownthink.com/docs/kg/",
+        "status": 302,
+        "elapsed_sec": 0.847,
+        "bytes": 90
+      }
+    ]
+  },
+  {
+    "host": "www.policyuncertainty.com",
+    "root_domain": "policyuncertainty.com",
+    "dns_ips": [
+      "192.124.249.115"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.policyuncertainty.com/index.html",
+        "status": 200,
+        "elapsed_sec": 0.967,
+        "bytes": 22690
+      },
+      {
+        "url": "http://www.policyuncertainty.com/index.html",
+        "status": 200,
+        "elapsed_sec": 0.375,
+        "bytes": 22690
+      }
+    ]
+  },
+  {
+    "host": "www.qhkch.com",
+    "root_domain": "qhkch.com",
+    "dns_ips": [
+      "119.3.145.208"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.qhkch.com/ajax/index_show.php",
+        "status": 404,
+        "elapsed_sec": 0.852,
+        "bytes": 34
+      }
+    ]
+  },
+  {
+    "host": "www.safe.gov.cn",
+    "root_domain": "safe.gov.cn",
+    "dns_ips": [
+      "114.255.58.74"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.safe.gov.cn/AppStructured/hlw/RMBQuery.do",
+        "status": 200,
+        "elapsed_sec": 1.178,
+        "bytes": 36852
+      },
+      {
+        "url": "https://www.safe.gov.cn/safe/2020/1218/17833.html",
+        "status": 200,
+        "elapsed_sec": 0.69,
+        "bytes": 15958
+      }
+    ]
+  },
+  {
+    "host": "www.sge.com.cn",
+    "root_domain": "sge.com.cn",
+    "dns_ips": [
+      "124.28.196.55"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.sge.com.cn/graph/DayilyShsilverJzj",
+        "status": 200,
+        "elapsed_sec": 0.659,
+        "bytes": 78390
+      },
+      {
+        "url": "https://www.sge.com.cn/graph/quotations",
+        "status": 200,
+        "elapsed_sec": 0.568,
+        "bytes": 8710
+      }
+    ]
+  },
+  {
+    "host": "www.sgx.com",
+    "root_domain": "sgx.com",
+    "dns_ips": [
+      "23.211.139.196",
+      "23.211.139.204"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.sgx.com/zh-hans/research-education/derivatives",
+        "status": 200,
+        "elapsed_sec": 1.261,
+        "bytes": 15340
+      }
+    ]
+  },
+  {
+    "host": "www.shfe.com.cn",
+    "root_domain": "shfe.com.cn",
+    "dns_ips": [
+      "58.247.108.124"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.shfe.com.cn/data/tradedata/future/dailydata/%sdailystock.dat",
+        "status": 404,
+        "elapsed_sec": 0.544,
+        "bytes": 4832
+      },
+      {
+        "url": "https://www.shfe.com.cn/data/tradedata/future/dailydata/kx%s.dat",
+        "status": 404,
+        "elapsed_sec": 0.551,
+        "bytes": 4832
+      }
+    ]
+  },
+  {
+    "host": "www.shmet.com",
+    "root_domain": "shmet.com",
+    "dns_ips": [
+      "119.188.209.57",
+      "123.6.105.23"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.shmet.com/newsFlash/newsFlash.html?searchKeyword=",
+        "status": 200,
+        "elapsed_sec": 1.056,
+        "bytes": 15802
+      },
+      {
+        "url": "https://www.shmet.com/api/rest/news/queryNewsflashList",
+        "status": 405,
+        "elapsed_sec": 0.931,
+        "bytes": 232
+      }
+    ]
+  },
+  {
+    "host": "www.soozhu.com",
+    "root_domain": "soozhu.com",
+    "dns_ips": [
+      "140.207.247.171"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.soozhu.com/price/data/center/",
+        "status": 200,
+        "elapsed_sec": 0.739,
+        "bytes": 25383
+      }
+    ]
+  },
+  {
+    "host": "www.sse.com.cn",
+    "root_domain": "sse.com.cn",
+    "dns_ips": [
+      "202.122.113.73"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.sse.com.cn/disclosure/credibility/supervision/change/",
+        "status": 200,
+        "elapsed_sec": 0.845,
+        "bytes": 27725
+      },
+      {
+        "url": "http://www.sse.com.cn/assortment/options/disclo/preinfo/",
+        "status": 200,
+        "elapsed_sec": 0.096,
+        "bytes": 27310
+      }
+    ]
+  },
+  {
+    "host": "www.sse.org.cn",
+    "root_domain": "sse.org.cn",
+    "dns_ips": [
+      "58.251.50.138"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.sse.org.cn/option/quotation/contract/daycontract/index.html",
+        "status": 200,
+        "elapsed_sec": 0.672,
+        "bytes": 14777
+      },
+      {
+        "url": "https://www.sse.org.cn/api/report/ShowReport",
+        "status": 500,
+        "elapsed_sec": 0.627,
+        "bytes": 2226
+      }
+    ]
+  },
+  {
+    "host": "www.super-ping.com",
+    "root_domain": "super-ping.com",
+    "dns_ips": [
+      "195.201.128.179",
+      "46.62.237.138",
+      "5.161.230.87",
+      "5.161.47.86",
+      "76.223.91.20"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.super-ping.com/?ping=www.google.com&locale=sc",
+        "status": 301,
+        "elapsed_sec": 0.747,
+        "bytes": 89
+      }
+    ]
+  },
+  {
+    "host": "www.swhyresearch.com",
+    "root_domain": "swhyresearch.com",
+    "dns_ips": [
+      "222.73.228.211"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.swhyresearch.com/institute_sw/allIndex/downloadCenter/industryType",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "elapsed_sec": 5.032
+      }
+    ]
+  },
+  {
+    "host": "www.swsindex.com",
+    "root_domain": "swsindex.com",
+    "dns_ips": [
+      "222.73.228.201"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.swsindex.com/idx0210.aspx?swindexcode=801010",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "elapsed_sec": 5.036
+      },
+      {
+        "url": "http://www.swsindex.com/idx0120.aspx?columnid=8832",
+        "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+        "elapsed_sec": 5.017
+      }
+    ]
+  },
+  {
+    "host": "www.swsresearch.com",
+    "root_domain": "swsresearch.com",
+    "dns_ips": [
+      "202.122.119.203"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.swsresearch.com/institute_sw/allIndex/releasedIndex/releasedetail?code=801001&name=%E7%94%B3%E4%B8%8750",
+        "error": "SSLError: HTTPSConnectionPool(host='www.swsresearch.com', port=443): Max retries exceeded with url: /institute_sw/allIndex/releasedIndex/releasedetail?code=801001&name=%E7%94%B3%E4%B8%8750 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))",
+        "elapsed_sec": 0.508
+      },
+      {
+        "url": "https://www.swsresearch.com/institute_sw/allIndex/releasedIndex/fundDetail?code=807100",
+        "error": "SSLError: HTTPSConnectionPool(host='www.swsresearch.com', port=443): Max retries exceeded with url: /institute_sw/allIndex/releasedIndex/fundDetail?code=807100 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))",
+        "elapsed_sec": 0.446
+      }
+    ]
+  },
+  {
+    "host": "www.szse.cn",
+    "root_domain": "szse.cn",
+    "dns_ips": [
+      "120.86.114.74"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.szse.cn/api/report/ShowReport?SHOWTYPE=xlsx&CATALOGID=ysplbrb&TABKEY=tab1&random=0.10432465776720479",
+        "status": 200,
+        "elapsed_sec": 0.135,
+        "bytes": 19736
+      },
+      {
+        "url": "https://www.szse.cn/disclosure/supervision/change/index.html",
+        "status": 200,
+        "elapsed_sec": 0.648,
+        "bytes": 30814
+      }
+    ]
+  },
+  {
+    "host": "www.tanjiaoyi.com",
+    "root_domain": "tanjiaoyi.com",
+    "dns_ips": [
+      "118.190.162.44"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.tanjiaoyi.com/",
+        "status": 200,
+        "elapsed_sec": 5.383,
+        "bytes": 79607
+      }
+    ]
+  },
+  {
+    "host": "www.taptap.cn",
+    "root_domain": "taptap.cn",
+    "dns_ips": [
+      "47.93.95.186"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.taptap.cn/webapiv2/app-top/v2/hits",
+        "status": 400,
+        "elapsed_sec": 0.461,
+        "bytes": 217
+      },
+      {
+        "url": "https://www.taptap.cn/top/played",
+        "status": 200,
+        "elapsed_sec": 0.875,
+        "bytes": 561688
+      }
+    ]
+  },
+  {
+    "host": "www.timeanddate.com",
+    "root_domain": "timeanddate.com",
+    "dns_ips": [
+      "104.18.20.57",
+      "104.18.21.57"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.timeanddate.com/astronomy/china/shaoxing",
+        "status": 403,
+        "elapsed_sec": 0.912,
+        "bytes": 5568
+      },
+      {
+        "url": "https://www.timeanddate.com/astronomy/china",
+        "status": 403,
+        "elapsed_sec": 0.724,
+        "bytes": 5541
+      }
+    ]
+  },
+  {
+    "host": "www.ushknews.com",
+    "root_domain": "ushknews.com",
+    "dns_ips": [
+      "111.26.46.51",
+      "111.26.46.52",
+      "111.26.46.53",
+      "111.26.46.54",
+      "111.26.46.55",
+      "111.26.46.56",
+      "111.26.46.57",
+      "111.26.46.58"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.ushknews.com/report.html",
+        "status": 200,
+        "elapsed_sec": 1.118,
+        "bytes": 4326
+      },
+      {
+        "url": "https://www.ushknews.com/",
+        "status": 200,
+        "elapsed_sec": 0.759,
+        "bytes": 4908
+      }
+    ]
+  },
+  {
+    "host": "www.xcf.cn",
+    "root_domain": "xcf.cn",
+    "dns_ips": [
+      "140.206.210.204",
+      "140.206.210.205",
+      "140.206.210.206",
+      "140.206.210.207",
+      "140.206.210.208",
+      "140.206.210.209",
+      "140.206.210.210",
+      "140.206.210.211"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://www.xcf.cn/zhuanti/ztzz/hdzt1/500frb/index.html",
+        "status": 301,
+        "elapsed_sec": 0.115,
+        "bytes": 262
+      }
+    ]
+  },
+  {
+    "host": "www.ywindex.com",
+    "root_domain": "ywindex.com",
+    "dns_ips": [
+      "47.110.217.22"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.ywindex.com/Home/Product/index/",
+        "status": 404,
+        "elapsed_sec": 0.934,
+        "bytes": 65695
+      }
+    ]
+  },
+  {
+    "host": "www.zq12369.com",
+    "root_domain": "zq12369.com",
+    "dns_ips": [
+      "120.26.232.200"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://www.zq12369.com/environment.php?date=2019-06-05&tab=rank&order=DESC&type=DAY#rank",
+        "status": 200,
+        "elapsed_sec": 1.004,
+        "bytes": 313363
+      },
+      {
+        "url": "https://www.zq12369.com/environment.php?date=2020-03-12&tab=rank&order=DESC&type=DAY#rank",
+        "status": 200,
+        "elapsed_sec": 0.617,
+        "bytes": 313294
+      }
+    ]
+  },
+  {
+    "host": "xt.yangzhu.vip",
+    "root_domain": "yangzhu.vip",
+    "dns_ips": [
+      "106.12.6.53"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://xt.yangzhu.vip/data/getzhujiahitsdata",
+        "status": 200,
+        "elapsed_sec": 0.693,
+        "bytes": 29
+      },
+      {
+        "url": "https://xt.yangzhu.vip/data/getmapdata",
+        "status": 200,
+        "elapsed_sec": 0.518,
+        "bytes": 29
+      }
+    ]
+  },
+  {
+    "host": "xueqiu.com",
+    "root_domain": "xueqiu.com",
+    "dns_ips": [
+      "59.110.246.198"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://xueqiu.com/service/v5/stock/f10/cn/skholderchg",
+        "status": 200,
+        "elapsed_sec": 0.498,
+        "bytes": 59
+      },
+      {
+        "url": "https://xueqiu.com/service/v5/stock/screener/screen",
+        "status": 400,
+        "elapsed_sec": 0.518,
+        "bytes": 95
+      }
+    ]
+  },
+  {
+    "host": "yield.chinabond.com.cn",
+    "root_domain": "chinabond.com.cn",
+    "dns_ips": [
+      "58.33.196.200"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/historyQuery?startDate=2019-02-07&endDate=2020-02-04&gjqx=0&qxId=ycqx&locale=cn_ZH",
+        "error": "ReadTimeout: HTTPSConnectionPool(host='yield.chinabond.com.cn', port=443): Read timed out. (read timeout=8)",
+        "elapsed_sec": 8.538
+      },
+      {
+        "url": "https://yield.chinabond.com.cn/cbweb-mn/indices/singleIndexQueryResult",
+        "status": 405,
+        "elapsed_sec": 0.489,
+        "bytes": 3209
+      }
+    ]
+  },
+  {
+    "host": "ys.endata.cn",
+    "root_domain": "endata.cn",
+    "dns_ips": [
+      "101.52.206.131"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://ys.endata.cn/enlib-api/api/movie/getMovie_BoxOffice_Month_List.do",
+        "status": 200,
+        "elapsed_sec": 0.936,
+        "bytes": 148
+      },
+      {
+        "url": "https://ys.endata.cn/enlib-api/api/cinema/getcinemaboxoffice_day_list.do",
+        "status": 200,
+        "elapsed_sec": 0.752,
+        "bytes": 328
+      }
+    ]
+  },
+  {
+    "host": "yun.ccxe.com.cn",
+    "root_domain": "ccxe.com.cn",
+    "dns_ips": [
+      "8.140.33.111"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://yun.ccxe.com.cn/api/index/pro/cxIndexTrendInfo",
+        "status": 200,
+        "elapsed_sec": 1.441,
+        "bytes": 926
+      },
+      {
+        "url": "https://yun.ccxe.com.cn/indices/neei",
+        "status": 200,
+        "elapsed_sec": 1.278,
+        "bytes": 926
+      }
+    ]
+  },
+  {
+    "host": "yunhq.sse.com.cn",
+    "root_domain": "sse.com.cn",
+    "dns_ips": [
+      "123.125.108.104"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://yunhq.sse.com.cn:32041/v1/sh1/list/self/510050",
+        "status": 200,
+        "elapsed_sec": 0.137,
+        "bytes": 94
+      },
+      {
+        "url": "http://yunhq.sse.com.cn:32041/v1/sh1/list/self/510300",
+        "status": 200,
+        "elapsed_sec": 0.094,
+        "bytes": 95
+      }
+    ]
+  },
+  {
+    "host": "zhibo.sina.com.cn",
+    "root_domain": "sina.com.cn",
+    "dns_ips": [
+      "116.133.8.137",
+      "49.7.36.230"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://zhibo.sina.com.cn/api/zhibo/feed",
+        "status": 200,
+        "elapsed_sec": 0.502,
+        "bytes": 113
+      }
+    ]
+  },
+  {
+    "host": "zhuce.nafmii.org.cn",
+    "root_domain": "nafmii.org.cn",
+    "dns_ips": [
+      "123.127.151.53",
+      "36.110.41.211"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "http://zhuce.nafmii.org.cn/fans/publicQuery/manager)��ծȯ������Ϣ����",
+        "status": 200,
+        "elapsed_sec": 0.094,
+        "bytes": 269
+      },
+      {
+        "url": "http://zhuce.nafmii.org.cn/fans/publicQuery/releFileProjDataGrid",
+        "status": 404,
+        "elapsed_sec": 0.099,
+        "bytes": 6688
+      }
+    ]
+  },
+  {
+    "host": "zhujia.zhuwang.com.cn",
+    "root_domain": "zhuwang.com.cn",
+    "dns_ips": [
+      "106.12.6.53"
+    ],
+    "dns_error": "",
+    "checks": [
+      {
+        "url": "https://zhujia.zhuwang.com.cn",
+        "status": 200,
+        "elapsed_sec": 0.493,
+        "bytes": 41290
+      }
+    ]
+  },
+  {
+    "host": "zs.zjpwq.net",
+    "root_domain": "zjpwq.net",
+    "dns_ips": [],
+    "dns_error": "gaierror: [Errno 11001] getaddrinfo failed",
+    "checks": [
+      {
+        "url": "https://zs.zjpwq.net/pwq-index-webapi/dataStatistics",
+        "error": "ConnectionError: HTTPSConnectionPool(host='zs.zjpwq.net', port=443): Max retries exceeded with url: /pwq-index-webapi/dataStatistics (Caused by NameResolutionError(\"HTTPSConnection(host='zs.zjpwq.net', port=443): Failed to resolve 'zs.zjpwq.net' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.177
+      },
+      {
+        "url": "https://zs.zjpwq.net/pwq-index-webapi/indexData",
+        "error": "ConnectionError: HTTPSConnectionPool(host='zs.zjpwq.net', port=443): Max retries exceeded with url: /pwq-index-webapi/indexData (Caused by NameResolutionError(\"HTTPSConnection(host='zs.zjpwq.net', port=443): Failed to resolve 'zs.zjpwq.net' ([Errno 11001] getaddrinfo failed)\"))",
+        "elapsed_sec": 0.002
+      }
+    ]
+  }
+]

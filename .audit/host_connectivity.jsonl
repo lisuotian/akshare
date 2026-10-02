@@ -1,0 +1,32 @@
+{"host": "quote.eastmoney.com", "ips": ["61.170.82.99", "115.231.230.218"], "scheme": "https", "status": 200, "elapsed": 0.41, "len": 58709}
+{"host": "quote.eastmoney.com", "ips": ["61.170.82.99", "115.231.230.218"], "scheme": "http", "status": 200, "elapsed": 0.4, "len": 58709}
+{"host": "push2.eastmoney.com", "ips": ["47.112.165.11"], "scheme": "https", "status": 404, "elapsed": 0.41, "len": 0}
+{"host": "push2.eastmoney.com", "ips": ["47.112.165.11"], "scheme": "http", "status": 404, "elapsed": 0.08, "len": 0}
+{"host": "82.push2.eastmoney.com", "ips": ["47.112.165.11"], "scheme": "https", "status": 404, "elapsed": 0.46, "len": 0}
+{"host": "82.push2.eastmoney.com", "ips": ["47.112.165.11"], "scheme": "http", "status": 404, "elapsed": 0.08, "len": 0}
+{"host": "3.push2.eastmoney.com", "ips": ["47.112.165.11"], "scheme": "https", "status": 404, "elapsed": 0.42, "len": 0}
+{"host": "3.push2.eastmoney.com", "ips": ["47.112.165.11"], "scheme": "http", "status": 404, "elapsed": 0.13, "len": 0}
+{"host": "finance.sina.com.cn", "ips": ["61.170.79.77", "61.170.77.86", "61.170.79.73", "180.163.147.85", "61.170.79.74", "61.170.79.71", "61.170.77.88", "61.170.79.78", "61.170.77.87", "61.170.77.82", "61.170.77.84", "61.170.79.72", "61.170.77.83", "61.170.79.75", "180.163.147.84", "61.170.79.76"], "scheme": "https", "status": 200, "elapsed": 0.43, "len": 437301}
+{"host": "finance.sina.com.cn", "ips": ["61.170.79.77", "61.170.77.86", "61.170.79.73", "180.163.147.85", "61.170.79.74", "61.170.79.71", "61.170.77.88", "61.170.79.78", "61.170.77.87", "61.170.77.82", "61.170.77.84", "61.170.79.72", "61.170.77.83", "61.170.79.75", "180.163.147.84", "61.170.79.76"], "scheme": "http", "status": 200, "elapsed": 0.4, "len": 437301}
+{"host": "vip.stock.finance.sina.com.cn", "ips": ["106.63.15.52", "116.133.8.236", "49.7.36.205"], "scheme": "https", "status": 404, "elapsed": 0.43, "len": 16}
+{"host": "vip.stock.finance.sina.com.cn", "ips": ["106.63.15.52", "116.133.8.236", "49.7.36.205"], "scheme": "http", "status": 404, "elapsed": 0.06, "len": 16}
+{"host": "hq.sinajs.cn", "ips": ["125.94.246.104"], "scheme": "https", "status": 403, "elapsed": 5.41, "len": 9}
+{"host": "hq.sinajs.cn", "ips": ["125.94.246.104"], "scheme": "http", "error": "ReadTimeout: HTTPConnectionPool(host='hq.sinajs.cn', port=80): Read timed out. (read timeout=8)", "elapsed": 8.03}
+{"host": "stock.finance.sina.com.cn", "ips": ["116.133.8.236", "49.7.36.205", "106.63.15.52"], "scheme": "https", "status": 200, "elapsed": 0.51, "len": 185800}
+{"host": "stock.finance.sina.com.cn", "ips": ["116.133.8.236", "49.7.36.205", "106.63.15.52"], "scheme": "http", "status": 200, "elapsed": 0.1, "len": 185800}
+{"host": "api.fund.eastmoney.com", "ips": ["61.129.129.60"], "scheme": "https", "status": 404, "elapsed": 0.41, "len": 1821}
+{"host": "api.fund.eastmoney.com", "ips": ["61.129.129.60"], "scheme": "http", "status": 404, "elapsed": 0.04, "len": 1847}
+{"host": "fund.eastmoney.com", "ips": ["60.188.73.128", "61.170.88.223"], "scheme": "https", "status": 200, "elapsed": 0.47, "len": 745154}
+{"host": "fund.eastmoney.com", "ips": ["60.188.73.128", "61.170.88.223"], "scheme": "http", "status": 200, "elapsed": 0.5, "len": 745154}
+{"host": "www.sse.com.cn", "ips": ["202.122.113.73"], "scheme": "https", "status": 200, "elapsed": 0.39, "len": 66105}
+{"host": "www.sse.com.cn", "ips": ["202.122.113.73"], "scheme": "http", "status": 200, "elapsed": 0.06, "len": 66105}
+{"host": "www.szse.cn", "ips": ["113.108.107.138"], "scheme": "https", "status": 200, "elapsed": 0.48, "len": 90472}
+{"host": "www.szse.cn", "ips": ["113.108.107.138"], "scheme": "http", "status": 200, "elapsed": 0.08, "len": 90472}
+{"host": "www.cffex.com.cn", "ips": ["183.195.155.129", "58.33.201.201", "112.64.143.225", "58.247.34.225", "58.32.205.2"], "scheme": "https", "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))", "elapsed": 0.52}
+{"host": "www.cffex.com.cn", "ips": ["183.195.155.129", "58.33.201.201", "112.64.143.225", "58.247.34.225", "58.32.205.2"], "scheme": "http", "status": 200, "elapsed": 0.06, "len": 109582}
+{"host": "www.shfe.com.cn", "ips": ["220.248.39.134"], "scheme": "https", "status": 200, "elapsed": 0.72, "len": 198931}
+{"host": "www.shfe.com.cn", "ips": ["220.248.39.134"], "scheme": "http", "status": 200, "elapsed": 0.42, "len": 198931}
+{"host": "www.jin10.com", "ips": ["61.170.81.17", "61.170.81.16", "61.170.81.96", "61.170.81.56", "61.170.81.55", "61.170.81.20", "61.170.81.19", "61.170.81.18"], "scheme": "https", "status": 200, "elapsed": 0.38, "len": 5011}
+{"host": "www.jin10.com", "ips": ["61.170.81.17", "61.170.81.16", "61.170.81.96", "61.170.81.56", "61.170.81.55", "61.170.81.20", "61.170.81.19", "61.170.81.18"], "scheme": "http", "status": 200, "elapsed": 0.41, "len": 5011}
+{"host": "www.100ppi.com", "ips": ["222.73.8.59"], "scheme": "https", "status": 200, "elapsed": 0.52, "len": 660}
+{"host": "www.100ppi.com", "ips": ["222.73.8.59"], "scheme": "http", "status": 200, "elapsed": 0.42, "len": 660}
