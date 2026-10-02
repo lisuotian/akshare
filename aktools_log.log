@@ -1,0 +1,93 @@
+2026-10-02 19:24:29,683 - AKToolsLog - INFO - 这是一个信息级别的日志消息
+2026-10-02 19:53:02,097 - AKToolsLog - INFO - 获取到 tool_trade_date_hist_sina 的数据
+2026-10-02 21:47:56,133 - AKToolsLog - INFO - 这是一个信息级别的日志消息
+2026-10-02 21:48:30,260 - AKToolsLog - INFO - 获取到 stock_zh_a_hist 的数据
+2026-10-02 21:50:03,991 - AKToolsLog - INFO - 这是一个信息级别的日志消息
+2026-10-02 21:50:31,778 - AKToolsLog - INFO - 获取到 stock_zh_a_hist 的数据
+2026-10-02 21:54:17,465 - AKToolsLog - INFO - 这是一个信息级别的日志消息
+2026-10-02 21:55:07,909 - AKToolsLog - INFO - 这是一个信息级别的日志消息
+2026-10-02 21:55:35,643 - AKToolsLog - INFO - 获取到 stock_zh_a_hist 的数据
+2026-10-02 21:55:36,870 - AKToolsLog - ERROR - 调用公开接口 stock_zh_a_hist 失败
+Traceback (most recent call last):
+  File "D:\coding\market-data-provider-akshare\.venv\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "D:\coding\market-data-provider-akshare\.venv\Lib\site-packages\urllib3\connectionpool.py", line 540, in _make_request
+    response = conn.getresponse()
+  File "D:\coding\market-data-provider-akshare\.venv\Lib\site-packages\urllib3\connection.py", line 638, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Python313\Lib\http\client.py", line 1450, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\http\client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\http\client.py", line 305, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+                             " response")
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\market-data-provider-akshare\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "D:\coding\market-data-provider-akshare\.venv\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "D:\coding\market-data-provider-akshare\.venv\Lib\site-packages\urllib3\util\retry.py", line 510, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\market-data-provider-akshare\.venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "D:\coding\market-data-provider-akshare\.venv\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "D:\coding\market-data-provider-akshare\.venv\Lib\site-packages\urllib3\connectionpool.py", line 540, in _make_request
+    response = conn.getresponse()
+  File "D:\coding\market-data-provider-akshare\.venv\Lib\site-packages\urllib3\connection.py", line 638, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Python313\Lib\http\client.py", line 1450, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\http\client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Python313\Lib\http\client.py", line 305, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+                             " response")
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\coding\market-data-provider-akshare\aktools-upstream\aktools\core\api.py", line 182, in root
+    received_df = eval("ak." + item_id + f"({eval_str})")
+  File "<string>", line 1, in <module>
+  File "D:\coding\market-data-provider-akshare\akshare\stock_feature\stock_hist_em.py", line 993, in stock_zh_a_hist
+    r = requests.get(url, params=params, timeout=timeout)
+  File "D:\coding\market-data-provider-akshare\.venv\Lib\site-packages\requests\api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+  File "D:\coding\market-data-provider-akshare\.venv\Lib\site-packages\requests\api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\coding\market-data-provider-akshare\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\coding\market-data-provider-akshare\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\coding\market-data-provider-akshare\.venv\Lib\site-packages\requests\adapters.py", line 711, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-10-02 21:59:39,103 - AKToolsLog - INFO - 获取到 stock_zh_a_hist 的数据
+2026-10-02 22:01:15,160 - AKToolsLog - INFO - 获取到 stock_zh_a_hist 的数据
