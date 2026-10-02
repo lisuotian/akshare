@@ -989,11 +989,28 @@ def stock_zh_a_hist(
         "beg": start_date,
         "end": end_date,
     }
-    r = requests.get(url, params=params, timeout=timeout)
-    data_json = r.json()
-    if not (data_json["data"] and data_json["data"]["klines"]):
+    try:
+        r = requests.get(url, params=params, timeout=timeout)
+        r.raise_for_status()
+        data_json = r.json()
+    except (requests.RequestException, ValueError, TypeError, KeyError):
+        # Some networks can open Eastmoney in a browser but reset the
+        # non-browser HTTPS connection used by requests. Keep the public
+        # interface usable with the existing Tencent daily-history source.
+        if period != "daily":
+            raise
+        return _stock_zh_a_hist_tx_fallback(
+            symbol=symbol,
+            start_date=start_date,
+            end_date=end_date,
+            adjust=adjust,
+            timeout=timeout,
+        )
+
+    data = data_json.get("data")
+    if not (data and data.get("klines")):
         return pd.DataFrame()
-    temp_df = pd.DataFrame([item.split(",") for item in data_json["data"]["klines"]])
+    temp_df = pd.DataFrame([item.split(",") for item in data["klines"]])
     temp_df["股票代码"] = symbol
     temp_df.columns = [
         "日期",
@@ -1037,6 +1054,72 @@ def stock_zh_a_hist(
         ]
     ]
     return temp_df
+
+
+def _stock_zh_a_hist_tx_fallback(
+    symbol: str,
+    start_date: str,
+    end_date: str,
+    adjust: str,
+    timeout: float,
+) -> pd.DataFrame:
+    """Fetch daily history from Tencent when Eastmoney is unreachable.
+
+    Tencent's endpoint does not return the previous-close-derived columns
+    exposed by :func:`stock_zh_a_hist`, so calculate them after fetching one
+    extra calendar week before the requested range.
+    """
+    from akshare.stock_feature.stock_hist_tx import stock_zh_a_hist_tx
+
+    start_ts = pd.to_datetime(start_date, errors="coerce")
+    end_ts = pd.to_datetime(end_date, errors="coerce")
+    if pd.isna(start_ts) or pd.isna(end_ts):
+        raise ValueError("start_date and end_date must be valid dates")
+
+    fetch_start = (start_ts - pd.Timedelta(days=10)).strftime("%Y%m%d")
+    fetch_end = end_ts.strftime("%Y%m%d")
+    tx_df = stock_zh_a_hist_tx(
+        symbol=symbol,
+        start_date=fetch_start,
+        end_date=fetch_end,
+        adjust=adjust,
+        timeout=timeout,
+    )
+    if tx_df.empty:
+        return pd.DataFrame()
+
+    tx_df = tx_df.copy()
+    tx_df["date"] = pd.to_datetime(tx_df["date"], errors="coerce")
+    tx_df.sort_values("date", inplace=True)
+    previous_close = pd.to_numeric(tx_df["close"], errors="coerce").shift(1)
+    close = pd.to_numeric(tx_df["close"], errors="coerce")
+    high = pd.to_numeric(tx_df["high"], errors="coerce")
+    low = pd.to_numeric(tx_df["low"], errors="coerce")
+
+    tx_df["振幅"] = ((high - low) / previous_close * 100).round(2)
+    tx_df["涨跌幅"] = ((close - previous_close) / previous_close * 100).round(2)
+    tx_df["涨跌额"] = (close - previous_close).round(2)
+    tx_df["换手率"] = (pd.to_numeric(tx_df["turnover"], errors="coerce") * 100).round(2)
+    tx_df = tx_df[
+        (tx_df["date"] >= start_ts) & (tx_df["date"] <= end_ts)
+    ].copy()
+
+    return pd.DataFrame(
+        {
+            "日期": tx_df["date"].dt.date,
+            "股票代码": symbol,
+            "开盘": pd.to_numeric(tx_df["open"], errors="coerce"),
+            "收盘": close.loc[tx_df.index],
+            "最高": high.loc[tx_df.index],
+            "最低": low.loc[tx_df.index],
+            "成交量": pd.to_numeric(tx_df["volume"], errors="coerce"),
+            "成交额": pd.to_numeric(tx_df["amount"], errors="coerce"),
+            "振幅": tx_df["振幅"],
+            "涨跌幅": tx_df["涨跌幅"],
+            "涨跌额": tx_df["涨跌额"],
+            "换手率": tx_df["换手率"],
+        }
+    ).reset_index(drop=True)
 
 
 def stock_zh_a_hist_min_em(

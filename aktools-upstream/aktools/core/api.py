@@ -40,7 +40,7 @@ logger.info('这是一个信息级别的日志消息')
 
 
 @app_core.get("/private/{item_id}", description="私人接口", summary="该接口主要提供私密访问来获取数据")
-def root(
+def private_root(
         request: Request,
         item_id: str,
         current_user: User = Depends(get_current_active_user),
@@ -84,6 +84,12 @@ def root(
                     "error": f"请输入正确的参数错误 {e}，请升级 AKShare 到最新版本并在文档中确认该接口的使用方式：https://akshare.akfamily.xyz"
                 },
             )
+        except Exception as e:
+            logger.exception("调用私有接口 %s 失败", item_id)
+            return JSONResponse(
+                status_code=status.HTTP_502_BAD_GATEWAY,
+                content={"error": f"上游接口调用失败: {e}", "interface": item_id},
+            )
         return JSONResponse(status_code=status.HTTP_200_OK, content=json.loads(temp_df))
     else:
         try:
@@ -101,11 +107,17 @@ def root(
                     "error": f"请输入正确的参数错误 {e}，请升级 AKShare 到最新版本并在文档中确认该接口的使用方式：https://akshare.akfamily.xyz"
                 },
             )
+        except Exception as e:
+            logger.exception("调用私有接口 %s 失败", item_id)
+            return JSONResponse(
+                status_code=status.HTTP_502_BAD_GATEWAY,
+                content={"error": f"上游接口调用失败: {e}", "interface": item_id},
+            )
         return JSONResponse(status_code=status.HTTP_200_OK, content=json.loads(temp_df))
 
 
 @app_core.get(path="/public/{item_id}", description="公开接口", summary="该接口主要提供公开访问来获取数据")
-def root(request: Request, item_id: str):
+def public_root(request: Request, item_id: str):
     """
     接收请求参数及接口名称并返回 JSON 数据
     此处由于 AKShare 的请求中是同步模式，所以这边在定义 root 函数中没有使用 asyncio 来定义，这样可以开启多线程访问
@@ -157,6 +169,12 @@ def root(request: Request, item_id: str):
                     "error": f"请输入正确的参数错误 {e}，请升级 AKShare 到最新版本并在文档中确认该接口的使用方式：https://akshare.akfamily.xyz"
                 },
             )
+        except Exception as e:
+            logger.exception("调用公开接口 %s 失败", item_id)
+            return JSONResponse(
+                status_code=status.HTTP_502_BAD_GATEWAY,
+                content={"error": f"上游接口调用失败: {e}", "interface": item_id},
+            )
         logger.info(f"获取到 {item_id} 的数据")
         return JSONResponse(status_code=status.HTTP_200_OK, content=json.loads(temp_df))
     else:
@@ -177,6 +195,12 @@ def root(request: Request, item_id: str):
                 content={
                     "error": f"请输入正确的参数错误 {e}，请升级 AKShare 到最新版本并在文档中确认该接口的使用方式：https://akshare.akfamily.xyz"
                 },
+            )
+        except Exception as e:
+            logger.exception("调用公开接口 %s 失败", item_id)
+            return JSONResponse(
+                status_code=status.HTTP_502_BAD_GATEWAY,
+                content={"error": f"上游接口调用失败: {e}", "interface": item_id},
             )
         logger.info(f"获取到 {item_id} 的数据")
         return JSONResponse(status_code=status.HTTP_200_OK, content=json.loads(temp_df))
