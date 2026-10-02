@@ -6,8 +6,10 @@ Desc: 东方财富网-行情首页-沪深京 A 股
 https://quote.eastmoney.com/
 """
 
+import uuid
 import pandas as pd
 import requests
+from curl_cffi import requests as curl_requests
 
 from akshare.utils.func import fetch_paginated_data
 
@@ -956,6 +958,7 @@ def stock_zh_a_hist(
     end_date: str = "20500101",
     adjust: str = "",
     timeout: float = None,
+    cookie: str = None,
 ) -> pd.DataFrame:
     """
     东方财富网-行情首页-沪深京 A 股-每日行情
@@ -972,6 +975,8 @@ def stock_zh_a_hist(
     :type adjust: str
     :param timeout: choice of None or a positive float number
     :type timeout: float
+    :param cookie: 浏览器 Cookie，可选，用于需要浏览器会话的网络环境
+    :type cookie: str
     :return: 每日行情
     :rtype: pandas.DataFrame
     """
@@ -989,11 +994,45 @@ def stock_zh_a_hist(
         "beg": start_date,
         "end": end_date,
     }
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/154.0.0.0 Safari/537.36 Edg/154.0.0.0"
+        ),
+        "Referer": "https://quote.eastmoney.com/",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+        "Upgrade-Insecure-Requests": "1",
+        "Sec-Fetch-Site": "cross-site",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-User": "?1",
+        "Sec-Fetch-Dest": "document",
+        "sec-ch-ua": '"Chromium";v="154", "Microsoft Edge";v="154", "Not A(Brand";v="99"',
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": '"Windows"',
+    }
+    headers["Cookie"] = cookie or f"nid18={uuid.uuid4().hex}"
+    request_kwargs = {
+        "params": params,
+        "headers": headers,
+        "impersonate": "edge",
+    }
+    if timeout is not None:
+        request_kwargs["timeout"] = timeout
     try:
-        r = requests.get(url, params=params, timeout=timeout)
+        r = curl_requests.get(url, **request_kwargs)
         r.raise_for_status()
         data_json = r.json()
-    except (requests.RequestException, ValueError, TypeError, KeyError):
+        if data_json.get("rc") != 0:
+            raise ValueError(f"Eastmoney request failed: rc={data_json.get('rc')}")
+    except (
+        requests.RequestException,
+        curl_requests.errors.RequestsError,
+        ValueError,
+        TypeError,
+        KeyError,
+    ):
         # Some networks can open Eastmoney in a browser but reset the
         # non-browser HTTPS connection used by requests. Keep the public
         # interface usable with the existing Tencent daily-history source.
@@ -1010,8 +1049,10 @@ def stock_zh_a_hist(
     data = data_json.get("data")
     if not (data and data.get("klines")):
         return pd.DataFrame()
+    stock_name = data.get("name", "")
     temp_df = pd.DataFrame([item.split(",") for item in data["klines"]])
     temp_df["股票代码"] = symbol
+    temp_df["股票名称"] = stock_name
     temp_df.columns = [
         "日期",
         "开盘",
@@ -1025,6 +1066,7 @@ def stock_zh_a_hist(
         "涨跌额",
         "换手率",
         "股票代码",
+        "股票名称",
     ]
     temp_df["日期"] = pd.to_datetime(temp_df["日期"], errors="coerce").dt.date
     temp_df["开盘"] = pd.to_numeric(temp_df["开盘"], errors="coerce")
@@ -1037,10 +1079,18 @@ def stock_zh_a_hist(
     temp_df["涨跌幅"] = pd.to_numeric(temp_df["涨跌幅"], errors="coerce")
     temp_df["涨跌额"] = pd.to_numeric(temp_df["涨跌额"], errors="coerce")
     temp_df["换手率"] = pd.to_numeric(temp_df["换手率"], errors="coerce")
+    temp_df["昨收"] = temp_df["收盘"].shift(1)
+    if temp_df.empty:
+        return temp_df
+    temp_df.loc[temp_df.index[0], "昨收"] = pd.to_numeric(
+        data.get("preKPrice"), errors="coerce"
+    )
+    temp_df["来源"] = "akshare_eastmoney.com"
     temp_df = temp_df[
         [
             "日期",
             "股票代码",
+            "股票名称",
             "开盘",
             "收盘",
             "最高",
@@ -1050,7 +1100,9 @@ def stock_zh_a_hist(
             "振幅",
             "涨跌幅",
             "涨跌额",
+            "昨收",
             "换手率",
+            "来源",
         ]
     ]
     return temp_df
@@ -1108,6 +1160,7 @@ def _stock_zh_a_hist_tx_fallback(
         {
             "日期": tx_df["date"].dt.date,
             "股票代码": symbol,
+            "股票名称": "",
             "开盘": pd.to_numeric(tx_df["open"], errors="coerce"),
             "收盘": close.loc[tx_df.index],
             "最高": high.loc[tx_df.index],
@@ -1117,7 +1170,9 @@ def _stock_zh_a_hist_tx_fallback(
             "振幅": tx_df["振幅"],
             "涨跌幅": tx_df["涨跌幅"],
             "涨跌额": tx_df["涨跌额"],
+            "昨收": previous_close.loc[tx_df.index],
             "换手率": tx_df["换手率"],
+            "来源": "akshare_qq.com",
         }
     ).reset_index(drop=True)
 
